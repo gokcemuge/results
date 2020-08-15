@@ -1,0 +1,4284 @@
+1083
+p_1590622453	hasTypes	list[ ]
+list= [Education---1083
+Facility---2009
+Company---3503
+Government---5841
+]
+366
+p_2135612968	hasTypes	list[ ]
+list= [Education---366
+Government---615
+Company---1467
+Facility---21661
+]
+109
+p_2753159043	hasTypes	list[ ]
+list= [Education---109
+Government---425
+Company---1073
+Facility---9538
+]
+4117
+p_159086611	hasTypes	list[ ]
+list= [Education---3837
+Company---4118
+Facility---7075
+Government---20291
+]
+2996
+p_2672748695	hasTypes	list[ ]
+list= [Government---2065
+Education---2996
+Company---12110
+Facility---14348
+]
+4092
+p_2765817562	hasTypes	list[ ]
+list= [Government---171
+Education---887
+Company---4092
+Facility---5137
+]
+361
+p_2097248029	hasTypes	list[ ]
+list= [Education---361
+Government---1198
+Company---5840
+Facility---6873
+]
+333
+p_2104238644	hasTypes	list[ ]
+list= [Education---333
+Company---3015
+Government---4328
+Facility---7040
+]
+961
+p_2163133737	hasTypes	list[ ]
+list= [Education---961
+Company---963
+Government---2436
+Facility---5562
+]
+3815
+p_1602544193	hasTypes	list[ ]
+list= [Government---1555
+Education---3815
+Facility---9063
+Company---11400
+]
+1100
+p_2121232771	hasTypes	list[ ]
+list= [Education---1100
+Facility---3655
+Company---7674
+Government---7707
+]
+3086
+p_1882495157	hasTypes	list[ ]
+list= [Education---3086
+Government---11333
+Company---17812
+Facility---23615
+]
+921
+p_2072420840	hasTypes	list[ ]
+list= [Education---921
+Company---1830
+Government---2229
+Facility---5818
+]
+364
+p_2170843611	hasTypes	list[ ]
+list= [Education---364
+Government---3988
+Company---4088
+Facility---7244
+]
+3214
+p_2119134505	hasTypes	list[ ]
+list= [Company---401
+Government---3139
+Education---3214
+Facility---30651
+]
+2874
+p_2055238092	hasTypes	list[ ]
+list= [Company---2253
+Education---2874
+Government---10494
+Facility---19208
+]
+2855
+p_2121071646	hasTypes	list[ ]
+list= [Facility---70
+Education---2855
+Company---5644
+Government---12443
+]
+1580
+p_1989811658	hasTypes	list[ ]
+list= [Education---1580
+Government---7877
+Facility---8670
+Company---9886
+]
+17
+p_2386380731	hasTypes	list[ ]
+list= [Education---17
+Company---286
+Government---739
+Facility---3587
+]
+2667
+p_206711589	hasTypes	list[ ]
+list= [Company---2531
+Education---2667
+Government---6203
+Facility---15482
+]
+1217
+p_2134733276	hasTypes	list[ ]
+list= [Education---1217
+Government---1820
+Company---2425
+Facility---7634
+]
+413
+p_2067965306	hasTypes	list[ ]
+list= [Education---177
+Company---413
+Government---2323
+Facility---3948
+]
+302
+p_1824981487	hasTypes	list[ ]
+list= [Company---247
+Education---302
+Government---1142
+Facility---5334
+]
+911
+p_2746659549	hasTypes	list[ ]
+list= [Education---911
+Government---4749
+Company---5943
+Facility---9519
+]
+1142
+p_2043151330	hasTypes	list[ ]
+list= [Education---1142
+Facility---1174
+Government---4979
+Company---7122
+]
+454
+p_2477626436	hasTypes	list[ ]
+list= [Education---454
+Government---1029
+Facility---3560
+Company---5174
+]
+615
+p_1550576907	hasTypes	list[ ]
+list= [Education---615
+Facility---3312
+Government---4210
+Company---6478
+]
+3004
+p_1548060236	hasTypes	list[ ]
+list= [Government---2199
+Education---3004
+Facility---10604
+Company---13383
+]
+1858
+p_1943734190	hasTypes	list[ ]
+list= [Education---1858
+Company---4058
+Government---7228
+Facility---7820
+]
+3329
+p_1722831096	hasTypes	list[ ]
+list= [Education---3329
+Facility---4084
+Government---7558
+Company---11043
+]
+1165
+p_2158179916	hasTypes	list[ ]
+list= [Education---1165
+Facility---3625
+Company---6411
+Government---10752
+]
+10121
+p_1967001541	hasTypes	list[ ]
+list= [Company---4094
+Government---10121
+Education---14532
+Facility---27352
+]
+1670
+p_2301577580	hasTypes	list[ ]
+list= [Education---1671
+Government---3768
+Company---7618
+Facility---13282
+]
+3828
+p_2141377255	hasTypes	list[ ]
+list= [Company---2646
+Education---3828
+Facility---4880
+Government---23772
+]
+5847
+p_2489361212	hasTypes	list[ ]
+list= [Education---5847
+Company---16404
+Government---16996
+Facility---21199
+]
+1981
+p_2617029129	hasTypes	list[ ]
+list= [Education---1981
+Company---2077
+Government---6398
+Facility---20152
+]
+3412
+p_2114978652	hasTypes	list[ ]
+list= [Education---3412
+Government---5139
+Facility---9791
+Company---12320
+]
+1066
+p_1565459987	hasTypes	list[ ]
+list= [Company---582
+Education---1066
+Facility---2135
+Government---4088
+]
+385
+p_2110464653	hasTypes	list[ ]
+list= [Education---385
+Government---1843
+Company---2414
+Facility---13020
+]
+809
+p_2138823852	hasTypes	list[ ]
+list= [Facility---318
+Education---809
+Company---3185
+Government---8211
+]
+5155
+p_2374901004	hasTypes	list[ ]
+list= [Government---1861
+Education---5155
+Company---9945
+Facility---24921
+]
+2487
+p_2755428343	hasTypes	list[ ]
+list= [Government---177
+Facility---1864
+Company---2487
+Education---4535
+]
+3162
+p_2116371052	hasTypes	list[ ]
+list= [Facility---2985
+Education---3162
+Company---8603
+Government---8860
+]
+2356
+p_1563287941	hasTypes	list[ ]
+list= [Government---409
+Education---2356
+Facility---6713
+Company---8577
+]
+3146
+p_2048206449	hasTypes	list[ ]
+list= [Facility---1758
+Education---3146
+Government---9500
+Company---10439
+]
+4321
+p_2359925731	hasTypes	list[ ]
+list= [Education---4322
+Government---6965
+Facility---11931
+Company---13139
+]
+1297
+p_2171398227	hasTypes	list[ ]
+list= [Education---1297
+Government---2865
+Company---8884
+Facility---9878
+]
+1398
+p_2137096957	hasTypes	list[ ]
+list= [Government---409
+Education---1398
+Company---8541
+Facility---12423
+]
+1884
+p_2517280981	hasTypes	list[ ]
+list= [Government---1489
+Education---1884
+Facility---4540
+Company---6160
+]
+1142
+p_2130085090	hasTypes	list[ ]
+list= [Company---636
+Education---1142
+Government---1365
+Facility---18060
+]
+76
+p_2152024511	hasTypes	list[ ]
+list= [Education---76
+Government---962
+Company---1361
+Facility---13000
+]
+3768
+p_2264897392	hasTypes	list[ ]
+list= [Education---1634
+Government---2010
+Company---3768
+Facility---22085
+]
+1104
+p_2086321954	hasTypes	list[ ]
+list= [Education---1104
+Company---3518
+Government---6250
+Facility---9926
+]
+1310
+p_1966386788	hasTypes	list[ ]
+list= [Government---741
+Education---1310
+Company---1444
+Facility---9927
+]
+741
+p_2404856031	hasTypes	list[ ]
+list= [Education---65
+Facility---159
+Company---741
+Government---1980
+]
+856
+p_2179261800	hasTypes	list[ ]
+list= [Government---40
+Education---856
+Company---2203
+Facility---7872
+]
+318
+p_1970036591	hasTypes	list[ ]
+list= [Education---318
+Government---1283
+Facility---6214
+Company---6278
+]
+1178
+p_2147339000	hasTypes	list[ ]
+list= [Education---1178
+Government---4694
+Company---6114
+Facility---16720
+]
+857
+p_2736199118	hasTypes	list[ ]
+list= [Education---857
+Facility---4562
+Company---5506
+Government---9896
+]
+3278
+p_2373798722	hasTypes	list[ ]
+list= [Education---3278
+Company---4883
+Facility---6599
+Government---13001
+]
+681
+p_134994145	hasTypes	list[ ]
+list= [Education---681
+Government---4004
+Company---5314
+Facility---11321
+]
+716
+p_2289207863	hasTypes	list[ ]
+list= [Company---138
+Education---716
+Government---1647
+Facility---11216
+]
+2164
+p_2400683092	hasTypes	list[ ]
+list= [Government---1936
+Education---2164
+Facility---13739
+Company---15712
+]
+2896
+p_2162835866	hasTypes	list[ ]
+list= [Company---513
+Education---2896
+Government---3387
+Facility---28238
+]
+3604
+p_2500743606	hasTypes	list[ ]
+list= [Education---3605
+Company---8082
+Facility---9481
+Government---17524
+]
+4916
+p_2622927176	hasTypes	list[ ]
+list= [Education---767
+Company---4917
+Government---7035
+Facility---8501
+]
+1469
+p_1994184028	hasTypes	list[ ]
+list= [Education---1469
+Company---1829
+Government---3526
+Facility---30690
+]
+3267
+p_2274846581	hasTypes	list[ ]
+list= [Government---1140
+Facility---1367
+Company---3267
+Education---3694
+]
+501
+p_1953349123	hasTypes	list[ ]
+list= [Education---501
+Facility---2352
+Company---2532
+Government---7709
+]
+509
+p_1485608573	hasTypes	list[ ]
+list= [Education---509
+Government---1199
+Company---1290
+Facility---6066
+]
+2097
+p_1973357702	hasTypes	list[ ]
+list= [Company---1024
+Education---2097
+Facility---4753
+Government---16520
+]
+2038
+p_2001455661	hasTypes	list[ ]
+list= [Company---1725
+Education---2038
+Government---5696
+Facility---25524
+]
+2666
+p_1998398193	hasTypes	list[ ]
+list= [Education---2666
+Company---3063
+Government---10612
+Facility---18128
+]
+728
+p_2119120756	hasTypes	list[ ]
+list= [Education---728
+Government---5348
+Company---5948
+Facility---9639
+]
+6816
+p_2373120992	hasTypes	list[ ]
+list= [Facility---4741
+Government---6647
+Education---6816
+Company---18129
+]
+1625
+p_2042014377	hasTypes	list[ ]
+list= [Education---1625
+Government---3019
+Company---6095
+Facility---6498
+]
+2548
+p_2892939794	hasTypes	list[ ]
+list= [Government---1009
+Education---2548
+Company---7612
+Facility---23158
+]
+4947
+p_2373453310	hasTypes	list[ ]
+list= [Government---2450
+Facility---3013
+Education---4947
+Company---12721
+]
+30
+p_2019822977	hasTypes	list[ ]
+list= [Education---30
+Company---343
+Government---553
+Facility---1089
+]
+1174
+p_186773730	hasTypes	list[ ]
+list= [Company---1073
+Education---1174
+Government---4812
+Facility---8873
+]
+671
+p_2886652809	hasTypes	list[ ]
+list= [Education---672
+Company---801
+Facility---6845
+Government---8522
+]
+3651
+p_1567773450	hasTypes	list[ ]
+list= [Education---3651
+Government---11447
+Company---12838
+Facility---14534
+]
+1471
+p_82593898	hasTypes	list[ ]
+list= [Education---1471
+Government---2509
+Company---2673
+Facility---2884
+]
+882
+p_2773947245	hasTypes	list[ ]
+list= [Education---882
+Facility---1736
+Government---4885
+Company---4936
+]
+1090
+p_1524894837	hasTypes	list[ ]
+list= [Education---1090
+Company---5679
+Government---5879
+Facility---8959
+]
+384
+p_2046797839	hasTypes	list[ ]
+list= [Education---384
+Facility---577
+Government---3097
+Company---3102
+]
+1646
+p_1537947520	hasTypes	list[ ]
+list= [Education---1646
+Government---2114
+Company---6683
+Facility---7860
+]
+3107
+p_2163433441	hasTypes	list[ ]
+list= [Facility---1806
+Education---3107
+Company---14424
+Government---16906
+]
+308
+p_2105679710	hasTypes	list[ ]
+list= [Education---308
+Company---1025
+Facility---4049
+Government---5132
+]
+2006
+p_2476489239	hasTypes	list[ ]
+list= [Education---2006
+Company---2187
+Government---9343
+Facility---25718
+]
+1102
+p_2252562843	hasTypes	list[ ]
+list= [Education---1102
+Company---4877
+Government---6298
+Facility---7779
+]
+1552
+p_2464853998	hasTypes	list[ ]
+list= [Education---1552
+Company---1849
+Government---9455
+Facility---26193
+]
+426
+p_2889299127	hasTypes	list[ ]
+list= [Education---426
+Company---917
+Facility---1554
+Government---5827
+]
+505
+p_1900707531	hasTypes	list[ ]
+list= [Education---505
+Government---1946
+Company---2964
+Facility---10842
+]
+3981
+p_2366199613	hasTypes	list[ ]
+list= [Government---1636
+Company---3117
+Education---3981
+Facility---10130
+]
+2140
+p_194799047	hasTypes	list[ ]
+list= [Company---1301
+Education---2140
+Government---7190
+Facility---13273
+]
+936
+p_2085267375	hasTypes	list[ ]
+list= [Education---936
+Government---5693
+Company---9243
+Facility---13651
+]
+4212
+p_2377288470	hasTypes	list[ ]
+list= [Government---1419
+Education---4212
+Facility---6421
+Company---12703
+]
+316
+p_2019728712	hasTypes	list[ ]
+list= [Company---309
+Education---316
+Facility---1187
+Government---3403
+]
+405
+p_2103590172	hasTypes	list[ ]
+list= [Education---405
+Government---3906
+Company---4075
+Facility---4509
+]
+5626
+p_2572597211	hasTypes	list[ ]
+list= [Facility---4400
+Education---5626
+Government---17276
+Company---18935
+]
+1263
+p_2108086231	hasTypes	list[ ]
+list= [Education---1263
+Government---1284
+Company---8819
+Facility---9733
+]
+875
+p_2110213027	hasTypes	list[ ]
+list= [Education---875
+Company---1236
+Government---4547
+Facility---18094
+]
+2270
+p_1870597304	hasTypes	list[ ]
+list= [Education---2270
+Government---6732
+Company---14723
+Facility---21985
+]
+267
+p_2160684814	hasTypes	list[ ]
+list= [Education---267
+Government---3504
+Company---4424
+Facility---15377
+]
+1241
+p_2135136249	hasTypes	list[ ]
+list= [Education---1241
+Government---4355
+Company---5482
+Facility---10938
+]
+1546
+p_2890250000	hasTypes	list[ ]
+list= [Facility---524
+Education---1546
+Company---1741
+Government---7184
+]
+9732
+p_2502698103	hasTypes	list[ ]
+list= [Education---9732
+Facility---11614
+Company---21307
+Government---21835
+]
+2785
+p_2041493034	hasTypes	list[ ]
+list= [Company---367
+Education---2785
+Facility---5188
+Government---11047
+]
+1395
+p_2031265013	hasTypes	list[ ]
+list= [Education---1395
+Company---1760
+Government---9746
+Facility---10706
+]
+1963
+p_2571484430	hasTypes	list[ ]
+list= [Education---1963
+Facility---3453
+Government---9973
+Company---10701
+]
+1042
+p_2785927739	hasTypes	list[ ]
+list= [Government---123
+Education---1042
+Company---5565
+Facility---6220
+]
+3124
+p_2643609762	hasTypes	list[ ]
+list= [Facility---1892
+Education---3124
+Company---4705
+Government---16904
+]
+1557
+p_2112854751	hasTypes	list[ ]
+list= [Education---1557
+Government---3206
+Company---5910
+Facility---13744
+]
+15859
+p_1493842315	hasTypes	list[ ]
+list= [Facility---353
+Education---1691
+Company---8302
+Government---15859
+]
+2324
+p_2154642819	hasTypes	list[ ]
+list= [Government---526
+Education---2324
+Facility---3774
+Company---10299
+]
+5206
+p_124597304	hasTypes	list[ ]
+list= [Education---5206
+Government---13971
+Facility---16600
+Company---19750
+]
+774
+p_2140152822	hasTypes	list[ ]
+list= [Education---774
+Facility---5439
+Government---5969
+Company---7705
+]
+2287
+p_2546682290	hasTypes	list[ ]
+list= [Government---1914
+Education---2287
+Company---9734
+Facility---19782
+]
+1473
+p_2102893026	hasTypes	list[ ]
+list= [Government---884
+Education---1473
+Company---5779
+Facility---9383
+]
+696
+p_2055730656	hasTypes	list[ ]
+list= [Education---696
+Company---3507
+Facility---7287
+Government---9105
+]
+5337
+p_2151047121	hasTypes	list[ ]
+list= [Facility---1111
+Company---4790
+Education---5337
+Government---19299
+]
+2131
+p_2058263344	hasTypes	list[ ]
+list= [Education---2131
+Government---2132
+Company---4615
+Facility---9687
+]
+33
+p_2160969754	hasTypes	list[ ]
+list= [Education---33
+Company---194
+Government---651
+Facility---3908
+]
+1287
+p_2152637667	hasTypes	list[ ]
+list= [Education---1288
+Company---1334
+Government---3312
+Facility---22055
+]
+1872
+p_2085655143	hasTypes	list[ ]
+list= [Government---1463
+Education---1872
+Company---2040
+Facility---13040
+]
+2268
+p_2110837552	hasTypes	list[ ]
+list= [Government---701
+Education---2268
+Facility---8762
+Company---16078
+]
+9859
+p_2805349484	hasTypes	list[ ]
+list= [Company---9859
+Government---10224
+Facility---12969
+Education---14222
+]
+3305
+p_2136576074	hasTypes	list[ ]
+list= [Education---3305
+Company---4853
+Government---10903
+Facility---13277
+]
+2975
+p_2069136978	hasTypes	list[ ]
+list= [Company---1566
+Education---2975
+Government---11439
+Facility---27815
+]
+1077
+p_2760770501	hasTypes	list[ ]
+list= [Government---189
+Education---1077
+Facility---3829
+Company---3919
+]
+2300
+p_64325966	hasTypes	list[ ]
+list= [Education---2300
+Facility---4498
+Company---7600
+Government---7850
+]
+4490
+p_2165805036	hasTypes	list[ ]
+list= [Company---3593
+Education---4490
+Facility---18944
+Government---21473
+]
+3293
+p_2148987498	hasTypes	list[ ]
+list= [Education---3293
+Government---9094
+Facility---9436
+Company---11176
+]
+438
+p_2028792642	hasTypes	list[ ]
+list= [Company---189
+Education---438
+Government---3498
+Facility---9862
+]
+3615
+p_2812291259	hasTypes	list[ ]
+list= [Education---3615
+Facility---3991
+Company---12263
+Government---15647
+]
+385
+p_2063512127	hasTypes	list[ ]
+list= [Education---385
+Company---2059
+Government---2138
+Facility---6326
+]
+2699
+p_1517175651	hasTypes	list[ ]
+list= [Education---2700
+Company---7928
+Government---9296
+Facility---19690
+]
+2043
+p_2710165839	hasTypes	list[ ]
+list= [Government---1508
+Education---2043
+Facility---8141
+Company---12874
+]
+324
+p_2166083434	hasTypes	list[ ]
+list= [Education---324
+Government---398
+Company---1719
+Facility---13429
+]
+2124
+p_2138971741	hasTypes	list[ ]
+list= [Education---2125
+Company---3037
+Government---6008
+Facility---25481
+]
+7386
+p_2093959529	hasTypes	list[ ]
+list= [Government---6861
+Company---7386
+Education---11104
+Facility---16272
+]
+68
+p_2096329413	hasTypes	list[ ]
+list= [Education---68
+Government---190
+Facility---536
+Company---1266
+]
+2580
+p_2350799657	hasTypes	list[ ]
+list= [Government---1714
+Education---2580
+Company---3219
+Facility---32740
+]
+350
+p_2042046402	hasTypes	list[ ]
+list= [Education---350
+Government---814
+Company---3451
+Facility---8883
+]
+2032
+p_2810615002	hasTypes	list[ ]
+list= [Education---2032
+Company---5600
+Government---10336
+Facility---15517
+]
+2154
+p_123628020	hasTypes	list[ ]
+list= [Education---2154
+Government---3727
+Company---3935
+Facility---23123
+]
+1717
+p_2102804426	hasTypes	list[ ]
+list= [Company---1434
+Education---1717
+Facility---3936
+Government---7674
+]
+7220
+p_2019626913	hasTypes	list[ ]
+list= [Education---826
+Company---3471
+Government---7221
+Facility---10593
+]
+111
+p_2745569717	hasTypes	list[ ]
+list= [Education---111
+Government---304
+Company---2083
+Facility---13202
+]
+1864
+p_2418115651	hasTypes	list[ ]
+list= [Government---1864
+Company---2139
+Education---3398
+Facility---9344
+]
+2680
+p_2123974402	hasTypes	list[ ]
+list= [Education---2680
+Company---6331
+Government---7443
+Facility---13999
+]
+86
+p_2154650478	hasTypes	list[ ]
+list= [Education---86
+Facility---488
+Company---1540
+Government---1724
+]
+1794
+p_2182203972	hasTypes	list[ ]
+list= [Education---1794
+Government---2647
+Company---4275
+Facility---11768
+]
+1333
+p_1559700985	hasTypes	list[ ]
+list= [Government---631
+Education---1333
+Company---1450
+Facility---17877
+]
+236
+p_2083849008	hasTypes	list[ ]
+list= [Government---87
+Education---236
+Company---364
+Facility---13767
+]
+953
+p_349944854	hasTypes	list[ ]
+list= [Government---691
+Education---953
+Company---7346
+Facility---10193
+]
+1687
+p_2108971323	hasTypes	list[ ]
+list= [Education---1687
+Company---2143
+Government---6463
+Facility---13029
+]
+2284
+p_1891751331	hasTypes	list[ ]
+list= [Education---2284
+Company---2613
+Government---9421
+Facility---27516
+]
+527
+p_1998381402	hasTypes	list[ ]
+list= [Education---527
+Company---2483
+Government---3074
+Facility---8900
+]
+947
+p_2125855899	hasTypes	list[ ]
+list= [Education---947
+Company---6195
+Government---9199
+Facility---10477
+]
+699
+p_2569557400	hasTypes	list[ ]
+list= [Education---699
+Company---2294
+Facility---6897
+Government---7045
+]
+2251
+p_2782204918	hasTypes	list[ ]
+list= [Facility---737
+Education---2251
+Government---7125
+Company---7223
+]
+467
+p_2713413168	hasTypes	list[ ]
+list= [Education---155
+Company---467
+Government---4507
+Facility---7101
+]
+3318
+p_2794804297	hasTypes	list[ ]
+list= [Education---3318
+Company---12781
+Facility---12842
+Government---13534
+]
+3328
+p_2159252963	hasTypes	list[ ]
+list= [Company---2470
+Education---3328
+Government---13207
+Facility---17186
+]
+12
+p_2093040750	hasTypes	list[ ]
+list= [Education---12
+Company---145
+Government---326
+Facility---968
+]
+2061
+p_2801360775	hasTypes	list[ ]
+list= [Education---2061
+Facility---3567
+Government---4898
+Company---7451
+]
+2053
+p_2140809577	hasTypes	list[ ]
+list= [Education---2053
+Facility---6107
+Government---8932
+Company---15578
+]
+6156
+p_2367804202	hasTypes	list[ ]
+list= [Company---4487
+Education---6156
+Facility---9288
+Government---14110
+]
+2135
+p_2111640442	hasTypes	list[ ]
+list= [Company---1762
+Education---2136
+Facility---5676
+Government---10454
+]
+2035
+p_2120933122	hasTypes	list[ ]
+list= [Company---1969
+Education---2036
+Government---8772
+Facility---22492
+]
+1710
+p_2170787881	hasTypes	list[ ]
+list= [Government---263
+Education---1710
+Company---11231
+Facility---15955
+]
+3778
+p_2759560208	hasTypes	list[ ]
+list= [Facility---521
+Education---3778
+Government---6619
+Company---14378
+]
+2142
+p_2387642259	hasTypes	list[ ]
+list= [Education---2142
+Government---3132
+Company---10865
+Facility---21797
+]
+1557
+p_2391942250	hasTypes	list[ ]
+list= [Government---145
+Education---1557
+Company---4883
+Facility---10723
+]
+2916
+p_2369732330	hasTypes	list[ ]
+list= [Education---2916
+Government---2951
+Company---4010
+Facility---10553
+]
+4071
+p_2383715651	hasTypes	list[ ]
+list= [Education---4072
+Government---8247
+Company---13601
+Facility---14961
+]
+239
+p_1970606138	hasTypes	list[ ]
+list= [Education---239
+Company---1752
+Government---2212
+Facility---11976
+]
+594
+p_2753520972	hasTypes	list[ ]
+list= [Education---594
+Company---1224
+Government---4514
+Facility---8099
+]
+646
+p_2060247104	hasTypes	list[ ]
+list= [Education---646
+Facility---1763
+Company---5169
+Government---5337
+]
+1747
+p_2884693526	hasTypes	list[ ]
+list= [Education---1747
+Facility---2618
+Government---5046
+Company---6516
+]
+362
+p_2170841927	hasTypes	list[ ]
+list= [Education---362
+Company---407
+Government---3048
+Facility---5917
+]
+224
+p_2119873117	hasTypes	list[ ]
+list= [Company---77
+Government---144
+Education---224
+Facility---1876
+]
+4781
+p_2375485085	hasTypes	list[ ]
+list= [Facility---2852
+Education---4781
+Company---5820
+Government---7583
+]
+1819
+p_2568270413	hasTypes	list[ ]
+list= [Education---1819
+Company---3381
+Government---6764
+Facility---7606
+]
+4940
+p_2154084556	hasTypes	list[ ]
+list= [Education---4940
+Company---6917
+Government---16397
+Facility---25931
+]
+955
+p_2145638683	hasTypes	list[ ]
+list= [Facility---253
+Education---955
+Company---1999
+Government---10927
+]
+946
+p_2519124410	hasTypes	list[ ]
+list= [Government---924
+Education---946
+Company---3086
+Facility---8030
+]
+345
+p_2749590927	hasTypes	list[ ]
+list= [Education---345
+Company---820
+Facility---821
+Government---3492
+]
+1488
+p_2125409366	hasTypes	list[ ]
+list= [Facility---301
+Education---1488
+Company---3930
+Government---11480
+]
+1465
+p_2046774766	hasTypes	list[ ]
+list= [Education---1465
+Company---4493
+Facility---5286
+Government---8840
+]
+1875
+p_2043998740	hasTypes	list[ ]
+list= [Facility---909
+Education---1875
+Government---2375
+Company---6804
+]
+1257
+p_125778046	hasTypes	list[ ]
+list= [Government---382
+Education---1257
+Company---4136
+Facility---11355
+]
+2588
+p_2062284954	hasTypes	list[ ]
+list= [Government---1516
+Education---2588
+Facility---6728
+Company---11620
+]
+1086
+p_2146489310	hasTypes	list[ ]
+list= [Government---1027
+Education---1086
+Company---1657
+Facility---2835
+]
+2514
+p_2111559763	hasTypes	list[ ]
+list= [Education---2514
+Facility---4927
+Company---5906
+Government---12142
+]
+4536
+p_2076346916	hasTypes	list[ ]
+list= [Facility---2545
+Education---4536
+Company---7428
+Government---18302
+]
+1994
+p_2364779296	hasTypes	list[ ]
+list= [Education---1994
+Company---3088
+Government---4859
+Facility---14044
+]
+2157
+p_2100283156	hasTypes	list[ ]
+list= [Company---656
+Education---2157
+Facility---3465
+Government---9414
+]
+3192
+p_2324726147	hasTypes	list[ ]
+list= [Facility---3191
+Education---3192
+Company---10579
+Government---13738
+]
+217
+p_2164789046	hasTypes	list[ ]
+list= [Education---217
+Company---543
+Facility---922
+Government---4571
+]
+3490
+p_1666124753	hasTypes	list[ ]
+list= [Facility---1109
+Education---3490
+Company---9350
+Government---19641
+]
+885
+p_2512040843	hasTypes	list[ ]
+list= [Education---885
+Facility---1348
+Company---1791
+Government---5110
+]
+2052
+p_2775274731	hasTypes	list[ ]
+list= [Education---2052
+Government---4446
+Company---16513
+Facility---18111
+]
+2227
+p_2293093143	hasTypes	list[ ]
+list= [Education---2227
+Government---8400
+Company---9662
+Facility---28360
+]
+5829
+p_2392856626	hasTypes	list[ ]
+list= [Education---5829
+Facility---7709
+Government---8260
+Company---19135
+]
+409
+p_2800854416	hasTypes	list[ ]
+list= [Education---409
+Company---1170
+Government---1363
+Facility---6600
+]
+1359
+p_1984942247	hasTypes	list[ ]
+list= [Education---1359
+Company---4687
+Government---7388
+Facility---19115
+]
+2694
+p_2752020298	hasTypes	list[ ]
+list= [Education---2694
+Facility---4063
+Company---7557
+Government---8560
+]
+461
+p_135868511	hasTypes	list[ ]
+list= [Company---295
+Education---461
+Government---490
+Facility---8840
+]
+4052
+p_1934825390	hasTypes	list[ ]
+list= [Facility---913
+Company---2824
+Education---4052
+Government---19676
+]
+322
+p_2102498831	hasTypes	list[ ]
+list= [Education---322
+Government---2521
+Company---3211
+Facility---3510
+]
+668
+p_1994878241	hasTypes	list[ ]
+list= [Education---668
+Company---1365
+Government---3787
+Facility---5303
+]
+4205
+p_2111363403	hasTypes	list[ ]
+list= [Government---946
+Education---4205
+Facility---14410
+Company---17520
+]
+125
+p_1988456041	hasTypes	list[ ]
+list= [Government---105
+Education---125
+Company---503
+Facility---1557
+]
+2941
+p_2356755074	hasTypes	list[ ]
+list= [Company---1364
+Education---2941
+Government---9838
+Facility---32690
+]
+3607
+p_2062911701	hasTypes	list[ ]
+list= [Government---1999
+Education---3607
+Facility---5537
+Company---9380
+]
+497
+p_2114388582	hasTypes	list[ ]
+list= [Education---497
+Company---1771
+Facility---4413
+Government---6786
+]
+1254
+p_2588063962	hasTypes	list[ ]
+list= [Education---1254
+Company---4220
+Government---4593
+Facility---20008
+]
+1999
+p_2135373541	hasTypes	list[ ]
+list= [Education---1999
+Facility---4216
+Company---7787
+Government---13208
+]
+4640
+p_2348105053	hasTypes	list[ ]
+list= [Education---4640
+Company---7659
+Government---13859
+Facility---29512
+]
+310
+p_2307425316	hasTypes	list[ ]
+list= [Education---310
+Government---763
+Company---2206
+Facility---3944
+]
+2091
+p_1523005810	hasTypes	list[ ]
+list= [Company---1416
+Education---2091
+Facility---6488
+Government---12955
+]
+273
+p_2862324	hasTypes	list[ ]
+list= [Education---273
+Government---1430
+Company---2650
+Facility---13417
+]
+68
+p_2031404277	hasTypes	list[ ]
+list= [Education---68
+Company---425
+Facility---1927
+Government---2075
+]
+336
+p_2536572249	hasTypes	list[ ]
+list= [Government---64
+Education---336
+Company---5033
+Facility---5935
+]
+446
+p_2098002797	hasTypes	list[ ]
+list= [Education---446
+Government---1531
+Facility---1840
+Company---6741
+]
+1883
+p_1562202927	hasTypes	list[ ]
+list= [Government---1214
+Education---1883
+Company---3309
+Facility---7721
+]
+3481
+p_1486071019	hasTypes	list[ ]
+list= [Company---2822
+Education---3481
+Government---10769
+Facility---25385
+]
+7981
+p_1528824691	hasTypes	list[ ]
+list= [Company---356
+Government---7981
+Facility---8896
+Education---11927
+]
+2231
+p_2035280013	hasTypes	list[ ]
+list= [Facility---1320
+Education---2231
+Company---3568
+Government---16595
+]
+789
+p_1563039600	hasTypes	list[ ]
+list= [Education---789
+Company---3123
+Government---6231
+Facility---15585
+]
+322
+p_1504745637	hasTypes	list[ ]
+list= [Education---322
+Company---1783
+Government---3728
+Facility---5250
+]
+958
+p_1762981116	hasTypes	list[ ]
+list= [Company---232
+Education---958
+Government---1191
+Facility---15500
+]
+1994
+p_1556262934	hasTypes	list[ ]
+list= [Government---283
+Education---1994
+Company---3530
+Facility---23399
+]
+380
+p_2107554704	hasTypes	list[ ]
+list= [Facility---330
+Education---380
+Company---2762
+Government---4574
+]
+747
+p_2524137671	hasTypes	list[ ]
+list= [Education---747
+Government---3619
+Company---7540
+Facility---11704
+]
+513
+p_2353864396	hasTypes	list[ ]
+list= [Education---513
+Company---1250
+Government---1726
+Facility---12243
+]
+507
+p_1881338276	hasTypes	list[ ]
+list= [Education---507
+Company---2091
+Government---3679
+Facility---3686
+]
+1349
+p_2556936974	hasTypes	list[ ]
+list= [Education---1349
+Company---4262
+Government---10706
+Facility---16876
+]
+1966
+p_2886155082	hasTypes	list[ ]
+list= [Company---1006
+Education---1966
+Facility---5413
+Government---14114
+]
+6412
+p_2389250798	hasTypes	list[ ]
+list= [Government---4162
+Facility---4403
+Education---6412
+Company---7897
+]
+575
+p_1992923924	hasTypes	list[ ]
+list= [Education---575
+Government---1931
+Company---3020
+Facility---8486
+]
+1280
+p_2391928294	hasTypes	list[ ]
+list= [Education---1280
+Company---7783
+Government---9052
+Facility---10847
+]
+574
+p_2630385566	hasTypes	list[ ]
+list= [Education---574
+Government---1144
+Company---1195
+Facility---6682
+]
+421
+p_2031850307	hasTypes	list[ ]
+list= [Education---421
+Government---1324
+Company---1825
+Facility---10917
+]
+408
+p_144865892	hasTypes	list[ ]
+list= [Education---408
+Facility---723
+Government---907
+Company---2291
+]
+118
+p_2596261552	hasTypes	list[ ]
+list= [Company---92
+Education---118
+Government---119
+Facility---11549
+]
+16060
+p_2329337397	hasTypes	list[ ]
+list= [Company---1040
+Facility---5246
+Government---7851
+Education---21548
+]
+727
+p_1788329670	hasTypes	list[ ]
+list= [Education---727
+Government---1187
+Facility---1592
+Company---5028
+]
+2770
+p_2362880535	hasTypes	list[ ]
+list= [Government---1673
+Facility---1806
+Education---2770
+Company---9847
+]
+1570
+p_2652748451	hasTypes	list[ ]
+list= [Government---1498
+Education---1570
+Facility---6477
+Company---9170
+]
+2598
+p_1975008975	hasTypes	list[ ]
+list= [Education---2598
+Government---8628
+Company---15097
+Facility---24620
+]
+2179
+p_1551660321	hasTypes	list[ ]
+list= [Company---730
+Government---974
+Education---2179
+Facility---15173
+]
+1041
+p_2605974740	hasTypes	list[ ]
+list= [Company---758
+Education---1041
+Government---4505
+Facility---4742
+]
+3254
+p_1572020043	hasTypes	list[ ]
+list= [Government---1262
+Education---3254
+Company---12246
+Facility---17653
+]
+1527
+p_2344434515	hasTypes	list[ ]
+list= [Education---1527
+Government---8086
+Facility---8929
+Company---11853
+]
+5373
+p_2508171209	hasTypes	list[ ]
+list= [Government---428
+Facility---5373
+Company---5392
+Education---8381
+]
+374
+p_1490834784	hasTypes	list[ ]
+list= [Education---374
+Facility---2477
+Government---3715
+Company---5116
+]
+6354
+p_2149649396	hasTypes	list[ ]
+list= [Education---4252
+Company---6355
+Facility---8489
+Government---17032
+]
+2064
+p_2089326216	hasTypes	list[ ]
+list= [Education---2064
+Government---9476
+Company---10920
+Facility---12262
+]
+587
+p_2171128212	hasTypes	list[ ]
+list= [Education---587
+Facility---709
+Company---745
+Government---6790
+]
+2008
+p_2012894726	hasTypes	list[ ]
+list= [Company---1607
+Education---2008
+Facility---3527
+Government---15806
+]
+4047
+p_2170204841	hasTypes	list[ ]
+list= [Education---4047
+Facility---4554
+Company---12763
+Government---16972
+]
+869
+p_2131077403	hasTypes	list[ ]
+list= [Government---869
+Education---1637
+Company---3233
+Facility---21100
+]
+1944
+p_2735144465	hasTypes	list[ ]
+list= [Education---1944
+Government---4401
+Facility---7580
+Company---8021
+]
+2945
+p_2850880825	hasTypes	list[ ]
+list= [Education---2945
+Government---12387
+Facility---13949
+Company---17907
+]
+2513
+p_2145045668	hasTypes	list[ ]
+list= [Company---1373
+Government---1510
+Education---2513
+Facility---6673
+]
+16
+p_164971034	hasTypes	list[ ]
+list= [Education---16
+Facility---275
+Company---334
+Government---1007
+]
+2050
+p_2134661748	hasTypes	list[ ]
+list= [Company---440
+Education---2050
+Government---9011
+Facility---9927
+]
+698
+p_2167578067	hasTypes	list[ ]
+list= [Facility---125
+Education---698
+Company---1484
+Government---6725
+]
+1079
+p_1864708098	hasTypes	list[ ]
+list= [Company---289
+Education---1079
+Government---5145
+Facility---11932
+]
+1254
+p_81578450	hasTypes	list[ ]
+list= [Facility---704
+Education---1254
+Company---2929
+Government---4795
+]
+2230
+p_140394387	hasTypes	list[ ]
+list= [Company---992
+Education---2230
+Government---9605
+Facility---16100
+]
+10020
+p_2613202174	hasTypes	list[ ]
+list= [Facility---1257
+Education---2467
+Company---10020
+Government---18762
+]
+2231
+p_2150977317	hasTypes	list[ ]
+list= [Education---2231
+Government---4140
+Company---6559
+Facility---18092
+]
+1342
+p_2137712999	hasTypes	list[ ]
+list= [Education---1342
+Facility---2234
+Company---7346
+Government---11381
+]
+19653
+p_2613457713	hasTypes	list[ ]
+list= [Company---2343
+Facility---5978
+Education---8425
+Government---19653
+]
+1032
+p_2125052291	hasTypes	list[ ]
+list= [Education---1032
+Government---3818
+Company---4151
+Facility---16303
+]
+1295
+p_1566764023	hasTypes	list[ ]
+list= [Education---1295
+Government---2225
+Company---2822
+Facility---18968
+]
+1276
+p_2777032727	hasTypes	list[ ]
+list= [Education---1276
+Facility---2993
+Company---7129
+Government---8982
+]
+3555
+p_2479451793	hasTypes	list[ ]
+list= [Government---1756
+Company---3339
+Education---3555
+Facility---27489
+]
+2664
+p_2088621336	hasTypes	list[ ]
+list= [Education---2664
+Government---11621
+Facility---12504
+Company---15063
+]
+13242
+p_2250489794	hasTypes	list[ ]
+list= [Facility---6601
+Government---9293
+Company---13242
+Education---18425
+]
+2787
+p_2000576329	hasTypes	list[ ]
+list= [Government---628
+Education---2787
+Facility---5806
+Company---9553
+]
+1502
+p_2572500421	hasTypes	list[ ]
+list= [Education---1502
+Company---1994
+Facility---2133
+Government---10285
+]
+508
+p_2170223565	hasTypes	list[ ]
+list= [Education---508
+Government---592
+Company---3418
+Facility---8304
+]
+1100
+p_1973647602	hasTypes	list[ ]
+list= [Education---1100
+Company---5077
+Facility---5845
+Government---9019
+]
+2691
+p_2369709380	hasTypes	list[ ]
+list= [Education---2691
+Government---8387
+Company---12437
+Facility---17277
+]
+1729
+p_2145870758	hasTypes	list[ ]
+list= [Education---1729
+Company---2182
+Government---5876
+Facility---12680
+]
+436
+p_2014191042	hasTypes	list[ ]
+list= [Education---436
+Company---2446
+Government---5062
+Facility---18730
+]
+1135
+p_2168197497	hasTypes	list[ ]
+list= [Company---1135
+Education---1341
+Government---3094
+Facility---8155
+]
+2085
+p_2356875694	hasTypes	list[ ]
+list= [Education---2085
+Company---8108
+Facility---11251
+Government---13764
+]
+4730
+p_2578732817	hasTypes	list[ ]
+list= [Company---2319
+Education---4730
+Facility---12126
+Government---20945
+]
+2123
+p_2076237985	hasTypes	list[ ]
+list= [Company---1333
+Education---2123
+Government---7415
+Facility---25522
+]
+4837
+p_2362116781	hasTypes	list[ ]
+list= [Company---2242
+Education---4837
+Facility---6795
+Government---11160
+]
+485
+p_2025105169	hasTypes	list[ ]
+list= [Company---75
+Education---485
+Facility---1748
+Government---7919
+]
+2137
+p_2232189178	hasTypes	list[ ]
+list= [Facility---1134
+Education---2137
+Company---5285
+Government---5597
+]
+1268
+p_3279225	hasTypes	list[ ]
+list= [Education---1268
+Company---1443
+Government---1931
+Facility---20391
+]
+2680
+p_2097505735	hasTypes	list[ ]
+list= [Facility---2059
+Education---2680
+Company---7115
+Government---12636
+]
+819
+p_2115447905	hasTypes	list[ ]
+list= [Education---820
+Government---1180
+Company---2618
+Facility---9658
+]
+1986
+p_2809124680	hasTypes	list[ ]
+list= [Education---1986
+Government---6262
+Company---11405
+Facility---18550
+]
+1949
+p_2548144048	hasTypes	list[ ]
+list= [Government---1079
+Company---1819
+Education---3560
+Facility---4174
+]
+1778
+p_1498431009	hasTypes	list[ ]
+list= [Education---1778
+Government---6490
+Company---9168
+Facility---21784
+]
+451
+p_2132925316	hasTypes	list[ ]
+list= [Education---451
+Government---1043
+Company---1274
+Facility---18108
+]
+334
+p_2073312981	hasTypes	list[ ]
+list= [Education---334
+Company---3441
+Government---3466
+Facility---13414
+]
+12550
+p_1502210373	hasTypes	list[ ]
+list= [Company---271
+Education---711
+Facility---12551
+Government---18006
+]
+2433
+p_2158509607	hasTypes	list[ ]
+list= [Government---1788
+Education---2433
+Company---9011
+Facility---18478
+]
+3988
+p_2413334791	hasTypes	list[ ]
+list= [Company---2447
+Education---3988
+Government---14342
+Facility---20435
+]
+1529
+p_2129788035	hasTypes	list[ ]
+list= [Government---686
+Education---1529
+Facility---8603
+Company---11075
+]
+511
+p_2100099969	hasTypes	list[ ]
+list= [Education---511
+Government---2148
+Company---3411
+Facility---5354
+]
+3152
+p_2766907457	hasTypes	list[ ]
+list= [Education---3152
+Facility---6846
+Government---8671
+Company---16537
+]
+2759
+p_2765703678	hasTypes	list[ ]
+list= [Education---2759
+Facility---5969
+Company---6946
+Government---18210
+]
+2276
+p_2106491601	hasTypes	list[ ]
+list= [Education---2276
+Company---7133
+Government---9390
+Facility---10332
+]
+1958
+p_1483268111	hasTypes	list[ ]
+list= [Education---1958
+Government---5285
+Company---7104
+Facility---11355
+]
+956
+p_2121249230	hasTypes	list[ ]
+list= [Facility---124
+Education---956
+Government---3392
+Company---4531
+]
+31025
+p_2044527973	hasTypes	list[ ]
+list= [Company---570
+Facility---4159
+Government---12495
+Education---38039
+]
+1046
+p_2773221375	hasTypes	list[ ]
+list= [Facility---495
+Education---1046
+Company---3542
+Government---9359
+]
+251
+p_2276488597	hasTypes	list[ ]
+list= [Education---251
+Government---2507
+Company---2565
+Facility---3654
+]
+3218
+p_2786457740	hasTypes	list[ ]
+list= [Facility---188
+Education---3218
+Company---11089
+Government---15574
+]
+1905
+p_2076925151	hasTypes	list[ ]
+list= [Education---1905
+Government---4935
+Facility---5149
+Company---8687
+]
+4823
+p_2388479529	hasTypes	list[ ]
+list= [Company---1663
+Education---4823
+Government---12939
+Facility---22499
+]
+1696
+p_2146997686	hasTypes	list[ ]
+list= [Education---1696
+Facility---3886
+Government---4615
+Company---7134
+]
+1545
+p_2810800864	hasTypes	list[ ]
+list= [Government---283
+Education---1545
+Facility---2952
+Company---9624
+]
+4769
+p_2463748858	hasTypes	list[ ]
+list= [Company---1408
+Education---4769
+Facility---6347
+Government---18588
+]
+1486
+p_39967936	hasTypes	list[ ]
+list= [Education---1486
+Government---6360
+Facility---13289
+Company---13434
+]
+817
+p_1967094636	hasTypes	list[ ]
+list= [Government---172
+Education---817
+Company---7539
+Facility---14127
+]
+1851
+p_2155530550	hasTypes	list[ ]
+list= [Education---1851
+Government---4038
+Company---6910
+Facility---9582
+]
+180
+p_2147121966	hasTypes	list[ ]
+list= [Company---6
+Education---180
+Government---3558
+Facility---5724
+]
+5928
+p_2783363908	hasTypes	list[ ]
+list= [Facility---1826
+Education---5928
+Company---14778
+Government---24586
+]
+1281
+p_2811393534	hasTypes	list[ ]
+list= [Education---1281
+Facility---5099
+Government---5904
+Company---7270
+]
+2678
+p_2351972994	hasTypes	list[ ]
+list= [Government---369
+Education---2678
+Company---5161
+Facility---7581
+]
+3988
+p_2141802142	hasTypes	list[ ]
+list= [Company---683
+Government---2903
+Education---3988
+Facility---15331
+]
+300
+p_2087849123	hasTypes	list[ ]
+list= [Facility---270
+Education---300
+Government---1419
+Company---1768
+]
+1232
+p_2061265195	hasTypes	list[ ]
+list= [Education---1232
+Company---2438
+Facility---3580
+Government---4022
+]
+4887
+p_1580335825	hasTypes	list[ ]
+list= [Education---1310
+Company---4887
+Government---5733
+Facility---7000
+]
+990
+p_2139239140	hasTypes	list[ ]
+list= [Company---559
+Education---990
+Government---1221
+Facility---3916
+]
+880
+p_2806164097	hasTypes	list[ ]
+list= [Education---880
+Facility---999
+Company---5466
+Government---7174
+]
+272
+p_2756795320	hasTypes	list[ ]
+list= [Education---272
+Government---1367
+Company---1431
+Facility---21544
+]
+145
+p_2018024225	hasTypes	list[ ]
+list= [Education---145
+Facility---302
+Government---791
+Company---1299
+]
+3927
+p_1979175495	hasTypes	list[ ]
+list= [Facility---1805
+Government---3928
+Company---4434
+Education---6512
+]
+659
+p_1946368319	hasTypes	list[ ]
+list= [Education---659
+Government---1101
+Company---1888
+Facility---5730
+]
+1768
+p_1996103642	hasTypes	list[ ]
+list= [Company---1498
+Education---1768
+Government---8122
+Facility---17514
+]
+3104
+p_2387990855	hasTypes	list[ ]
+list= [Education---3104
+Government---11392
+Company---15181
+Facility---26488
+]
+2179
+p_2797146319	hasTypes	list[ ]
+list= [Education---2179
+Facility---2227
+Government---5138
+Company---11761
+]
+1160
+p_2022188271	hasTypes	list[ ]
+list= [Company---441
+Education---1160
+Government---8993
+Facility---10745
+]
+2381
+p_2014431547	hasTypes	list[ ]
+list= [Government---719
+Education---2381
+Company---12528
+Facility---16267
+]
+3192
+p_2786567957	hasTypes	list[ ]
+list= [Government---885
+Company---1358
+Education---3192
+Facility---9510
+]
+318
+p_1510033250	hasTypes	list[ ]
+list= [Education---318
+Facility---1072
+Company---1814
+Government---5710
+]
+1192
+p_2097203667	hasTypes	list[ ]
+list= [Education---1192
+Company---3704
+Facility---4165
+Government---7121
+]
+1591
+p_1551903048	hasTypes	list[ ]
+list= [Education---1591
+Company---3199
+Government---9018
+Facility---10638
+]
+4255
+p_2363962028	hasTypes	list[ ]
+list= [Government---2116
+Education---4255
+Facility---13370
+Company---15833
+]
+2274
+p_2131714870	hasTypes	list[ ]
+list= [Government---401
+Education---2274
+Facility---5434
+Company---7013
+]
+1917
+p_2113332480	hasTypes	list[ ]
+list= [Company---155
+Education---1917
+Facility---4244
+Government---10858
+]
+315
+p_1510203088	hasTypes	list[ ]
+list= [Company---188
+Education---315
+Government---710
+Facility---8813
+]
+2356
+p_197978799	hasTypes	list[ ]
+list= [Education---2356
+Government---2652
+Company---4440
+Facility---7003
+]
+1551
+p_2390572940	hasTypes	list[ ]
+list= [Education---1551
+Government---6902
+Company---10713
+Facility---28433
+]
+4815
+p_1985583453	hasTypes	list[ ]
+list= [Company---1250
+Education---4815
+Government---16007
+Facility---21610
+]
+15
+p_2345063733	hasTypes	list[ ]
+list= [Education---15
+Company---126
+Government---420
+Facility---1263
+]
+924
+p_2095222871	hasTypes	list[ ]
+list= [Government---687
+Education---924
+Company---7643
+Facility---14371
+]
+2299
+p_1506752880	hasTypes	list[ ]
+list= [Education---2299
+Facility---5227
+Company---6897
+Government---9692
+]
+391
+p_2337700548	hasTypes	list[ ]
+list= [Company---188
+Education---391
+Facility---515
+Government---3749
+]
+1424
+p_1510445422	hasTypes	list[ ]
+list= [Education---1424
+Facility---3976
+Government---8137
+Company---9581
+]
+385
+p_2893897305	hasTypes	list[ ]
+list= [Education---385
+Government---706
+Facility---3885
+Company---5628
+]
+617
+p_2110131395	hasTypes	list[ ]
+list= [Company---176
+Education---617
+Government---1425
+Facility---11197
+]
+3250
+p_2805834452	hasTypes	list[ ]
+list= [Government---2413
+Education---3250
+Company---7005
+Facility---8109
+]
+2794
+p_2148686447	hasTypes	list[ ]
+list= [Facility---346
+Government---972
+Education---2794
+Company---8915
+]
+573
+p_51385096	hasTypes	list[ ]
+list= [Government---244
+Education---573
+Company---2281
+Facility---3848
+]
+3548
+p_2539141797	hasTypes	list[ ]
+list= [Education---3548
+Company---9365
+Government---14494
+Facility---21774
+]
+2187
+p_1577186179	hasTypes	list[ ]
+list= [Education---2187
+Company---7284
+Government---7376
+Facility---15678
+]
+3630
+p_2362108622	hasTypes	list[ ]
+list= [Education---3630
+Company---4344
+Government---14085
+Facility---25233
+]
+242
+p_2218248622	hasTypes	list[ ]
+list= [Company---225
+Education---242
+Facility---2749
+Government---4106
+]
+3376
+p_2011358297	hasTypes	list[ ]
+list= [Company---642
+Education---3376
+Government---3908
+Facility---8801
+]
+1466
+p_1981278555	hasTypes	list[ ]
+list= [Education---1466
+Government---2022
+Facility---8393
+Company---11300
+]
+2113
+p_2267078031	hasTypes	list[ ]
+list= [Education---1948
+Company---2113
+Government---9441
+Facility---21038
+]
+1581
+p_2049850414	hasTypes	list[ ]
+list= [Government---957
+Education---1581
+Facility---6645
+Company---9399
+]
+2722
+p_1878756222	hasTypes	list[ ]
+list= [Company---2722
+Government---3910
+Facility---4215
+Education---4714
+]
+1442
+p_2888801118	hasTypes	list[ ]
+list= [Education---1442
+Government---2721
+Company---9277
+Facility---9780
+]
+3565
+p_2144249442	hasTypes	list[ ]
+list= [Education---3565
+Facility---3846
+Company---5815
+Government---14684
+]
+3310
+p_2538288563	hasTypes	list[ ]
+list= [Government---265
+Education---3310
+Company---9056
+Facility---20554
+]
+817
+p_129355721	hasTypes	list[ ]
+list= [Education---817
+Facility---2245
+Company---8523
+Government---9139
+]
+890
+p_1990335887	hasTypes	list[ ]
+list= [Government---358
+Education---890
+Facility---2203
+Company---3767
+]
+2569
+p_2594015355	hasTypes	list[ ]
+list= [Education---2570
+Government---6003
+Company---7619
+Facility---18646
+]
+4624
+p_2119816473	hasTypes	list[ ]
+list= [Education---4624
+Facility---5752
+Government---12815
+Company---14746
+]
+223
+p_2155402159	hasTypes	list[ ]
+list= [Education---223
+Company---914
+Facility---1172
+Government---1876
+]
+1535
+p_2012463609	hasTypes	list[ ]
+list= [Education---1535
+Facility---1634
+Company---4875
+Government---5099
+]
+4271
+p_2082007347	hasTypes	list[ ]
+list= [Government---1094
+Education---4271
+Company---14639
+Facility---16005
+]
+479
+p_1610686677	hasTypes	list[ ]
+list= [Education---479
+Facility---1821
+Government---3437
+Company---6809
+]
+4164
+p_182034135	hasTypes	list[ ]
+list= [Government---2556
+Education---4165
+Company---7811
+Facility---25915
+]
+910
+p_44302277	hasTypes	list[ ]
+list= [Education---910
+Facility---1063
+Company---3305
+Government---7982
+]
+2280
+p_1527656372	hasTypes	list[ ]
+list= [Education---2280
+Facility---3161
+Company---7521
+Government---11181
+]
+907
+p_1978828471	hasTypes	list[ ]
+list= [Education---907
+Company---2512
+Government---5758
+Facility---6946
+]
+671
+p_2071214038	hasTypes	list[ ]
+list= [Education---671
+Government---4594
+Facility---6542
+Company---10745
+]
+220
+p_2083551746	hasTypes	list[ ]
+list= [Company---37
+Education---220
+Government---3867
+Facility---9587
+]
+2939
+p_2135547524	hasTypes	list[ ]
+list= [Education---2939
+Company---3445
+Facility---10423
+Government---18523
+]
+1550
+p_78071156	hasTypes	list[ ]
+list= [Education---1550
+Government---2909
+Company---7206
+Facility---14230
+]
+2182
+p_2604433555	hasTypes	list[ ]
+list= [Company---1215
+Education---2182
+Facility---4216
+Government---13864
+]
+1428
+p_2385130312	hasTypes	list[ ]
+list= [Facility---940
+Government---1299
+Education---1428
+Company---5174
+]
+575
+p_1998810077	hasTypes	list[ ]
+list= [Education---575
+Government---747
+Facility---1637
+Company---5471
+]
+3784
+p_2347636303	hasTypes	list[ ]
+list= [Education---3784
+Government---4198
+Company---18818
+Facility---24435
+]
+618
+p_2765482198	hasTypes	list[ ]
+list= [Education---619
+Government---757
+Company---5882
+Facility---11975
+]
+864
+p_2150588589	hasTypes	list[ ]
+list= [Company---162
+Government---837
+Education---864
+Facility---13826
+]
+431
+p_2559645926	hasTypes	list[ ]
+list= [Education---431
+Government---1138
+Company---5778
+Facility---8169
+]
+491
+p_2557927078	hasTypes	list[ ]
+list= [Education---491
+Government---2007
+Facility---4253
+Company---5629
+]
+2953
+p_1995618073	hasTypes	list[ ]
+list= [Company---2647
+Education---2953
+Facility---4300
+Government---7085
+]
+6333
+p_2105991459	hasTypes	list[ ]
+list= [Company---2976
+Government---6736
+Education---9590
+Facility---10318
+]
+4979
+p_2889448589	hasTypes	list[ ]
+list= [Facility---663
+Education---4979
+Company---7303
+Government---12683
+]
+2535
+p_2049823658	hasTypes	list[ ]
+list= [Facility---1750
+Education---2535
+Company---8806
+Government---18805
+]
+741
+p_2011202246	hasTypes	list[ ]
+list= [Facility---30
+Education---741
+Company---4397
+Government---7425
+]
+378
+p_1535019668	hasTypes	list[ ]
+list= [Education---378
+Company---2090
+Government---3353
+Facility---11812
+]
+1741
+p_2101928205	hasTypes	list[ ]
+list= [Facility---728
+Education---1741
+Government---1749
+Company---7277
+]
+946
+p_2107784829	hasTypes	list[ ]
+list= [Education---946
+Government---2551
+Company---3030
+Facility---8422
+]
+998
+p_2007193523	hasTypes	list[ ]
+list= [Education---999
+Government---5646
+Company---6257
+Facility---18643
+]
+3793
+p_2784167469	hasTypes	list[ ]
+list= [Education---3793
+Facility---4983
+Company---8266
+Government---17638
+]
+6116
+p_2114846855	hasTypes	list[ ]
+list= [Facility---1026
+Education---6116
+Company---14171
+Government---20882
+]
+1196
+p_2130372754	hasTypes	list[ ]
+list= [Education---1196
+Facility---5995
+Company---8121
+Government---11936
+]
+1558
+p_1509735346	hasTypes	list[ ]
+list= [Education---1558
+Government---2385
+Facility---7296
+Company---8959
+]
+1135
+p_2102712118	hasTypes	list[ ]
+list= [Education---1135
+Government---4884
+Company---10196
+Facility---12956
+]
+550
+p_2388043388	hasTypes	list[ ]
+list= [Education---550
+Government---4686
+Company---7389
+Facility---11089
+]
+963
+p_1533673519	hasTypes	list[ ]
+list= [Education---963
+Government---4317
+Company---8818
+Facility---13328
+]
+1176
+p_2004822648	hasTypes	list[ ]
+list= [Government---395
+Education---1176
+Company---5665
+Facility---7072
+]
+11437
+p_2148821028	hasTypes	list[ ]
+list= [Facility---896
+Education---3631
+Government---11199
+Company---11437
+]
+1641
+p_2767938701	hasTypes	list[ ]
+list= [Education---1641
+Government---2163
+Company---13080
+Facility---17469
+]
+398
+p_2799276958	hasTypes	list[ ]
+list= [Education---398
+Government---2136
+Facility---2318
+Company---3328
+]
+1720
+p_1852943879	hasTypes	list[ ]
+list= [Education---1720
+Government---7291
+Company---9894
+Facility---11221
+]
+12648
+p_2786118190	hasTypes	list[ ]
+list= [Education---2208
+Facility---10539
+Government---12057
+Company---12648
+]
+1781
+p_1977692160	hasTypes	list[ ]
+list= [Facility---164
+Education---1781
+Company---3819
+Government---8852
+]
+784
+p_2078422577	hasTypes	list[ ]
+list= [Company---465
+Education---784
+Government---5114
+Facility---15676
+]
+131
+p_2518940131	hasTypes	list[ ]
+list= [Education---131
+Government---988
+Company---1228
+Facility---1601
+]
+2237
+p_2505618066	hasTypes	list[ ]
+list= [Education---2237
+Facility---2260
+Company---3632
+Government---5690
+]
+4174
+p_1573211607	hasTypes	list[ ]
+list= [Company---2797
+Facility---2951
+Education---4174
+Government---8220
+]
+206
+p_2632928296	hasTypes	list[ ]
+list= [Education---206
+Government---510
+Company---1210
+Facility---1742
+]
+1228
+p_2130660341	hasTypes	list[ ]
+list= [Education---1229
+Company---1986
+Government---10717
+Facility---12601
+]
+3087
+p_143878680	hasTypes	list[ ]
+list= [Education---3087
+Company---7974
+Facility---10580
+Government---12014
+]
+22245
+p_2019714865	hasTypes	list[ ]
+list= [Facility---2456
+Company---4773
+Government---5509
+Education---29336
+]
+924
+p_1603489387	hasTypes	list[ ]
+list= [Education---127
+Company---924
+Government---1754
+Facility---10078
+]
+2325
+p_1613159894	hasTypes	list[ ]
+list= [Company---1861
+Government---1981
+Education---2325
+Facility---11264
+]
+1246
+p_2091344007	hasTypes	list[ ]
+list= [Government---537
+Facility---1246
+Education---2469
+Company---6674
+]
+1611
+p_2351917217	hasTypes	list[ ]
+list= [Government---456
+Education---1611
+Facility---7028
+Company---7536
+]
+138
+p_2623084766	hasTypes	list[ ]
+list= [Education---138
+Company---379
+Facility---739
+Government---3846
+]
+603
+p_188450896	hasTypes	list[ ]
+list= [Education---603
+Government---2154
+Facility---6248
+Company---8119
+]
+470
+p_2552496680	hasTypes	list[ ]
+list= [Company---49
+Education---470
+Government---1116
+Facility---21526
+]
+725
+p_1978211894	hasTypes	list[ ]
+list= [Education---725
+Government---4782
+Company---6373
+Facility---9576
+]
+2448
+p_2383914587	hasTypes	list[ ]
+list= [Company---595
+Education---2448
+Facility---2810
+Government---3112
+]
+4101
+p_2381660655	hasTypes	list[ ]
+list= [Government---2652
+Company---3855
+Education---4101
+Facility---26478
+]
+4063
+p_2289891913	hasTypes	list[ ]
+list= [Facility---1180
+Company---2323
+Education---4063
+Government---20207
+]
+3951
+p_1522799090	hasTypes	list[ ]
+list= [Company---3874
+Education---3951
+Government---17494
+Facility---21553
+]
+302
+p_1922658220	hasTypes	list[ ]
+list= [Education---302
+Government---2726
+Company---3077
+Facility---8242
+]
+1032
+p_2001578273	hasTypes	list[ ]
+list= [Education---1032
+Company---4294
+Government---6037
+Facility---17350
+]
+1261
+p_2160450447	hasTypes	list[ ]
+list= [Education---1261
+Facility---2923
+Government---7556
+Company---7858
+]
+2588
+p_2009950757	hasTypes	list[ ]
+list= [Company---605
+Education---2588
+Government---8584
+Facility---24253
+]
+288
+p_1546990542	hasTypes	list[ ]
+list= [Government---26
+Education---288
+Company---710
+Facility---12750
+]
+2004
+p_2593877920	hasTypes	list[ ]
+list= [Education---2004
+Company---6443
+Government---9031
+Facility---9649
+]
+2133
+p_1493134104	hasTypes	list[ ]
+list= [Facility---756
+Education---2133
+Company---4045
+Government---18208
+]
+2228
+p_1585543726	hasTypes	list[ ]
+list= [Education---2228
+Company---2801
+Facility---3987
+Government---11104
+]
+5717
+p_2245229448	hasTypes	list[ ]
+list= [Education---1112
+Facility---1974
+Company---5717
+Government---6074
+]
+689
+p_2034734642	hasTypes	list[ ]
+list= [Facility---303
+Education---689
+Company---4512
+Government---7899
+]
+3677
+p_2120155472	hasTypes	list[ ]
+list= [Facility---2401
+Education---3677
+Government---12846
+Company---15839
+]
+897
+p_1546759121	hasTypes	list[ ]
+list= [Education---897
+Facility---3251
+Company---5197
+Government---8026
+]
+580
+p_2011534933	hasTypes	list[ ]
+list= [Education---580
+Government---3439
+Facility---5744
+Company---5916
+]
+1867
+p_2144227570	hasTypes	list[ ]
+list= [Government---676
+Education---1867
+Company---5156
+Facility---13551
+]
+8561
+p_1520361250	hasTypes	list[ ]
+list= [Government---654
+Education---1513
+Company---8561
+Facility---9464
+]
+3387
+p_1973473547	hasTypes	list[ ]
+list= [Facility---546
+Education---3387
+Company---5368
+Government---8886
+]
+1822
+p_1731181801	hasTypes	list[ ]
+list= [Company---639
+Education---1822
+Facility---10079
+Government---11167
+]
+2384
+p_2349102920	hasTypes	list[ ]
+list= [Education---2384
+Company---3832
+Facility---5935
+Government---13610
+]
+2746
+p_2506009718	hasTypes	list[ ]
+list= [Company---861
+Education---2747
+Government---12882
+Facility---14835
+]
+3510
+p_2379713914	hasTypes	list[ ]
+list= [Education---3510
+Government---3542
+Facility---6399
+Company---17756
+]
+1335
+p_2889022049	hasTypes	list[ ]
+list= [Facility---1082
+Education---1335
+Company---5874
+Government---9622
+]
+6681
+p_2222509385	hasTypes	list[ ]
+list= [Government---975
+Education---1988
+Company---6681
+Facility---10766
+]
+2812
+p_2105092016	hasTypes	list[ ]
+list= [Government---1257
+Education---2812
+Company---5324
+Facility---16678
+]
+904
+p_2516216684	hasTypes	list[ ]
+list= [Company---851
+Education---904
+Government---8669
+Facility---11891
+]
+2581
+p_2388473319	hasTypes	list[ ]
+list= [Government---1989
+Education---2581
+Company---10932
+Facility---17852
+]
+772
+p_1982754808	hasTypes	list[ ]
+list= [Education---772
+Government---2063
+Company---3592
+Facility---5999
+]
+2574
+p_2730785892	hasTypes	list[ ]
+list= [Facility---2003
+Education---2574
+Company---9613
+Government---10181
+]
+2556
+p_1835197706	hasTypes	list[ ]
+list= [Education---2557
+Company---6394
+Facility---7673
+Government---12912
+]
+559
+p_2020158981	hasTypes	list[ ]
+list= [Company---453
+Education---559
+Facility---611
+Government---6417
+]
+1543
+p_2749648329	hasTypes	list[ ]
+list= [Company---1543
+Education---2809
+Facility---10485
+Government---18037
+]
+254
+p_2143199629	hasTypes	list[ ]
+list= [Education---254
+Company---893
+Government---1025
+Facility---6867
+]
+1345
+p_2501622818	hasTypes	list[ ]
+list= [Education---1345
+Facility---6201
+Company---7407
+Government---9785
+]
+1007
+p_2107893422	hasTypes	list[ ]
+list= [Education---1008
+Government---3081
+Company---6461
+Facility---23044
+]
+830
+p_1816005634	hasTypes	list[ ]
+list= [Government---788
+Education---830
+Company---5085
+Facility---7441
+]
+898
+p_2106754080	hasTypes	list[ ]
+list= [Education---898
+Government---1158
+Company---4471
+Facility---9690
+]
+1917
+p_2590589955	hasTypes	list[ ]
+list= [Facility---741
+Education---1917
+Company---4394
+Government---13399
+]
+1660
+p_2571640115	hasTypes	list[ ]
+list= [Education---1660
+Company---1772
+Government---3772
+Facility---13032
+]
+1816
+p_2118073486	hasTypes	list[ ]
+list= [Government---649
+Education---1816
+Company---2403
+Facility---3229
+]
+972
+p_2764106947	hasTypes	list[ ]
+list= [Facility---800
+Education---972
+Company---1984
+Government---10386
+]
+547
+p_2770417899	hasTypes	list[ ]
+list= [Education---547
+Government---1180
+Facility---1181
+Company---6790
+]
+1214
+p_653641136	hasTypes	list[ ]
+list= [Government---612
+Education---1214
+Company---7871
+Facility---12166
+]
+6494
+p_2611711109	hasTypes	list[ ]
+list= [Facility---6417
+Education---6494
+Government---6721
+Company---16585
+]
+1553
+p_115339201	hasTypes	list[ ]
+list= [Company---826
+Education---1553
+Government---7263
+Facility---22956
+]
+225
+p_2241398974	hasTypes	list[ ]
+list= [Education---225
+Facility---371
+Company---1296
+Government---1819
+]
+1829
+p_2765544998	hasTypes	list[ ]
+list= [Education---1829
+Government---3857
+Company---4996
+Facility---9144
+]
+307
+p_1973345384	hasTypes	list[ ]
+list= [Company---109
+Education---307
+Government---315
+Facility---5970
+]
+4881
+p_2795630024	hasTypes	list[ ]
+list= [Company---1548
+Facility---2137
+Government---4881
+Education---7779
+]
+1549
+p_2070523885	hasTypes	list[ ]
+list= [Company---943
+Government---985
+Education---1549
+Facility---4892
+]
+451
+p_2571844126	hasTypes	list[ ]
+list= [Facility---42
+Education---451
+Government---1133
+Company---4981
+]
+350
+p_1493876632	hasTypes	list[ ]
+list= [Company---211
+Education---350
+Government---4014
+Facility---9450
+]
+210
+p_2884648580	hasTypes	list[ ]
+list= [Education---210
+Company---357
+Facility---532
+Government---734
+]
+1126
+p_2128671378	hasTypes	list[ ]
+list= [Government---165
+Education---1126
+Facility---7391
+Company---7900
+]
+1602
+p_1492154095	hasTypes	list[ ]
+list= [Facility---593
+Education---1602
+Company---2666
+Government---7750
+]
+1783
+p_2127108863	hasTypes	list[ ]
+list= [Facility---1705
+Education---1783
+Company---8221
+Government---9522
+]
+885
+p_322463955	hasTypes	list[ ]
+list= [Education---885
+Government---3773
+Facility---5607
+Company---9201
+]
+915
+p_2118856638	hasTypes	list[ ]
+list= [Education---915
+Government---6903
+Facility---8561
+Company---10563
+]
+9035
+p_989469684	hasTypes	list[ ]
+list= [Education---2817
+Government---7334
+Company---9035
+Facility---10435
+]
+31
+p_1497838838	hasTypes	list[ ]
+list= [Education---31
+Government---32
+Company---439
+Facility---8117
+]
+597
+p_20526527	hasTypes	list[ ]
+list= [Education---597
+Company---1144
+Government---4441
+Facility---4892
+]
+843
+p_2075068205	hasTypes	list[ ]
+list= [Education---843
+Company---2841
+Government---5326
+Facility---12831
+]
+683
+p_2172221800	hasTypes	list[ ]
+list= [Facility---71
+Education---683
+Government---3570
+Company---4135
+]
+5351
+p_78067392	hasTypes	list[ ]
+list= [Education---5351
+Company---7094
+Government---16888
+Facility---21080
+]
+6316
+p_128153918	hasTypes	list[ ]
+list= [Facility---2159
+Government---6316
+Company---9095
+Education---9650
+]
+2647
+p_2049757874	hasTypes	list[ ]
+list= [Education---2647
+Facility---5415
+Government---7725
+Company---13859
+]
+2788
+p_2523030052	hasTypes	list[ ]
+list= [Education---2788
+Company---4695
+Government---10463
+Facility---22445
+]
+203
+p_1508499803	hasTypes	list[ ]
+list= [Education---203
+Government---1519
+Company---1744
+Facility---11064
+]
+2458
+p_2110537886	hasTypes	list[ ]
+list= [Education---2458
+Government---4255
+Facility---6277
+Company---13030
+]
+219
+p_2328470253	hasTypes	list[ ]
+list= [Education---219
+Facility---382
+Government---1336
+Company---1529
+]
+1538
+p_2079143132	hasTypes	list[ ]
+list= [Education---1538
+Facility---1603
+Government---1792
+Company---5681
+]
+1545
+p_2163110133	hasTypes	list[ ]
+list= [Government---1019
+Facility---1151
+Education---1545
+Company---10141
+]
+603
+p_1502561370	hasTypes	list[ ]
+list= [Education---603
+Facility---4388
+Government---5637
+Company---5960
+]
+165
+p_2175733072	hasTypes	list[ ]
+list= [Education---165
+Company---230
+Government---558
+Facility---5840
+]
+826
+p_2132067420	hasTypes	list[ ]
+list= [Education---826
+Company---2121
+Facility---2385
+Government---10200
+]
+2954
+p_2086681434	hasTypes	list[ ]
+list= [Government---2636
+Company---2725
+Education---2954
+Facility---9634
+]
+3151
+p_2781909478	hasTypes	list[ ]
+list= [Government---1681
+Education---3151
+Company---9163
+Facility---23807
+]
+244
+p_2803094129	hasTypes	list[ ]
+list= [Education---244
+Company---1218
+Government---2675
+Facility---13924
+]
+531
+p_2044887587	hasTypes	list[ ]
+list= [Education---531
+Company---1383
+Facility---1564
+Government---1976
+]
+5112
+p_2391420982	hasTypes	list[ ]
+list= [Education---5112
+Facility---9731
+Company---9975
+Government---19973
+]
+86
+p_2126295269	hasTypes	list[ ]
+list= [Education---86
+Government---933
+Company---2142
+Facility---3723
+]
+1182
+p_1603375287	hasTypes	list[ ]
+list= [Education---1182
+Company---2155
+Facility---6343
+Government---6382
+]
+2027
+p_2044157563	hasTypes	list[ ]
+list= [Education---2027
+Government---3719
+Facility---4375
+Company---4436
+]
+1700
+p_2093539013	hasTypes	list[ ]
+list= [Company---864
+Government---965
+Education---1700
+Facility---11020
+]
+2023
+p_2382771743	hasTypes	list[ ]
+list= [Facility---189
+Education---2023
+Government---2631
+Company---4033
+]
+2600
+p_2122476330	hasTypes	list[ ]
+list= [Facility---1874
+Education---2600
+Company---10278
+Government---12005
+]
+998
+p_1603308148	hasTypes	list[ ]
+list= [Education---998
+Facility---1896
+Government---3332
+Company---6294
+]
+475
+p_124488546	hasTypes	list[ ]
+list= [Education---475
+Company---2705
+Government---4888
+Facility---7184
+]
+3481
+p_2372072201	hasTypes	list[ ]
+list= [Government---2592
+Education---3481
+Facility---16984
+Company---18755
+]
+377
+p_1987939270	hasTypes	list[ ]
+list= [Education---377
+Government---892
+Company---2146
+Facility---3634
+]
+2433
+p_2172239961	hasTypes	list[ ]
+list= [Education---900
+Company---2433
+Government---4647
+Facility---25500
+]
+1306
+p_2122935446	hasTypes	list[ ]
+list= [Company---755
+Facility---972
+Education---1306
+Government---3599
+]
+1419
+p_2767978081	hasTypes	list[ ]
+list= [Education---1419
+Company---5464
+Government---7052
+Facility---22335
+]
+751
+p_37468747	hasTypes	list[ ]
+list= [Company---416
+Education---751
+Government---825
+Facility---5500
+]
+2242
+p_2353972654	hasTypes	list[ ]
+list= [Government---802
+Education---2242
+Facility---5431
+Company---9171
+]
+2075
+p_2620030300	hasTypes	list[ ]
+list= [Education---2075
+Government---2283
+Company---6200
+Facility---13328
+]
+4088
+p_2128411853	hasTypes	list[ ]
+list= [Government---2159
+Education---4088
+Company---4360
+Facility---18288
+]
+972
+p_2787321857	hasTypes	list[ ]
+list= [Education---972
+Government---3077
+Company---8256
+Facility---24067
+]
+3136
+p_2106201157	hasTypes	list[ ]
+list= [Education---3136
+Facility---7317
+Company---15279
+Government---17755
+]
+959
+p_2115054635	hasTypes	list[ ]
+list= [Education---959
+Company---2948
+Government---6707
+Facility---11104
+]
+691
+p_1591001642	hasTypes	list[ ]
+list= [Education---691
+Government---1740
+Company---6286
+Facility---14383
+]
+808
+p_2104701062	hasTypes	list[ ]
+list= [Education---808
+Government---1950
+Facility---5761
+Company---7080
+]
+1756
+p_2135613705	hasTypes	list[ ]
+list= [Education---1756
+Government---7784
+Facility---9274
+Company---10522
+]
+430
+p_2742157719	hasTypes	list[ ]
+list= [Education---430
+Company---880
+Government---2444
+Facility---3844
+]
+11985
+p_2119803416	hasTypes	list[ ]
+list= [Company---1195
+Facility---2982
+Government---11985
+Education---17255
+]
+1033
+p_1490436266	hasTypes	list[ ]
+list= [Company---714
+Education---1033
+Government---8466
+Facility---12772
+]
+2380
+p_2619848307	hasTypes	list[ ]
+list= [Company---2139
+Education---2380
+Facility---6079
+Government---6323
+]
+1131
+p_2103332245	hasTypes	list[ ]
+list= [Education---1131
+Government---1515
+Company---6226
+Facility---6837
+]
+1790
+p_2607255151	hasTypes	list[ ]
+list= [Company---772
+Education---1790
+Government---2420
+Facility---2692
+]
+1258
+p_2109788599	hasTypes	list[ ]
+list= [Company---533
+Education---1258
+Facility---4019
+Government---12286
+]
+2762
+p_2801591764	hasTypes	list[ ]
+list= [Company---1664
+Education---2762
+Government---6865
+Facility---9673
+]
+831
+p_1986844227	hasTypes	list[ ]
+list= [Government---515
+Education---831
+Company---7938
+Facility---10041
+]
+1463
+p_1540886093	hasTypes	list[ ]
+list= [Education---1463
+Government---3442
+Company---11510
+Facility---19781
+]
+1701
+p_2294278095	hasTypes	list[ ]
+list= [Education---1701
+Facility---1736
+Government---7976
+Company---8121
+]
+5036
+p_2884648580	hasTypes	list[ ]
+list= [Company---356
+Government---732
+Facility---5036
+Education---8204
+]
+5539
+p_813981958	hasTypes	list[ ]
+list= [Facility---370
+Education---5539
+Government---6004
+Company---13765
+]
+1124
+p_2373326143	hasTypes	list[ ]
+list= [Company---657
+Education---1124
+Government---3022
+Facility---25862
+]
+3016
+p_2032912464	hasTypes	list[ ]
+list= [Education---3017
+Company---4535
+Government---6525
+Facility---19806
+]
+325
+p_2138442768	hasTypes	list[ ]
+list= [Company---112
+Education---325
+Government---612
+Facility---4173
+]
+4913
+p_2807414627	hasTypes	list[ ]
+list= [Education---4913
+Company---10435
+Government---17849
+Facility---20699
+]
+1816
+p_2389048378	hasTypes	list[ ]
+list= [Facility---1095
+Government---1148
+Education---1816
+Company---8386
+]
+4917
+p_2100642036	hasTypes	list[ ]
+list= [Facility---1264
+Education---4917
+Government---10505
+Company---16737
+]
+1301
+p_2313773205	hasTypes	list[ ]
+list= [Education---1302
+Company---2487
+Government---7239
+Facility---22604
+]
+3734
+p_2391264707	hasTypes	list[ ]
+list= [Government---2068
+Education---3734
+Company---8196
+Facility---28897
+]
+2126
+p_1998532795	hasTypes	list[ ]
+list= [Facility---1843
+Education---2126
+Company---3508
+Government---3993
+]
+3634
+p_1984532732	hasTypes	list[ ]
+list= [Company---748
+Government---2837
+Education---3634
+Facility---6115
+]
+2915
+p_1952882566	hasTypes	list[ ]
+list= [Education---2915
+Government---9601
+Company---10580
+Facility---14534
+]
+1616
+p_2356824581	hasTypes	list[ ]
+list= [Education---1616
+Government---2141
+Company---9910
+Facility---14167
+]
+198
+p_2126246014	hasTypes	list[ ]
+list= [Education---198
+Company---2143
+Government---2330
+Facility---5862
+]
+2119
+p_2742157719	hasTypes	list[ ]
+list= [Company---2119
+Government---2443
+Facility---3843
+Education---3848
+]
+599
+p_1548154052	hasTypes	list[ ]
+list= [Facility---82
+Education---599
+Company---2019
+Government---7742
+]
+7410
+p_2105935171	hasTypes	list[ ]
+list= [Education---1457
+Government---5487
+Company---7410
+Facility---10630
+]
+735
+p_1827451773	hasTypes	list[ ]
+list= [Education---735
+Government---1814
+Company---5939
+Facility---9073
+]
+2187
+p_2139568673	hasTypes	list[ ]
+list= [Education---2187
+Government---9532
+Facility---11387
+Company---11993
+]
+1295
+p_2352846239	hasTypes	list[ ]
+list= [Government---1141
+Education---1295
+Company---3566
+Facility---10778
+]
+276
+p_2391811485	hasTypes	list[ ]
+list= [Facility---89
+Education---276
+Company---4257
+Government---4676
+]
+1306
+p_2145738102	hasTypes	list[ ]
+list= [Education---1306
+Government---5517
+Company---10460
+Facility---16799
+]
+1594
+p_2100091528	hasTypes	list[ ]
+list= [Government---599
+Education---1594
+Facility---1708
+Company---8363
+]
+463
+p_2026509834	hasTypes	list[ ]
+list= [Education---463
+Company---1032
+Government---2997
+Facility---8989
+]
+2590
+p_1592104656	hasTypes	list[ ]
+list= [Company---2518
+Education---2590
+Facility---4692
+Government---11562
+]
+371
+p_2055636670	hasTypes	list[ ]
+list= [Education---371
+Company---1301
+Government---1974
+Facility---4314
+]
+1690
+p_2033388528	hasTypes	list[ ]
+list= [Government---872
+Education---1690
+Company---6775
+Facility---7591
+]
+2755
+p_2181253490	hasTypes	list[ ]
+list= [Education---2755
+Company---11424
+Government---11489
+Facility---13691
+]
+2491
+p_1547921122	hasTypes	list[ ]
+list= [Facility---657
+Education---2491
+Government---5720
+Company---9713
+]
+1540
+p_2047885176	hasTypes	list[ ]
+list= [Company---148
+Education---1540
+Government---3350
+Facility---25878
+]
+1605
+p_1645522610	hasTypes	list[ ]
+list= [Education---1605
+Facility---2581
+Company---4980
+Government---9852
+]
+2003
+p_2131801920	hasTypes	list[ ]
+list= [Company---581
+Education---2003
+Government---6593
+Facility---18475
+]
+133
+p_2524056525	hasTypes	list[ ]
+list= [Company---133
+Education---343
+Government---1887
+Facility---10399
+]
+36
+p_2890136567	hasTypes	list[ ]
+list= [Education---36
+Facility---192
+Company---1030
+Government---1518
+]
+1914
+p_1568005484	hasTypes	list[ ]
+list= [Education---1914
+Facility---8582
+Government---12266
+Company---12625
+]
+769
+p_2789330345	hasTypes	list[ ]
+list= [Company---261
+Education---769
+Facility---3079
+Government---7001
+]
+1056
+p_2072201361	hasTypes	list[ ]
+list= [Education---1056
+Company---3593
+Government---7330
+Facility---14999
+]
+2447
+p_2509359648	hasTypes	list[ ]
+list= [Education---2447
+Facility---2958
+Company---3528
+Government---19083
+]
+1392
+p_2172956996	hasTypes	list[ ]
+list= [Government---999
+Education---1392
+Company---2541
+Facility---22351
+]
+4678
+p_2875104637	hasTypes	list[ ]
+list= [Education---2841
+Company---4679
+Facility---6419
+Government---6794
+]
+836
+p_2158810475	hasTypes	list[ ]
+list= [Education---836
+Company---3292
+Government---4264
+Facility---18801
+]
+357
+p_2164255394	hasTypes	list[ ]
+list= [Company---319
+Education---357
+Facility---1866
+Government---7912
+]
+2421
+p_2032189747	hasTypes	list[ ]
+list= [Government---315
+Education---2421
+Company---9439
+Facility---14564
+]
+453
+p_2002959912	hasTypes	list[ ]
+list= [Education---453
+Government---921
+Facility---4018
+Company---4132
+]
+2392
+p_2824675446	hasTypes	list[ ]
+list= [Education---2392
+Facility---6176
+Government---10875
+Company---14165
+]
+113
+p_1593377730	hasTypes	list[ ]
+list= [Government---17
+Education---113
+Company---1060
+Facility---6862
+]
+1801
+p_2110427152	hasTypes	list[ ]
+list= [Government---919
+Facility---1459
+Education---1801
+Company---8084
+]
+120
+p_55412705	hasTypes	list[ ]
+list= [Education---120
+Government---1482
+Company---1994
+Facility---8951
+]
+3691
+p_2139906513	hasTypes	list[ ]
+list= [Education---3691
+Company---5156
+Government---10074
+Facility---24501
+]
+1635
+p_2047397429	hasTypes	list[ ]
+list= [Facility---1421
+Education---1635
+Company---10385
+Government---13269
+]
+1435
+p_2127660370	hasTypes	list[ ]
+list= [Education---1435
+Company---4799
+Government---5159
+Facility---11002
+]
