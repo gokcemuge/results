@@ -1,1004 +1,1536 @@
-2020-08-13 21:01:13,977 INFO     NO INJECTION
-2020-08-13 21:01:13,977 INFO     Model: TransQuatE
-2020-08-13 21:01:13,978 INFO     Data Path: data/SD2020
-2020-08-13 21:01:13,978 INFO     #entity: 68907
-2020-08-13 21:01:13,978 INFO     #relation: 13
-2020-08-13 21:01:14,116 INFO     #train: 142188
-2020-08-13 21:01:14,134 INFO     #valid: 17783
-2020-08-13 21:01:14,135 INFO     #test: 612
+2020-08-16 21:39:54,192 INFO     NO INJECTION
+2020-08-16 21:39:54,192 INFO     Model: TransQuatE
+2020-08-16 21:39:54,192 INFO     Data Path: data/SD2020
+2020-08-16 21:39:54,192 INFO     #entity: 68907
+2020-08-16 21:39:54,193 INFO     #relation: 13
+2020-08-16 21:39:54,323 INFO     #train: 142188
+2020-08-16 21:39:54,328 INFO     #valid: 5437
+2020-08-16 21:39:54,329 INFO     #test: 612
 rules not injected
 Temperature -  1.0
 
 Model - TransQuatE; opt - ada; batch size - 256; dataset - data/SD2020; lr - 0.1, gamma = 15.0; 
-Loss fnc - uncertain_loss; inv - False; impl - False; sym - False; eq - False
-2020-08-13 21:01:14,211 INFO     Model: TransQuatE
-2020-08-13 21:01:14,211 INFO     Data Path: data/SD2020
-2020-08-13 21:01:14,211 INFO     #entity: 68907
-2020-08-13 21:01:14,211 INFO     #relation: 13
-2020-08-13 21:01:14,211 INFO     optimizer: ada
-2020-08-13 21:01:14,211 INFO     learning rate: 0.100000
-2020-08-13 21:01:14,211 INFO     loss: uncertain_loss
-2020-08-13 21:01:14,211 INFO     Model Parameter Configuration:
-2020-08-13 21:01:14,212 INFO     Parameter gamma: torch.Size([1]), require_grad = False
-2020-08-13 21:01:14,212 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
-2020-08-13 21:01:14,212 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
-2020-08-13 21:01:14,212 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
-2020-08-13 21:01:14,212 INFO     Parameter entity_embedding: torch.Size([68907, 20]), require_grad = True
-2020-08-13 21:01:14,212 INFO     Parameter relation_embedding: torch.Size([13, 20]), require_grad = True
-2020-08-13 21:01:14,212 INFO     Parameter rotator_head: torch.Size([13, 20]), require_grad = True
-2020-08-13 21:01:14,212 INFO     Parameter rotator_tail: torch.Size([13, 20]), require_grad = True
-2020-08-13 21:01:14,213 INFO     Loss function uncertain_loss
-2020-08-13 21:01:17,622 INFO     Ramdomly Initializing TransQuatE Model...
-2020-08-13 21:01:17,622 INFO     Max steps - 200000
-2020-08-13 21:01:17,622 INFO     Negative sample 10 
-2020-08-13 21:01:19,292 INFO     Training average positive_sample_loss at step 0: 0.000001
-2020-08-13 21:01:19,292 INFO     Training average negative_sample_loss at step 0: 14.512273
-2020-08-13 21:01:19,292 INFO     Training average loss at step 0: 84047.257812
-2020-08-13 21:06:30,933 INFO     Training average positive_sample_loss at step 5000: 0.473419
-2020-08-13 21:06:30,934 INFO     Training average negative_sample_loss at step 5000: 0.600650
-2020-08-13 21:06:30,934 INFO     Training average loss at step 5000: 8757.842210
-2020-08-13 21:11:34,691 INFO     Training average positive_sample_loss at step 10000: 0.422978
-2020-08-13 21:11:34,692 INFO     Training average negative_sample_loss at step 10000: 0.522821
-2020-08-13 21:11:34,692 INFO     Training average loss at step 10000: 0.929075
-2020-08-13 21:16:57,986 INFO     Training average positive_sample_loss at step 15000: 0.397373
-2020-08-13 21:16:57,987 INFO     Training average negative_sample_loss at step 15000: 0.499825
-2020-08-13 21:16:57,987 INFO     Training average loss at step 15000: 0.857285
-2020-08-13 21:22:12,253 INFO     Training average positive_sample_loss at step 20000: 0.366488
-2020-08-13 21:22:12,253 INFO     Training average negative_sample_loss at step 20000: 0.470250
-2020-08-13 21:22:12,253 INFO     Training average loss at step 20000: 0.794834
-2020-08-13 21:27:32,338 INFO     Training average positive_sample_loss at step 25000: 0.321644
-2020-08-13 21:27:32,338 INFO     Training average negative_sample_loss at step 25000: 0.419972
-2020-08-13 21:27:32,339 INFO     Training average loss at step 25000: 0.722009
-2020-08-13 21:32:44,794 INFO     Training average positive_sample_loss at step 30000: 0.277551
-2020-08-13 21:32:44,794 INFO     Training average negative_sample_loss at step 30000: 0.361330
-2020-08-13 21:32:44,794 INFO     Training average loss at step 30000: 0.650746
-2020-08-13 21:38:02,366 INFO     Training average positive_sample_loss at step 35000: 0.248405
-2020-08-13 21:38:02,367 INFO     Training average negative_sample_loss at step 35000: 0.321085
-2020-08-13 21:38:02,367 INFO     Training average loss at step 35000: 0.599095
-2020-08-13 21:43:21,844 INFO     Training average positive_sample_loss at step 40000: 0.228049
-2020-08-13 21:43:21,844 INFO     Training average negative_sample_loss at step 40000: 0.295814
-2020-08-13 21:43:21,844 INFO     Training average loss at step 40000: 0.562212
-2020-08-13 21:48:41,641 INFO     Training average positive_sample_loss at step 45000: 0.212431
-2020-08-13 21:48:41,642 INFO     Training average negative_sample_loss at step 45000: 0.276000
-2020-08-13 21:48:41,642 INFO     Training average loss at step 45000: 0.531866
-2020-08-13 21:53:57,647 INFO     Training average positive_sample_loss at step 50000: 0.199949
-2020-08-13 21:53:57,648 INFO     Training average negative_sample_loss at step 50000: 0.261316
-2020-08-13 21:53:57,648 INFO     Training average loss at step 50000: 0.507220
-2020-08-13 21:59:20,810 INFO     Training average positive_sample_loss at step 55000: 0.189171
-2020-08-13 21:59:20,811 INFO     Training average negative_sample_loss at step 55000: 0.248062
-2020-08-13 21:59:20,811 INFO     Training average loss at step 55000: 0.485408
-2020-08-13 22:04:32,390 INFO     Training average positive_sample_loss at step 60000: 0.179650
-2020-08-13 22:04:32,391 INFO     Training average negative_sample_loss at step 60000: 0.236956
-2020-08-13 22:04:32,391 INFO     Training average loss at step 60000: 0.466288
-2020-08-13 22:09:44,654 INFO     Training average positive_sample_loss at step 65000: 0.171548
-2020-08-13 22:09:44,654 INFO     Training average negative_sample_loss at step 65000: 0.226488
-2020-08-13 22:09:44,655 INFO     Training average loss at step 65000: 0.449033
-2020-08-13 22:15:05,764 INFO     Training average positive_sample_loss at step 70000: 0.164292
-2020-08-13 22:15:05,764 INFO     Training average negative_sample_loss at step 70000: 0.217174
-2020-08-13 22:15:05,764 INFO     Training average loss at step 70000: 0.433290
-2020-08-13 22:20:22,248 INFO     Training average positive_sample_loss at step 75000: 0.158215
-2020-08-13 22:20:22,249 INFO     Training average negative_sample_loss at step 75000: 0.208735
-2020-08-13 22:20:22,249 INFO     Training average loss at step 75000: 0.419254
-2020-08-13 22:25:40,257 INFO     Training average positive_sample_loss at step 80000: 0.152682
-2020-08-13 22:25:40,258 INFO     Training average negative_sample_loss at step 80000: 0.201919
-2020-08-13 22:25:40,258 INFO     Training average loss at step 80000: 0.406956
-2020-08-13 22:31:03,236 INFO     Training average positive_sample_loss at step 85000: 0.147846
-2020-08-13 22:31:03,236 INFO     Training average negative_sample_loss at step 85000: 0.195451
-2020-08-13 22:31:03,236 INFO     Training average loss at step 85000: 0.395535
-2020-08-13 22:36:20,573 INFO     Training average positive_sample_loss at step 90000: 0.143410
-2020-08-13 22:36:20,574 INFO     Training average negative_sample_loss at step 90000: 0.190236
-2020-08-13 22:36:20,574 INFO     Training average loss at step 90000: 0.385394
-2020-08-13 22:41:45,441 INFO     Training average positive_sample_loss at step 95000: 0.139453
-2020-08-13 22:41:45,442 INFO     Training average negative_sample_loss at step 95000: 0.185215
-2020-08-13 22:41:45,442 INFO     Training average loss at step 95000: 0.375631
-2020-08-13 22:46:22,309 INFO     Change learning_rate to 0.010000 at step 100000
-2020-08-13 22:46:24,044 INFO     Training average positive_sample_loss at step 100000: 0.135865
-2020-08-13 22:46:24,045 INFO     Training average negative_sample_loss at step 100000: 0.180857
-2020-08-13 22:46:24,045 INFO     Training average loss at step 100000: 0.367045
-2020-08-13 22:51:37,244 INFO     Training average positive_sample_loss at step 105000: 0.130989
-2020-08-13 22:51:37,244 INFO     Training average negative_sample_loss at step 105000: 0.176578
-2020-08-13 22:51:37,244 INFO     Training average loss at step 105000: 0.186825
-2020-08-13 22:57:01,212 INFO     Training average positive_sample_loss at step 110000: 0.128456
-2020-08-13 22:57:01,212 INFO     Training average negative_sample_loss at step 110000: 0.172622
-2020-08-13 22:57:01,212 INFO     Training average loss at step 110000: 0.155297
-2020-08-13 23:02:19,834 INFO     Training average positive_sample_loss at step 115000: 0.127003
-2020-08-13 23:02:19,834 INFO     Training average negative_sample_loss at step 115000: 0.170335
-2020-08-13 23:02:19,834 INFO     Training average loss at step 115000: 0.151644
-2020-08-13 23:07:38,700 INFO     Training average positive_sample_loss at step 120000: 0.125937
-2020-08-13 23:07:38,700 INFO     Training average negative_sample_loss at step 120000: 0.169012
-2020-08-13 23:07:38,700 INFO     Training average loss at step 120000: 0.149657
-2020-08-13 23:12:59,324 INFO     Training average positive_sample_loss at step 125000: 0.124968
-2020-08-13 23:12:59,324 INFO     Training average negative_sample_loss at step 125000: 0.167773
-2020-08-13 23:12:59,324 INFO     Training average loss at step 125000: 0.148096
-2020-08-13 23:18:14,829 INFO     Training average positive_sample_loss at step 130000: 0.124302
-2020-08-13 23:18:14,830 INFO     Training average negative_sample_loss at step 130000: 0.167037
-2020-08-13 23:18:14,830 INFO     Training average loss at step 130000: 0.147104
-2020-08-13 23:23:39,835 INFO     Training average positive_sample_loss at step 135000: 0.123548
-2020-08-13 23:23:39,836 INFO     Training average negative_sample_loss at step 135000: 0.165874
-2020-08-13 23:23:39,836 INFO     Training average loss at step 135000: 0.145939
-2020-08-13 23:28:55,894 INFO     Training average positive_sample_loss at step 140000: 0.122665
-2020-08-13 23:28:55,895 INFO     Training average negative_sample_loss at step 140000: 0.164737
-2020-08-13 23:28:55,895 INFO     Training average loss at step 140000: 0.144777
-2020-08-13 23:34:17,771 INFO     Training average positive_sample_loss at step 145000: 0.122240
-2020-08-13 23:34:17,771 INFO     Training average negative_sample_loss at step 145000: 0.164201
-2020-08-13 23:34:17,771 INFO     Training average loss at step 145000: 0.144180
-2020-08-13 23:39:38,608 INFO     Training average positive_sample_loss at step 150000: 0.121649
-2020-08-13 23:39:38,609 INFO     Training average negative_sample_loss at step 150000: 0.163688
-2020-08-13 23:39:38,609 INFO     Training average loss at step 150000: 0.143536
-2020-08-13 23:44:53,405 INFO     Training average positive_sample_loss at step 155000: 0.120944
-2020-08-13 23:44:53,406 INFO     Training average negative_sample_loss at step 155000: 0.162667
-2020-08-13 23:44:53,406 INFO     Training average loss at step 155000: 0.142597
-2020-08-13 23:50:10,493 INFO     Training average positive_sample_loss at step 160000: 0.120553
-2020-08-13 23:50:10,494 INFO     Training average negative_sample_loss at step 160000: 0.162343
-2020-08-13 23:50:10,494 INFO     Training average loss at step 160000: 0.142178
-2020-08-13 23:55:38,933 INFO     Training average positive_sample_loss at step 165000: 0.120140
-2020-08-13 23:55:38,934 INFO     Training average negative_sample_loss at step 165000: 0.161686
-2020-08-13 23:55:38,934 INFO     Training average loss at step 165000: 0.141592
-2020-08-14 00:00:59,038 INFO     Training average positive_sample_loss at step 170000: 0.119641
-2020-08-14 00:00:59,038 INFO     Training average negative_sample_loss at step 170000: 0.160841
-2020-08-14 00:00:59,038 INFO     Training average loss at step 170000: 0.140875
-2020-08-14 00:06:15,625 INFO     Training average positive_sample_loss at step 175000: 0.119087
-2020-08-14 00:06:15,625 INFO     Training average negative_sample_loss at step 175000: 0.160192
-2020-08-14 00:06:15,625 INFO     Training average loss at step 175000: 0.140235
-2020-08-14 00:11:37,917 INFO     Training average positive_sample_loss at step 180000: 0.118895
-2020-08-14 00:11:37,917 INFO     Training average negative_sample_loss at step 180000: 0.160302
-2020-08-14 00:11:37,918 INFO     Training average loss at step 180000: 0.140161
-2020-08-14 00:16:59,679 INFO     Training average positive_sample_loss at step 185000: 0.118468
-2020-08-14 00:16:59,679 INFO     Training average negative_sample_loss at step 185000: 0.159357
-2020-08-14 00:16:59,679 INFO     Training average loss at step 185000: 0.139446
-2020-08-14 00:22:13,537 INFO     Training average positive_sample_loss at step 190000: 0.117976
-2020-08-14 00:22:13,537 INFO     Training average negative_sample_loss at step 190000: 0.159219
-2020-08-14 00:22:13,537 INFO     Training average loss at step 190000: 0.139104
-2020-08-14 00:27:37,655 INFO     Training average positive_sample_loss at step 195000: 0.117717
-2020-08-14 00:27:37,656 INFO     Training average negative_sample_loss at step 195000: 0.158551
-2020-08-14 00:27:37,656 INFO     Training average loss at step 195000: 0.138617
-2020-08-14 00:32:54,602 INFO     Evaluating on Valid Dataset...
-2020-08-14 00:32:56,212 INFO     Evaluating the model... (0/2224)
-2020-08-14 00:34:31,538 INFO     Evaluating the model... (1000/2224)
-2020-08-14 00:36:09,074 INFO     Evaluating the model... (2000/2224)
-2020-08-14 00:36:30,853 INFO     Valid MRR at step 199999: 0.089463
-2020-08-14 00:36:30,853 INFO     Valid MR at step 199999: 8219.689676
-2020-08-14 00:36:30,853 INFO     Valid HITS@1 at step 199999: 0.063263
-2020-08-14 00:36:30,853 INFO     Valid HITS@3 at step 199999: 0.093460
-2020-08-14 00:36:30,853 INFO     Valid HITS@10 at step 199999: 0.138306
-Validation (199999): MRR - 0.0894625779230068;MR - 8219.689675532813;HITS@1 - 0.0632626665916887;HITS@3 - 0.09346004611145477;HITS@10 - 0.13830624753978518;
-2020-08-14 00:36:32,524 INFO     Evaluating the model... (0/78)
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :28 lines
-2020-08-14 00:57:32,509 INFO     Test MRR at step 199999: 0.451023
-2020-08-14 00:57:32,510 INFO     Test MR at step 199999: 188.196078
-2020-08-14 00:57:32,511 INFO     Test HITS@1 at step 199999: 0.408497
-2020-08-14 00:57:32,511 INFO     Test HITS@3 at step 199999: 0.482026
-2020-08-14 00:57:32,511 INFO     Test HITS@10 at step 199999: 0.509804
-#steps = 199999, #negs = 10, dim = 5;MRR: 0.4510226426516384;MR: 188.19607843137254;HITS@1: 0.4084967320261438;HITS@3: 0.4820261437908497;HITS@10: 0.5098039215686274
-2020-08-14 00:57:32,511 INFO     
+Loss fnc - rotate; inv - False; impl - False; sym - False; eq - False
+2020-08-16 21:39:54,368 INFO     Model: TransQuatE
+2020-08-16 21:39:54,368 INFO     Data Path: data/SD2020
+2020-08-16 21:39:54,368 INFO     #entity: 68907
+2020-08-16 21:39:54,368 INFO     #relation: 13
+2020-08-16 21:39:54,368 INFO     optimizer: ada
+2020-08-16 21:39:54,368 INFO     learning rate: 0.100000
+2020-08-16 21:39:54,368 INFO     loss: rotate
+2020-08-16 21:39:54,368 INFO     Model Parameter Configuration:
+2020-08-16 21:39:54,368 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2020-08-16 21:39:54,368 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2020-08-16 21:39:54,368 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
+2020-08-16 21:39:54,368 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
+2020-08-16 21:39:54,368 INFO     Parameter entity_embedding: torch.Size([68907, 20]), require_grad = True
+2020-08-16 21:39:54,368 INFO     Parameter relation_embedding: torch.Size([13, 20]), require_grad = True
+2020-08-16 21:39:54,369 INFO     Parameter rotator_head: torch.Size([13, 20]), require_grad = True
+2020-08-16 21:39:54,369 INFO     Parameter rotator_tail: torch.Size([13, 20]), require_grad = True
+2020-08-16 21:39:54,369 INFO     Loss function rotate
+2020-08-16 21:39:56,736 INFO     Ramdomly Initializing TransQuatE Model...
+2020-08-16 21:39:56,736 INFO     Max steps - 200000
+2020-08-16 21:39:56,736 INFO     Negative sample 10 
+2020-08-16 21:39:58,272 INFO     Training average positive_sample_loss at step 0: 0.000001
+2020-08-16 21:39:58,272 INFO     Training average negative_sample_loss at step 0: 14.508742
+2020-08-16 21:39:58,272 INFO     Training average loss at step 0: 7.254372
+2020-08-16 21:42:15,057 INFO     Training average positive_sample_loss at step 5000: 0.466890
+2020-08-16 21:42:15,058 INFO     Training average negative_sample_loss at step 5000: 0.590604
+2020-08-16 21:42:15,058 INFO     Training average loss at step 5000: 0.528747
+2020-08-16 21:44:28,614 INFO     Training average positive_sample_loss at step 10000: 0.412463
+2020-08-16 21:44:28,615 INFO     Training average negative_sample_loss at step 10000: 0.506675
+2020-08-16 21:44:28,615 INFO     Training average loss at step 10000: 0.459569
+2020-08-16 21:46:45,709 INFO     Training average positive_sample_loss at step 15000: 0.380773
+2020-08-16 21:46:45,710 INFO     Training average negative_sample_loss at step 15000: 0.478182
+2020-08-16 21:46:45,710 INFO     Training average loss at step 15000: 0.429478
+2020-08-16 21:49:01,599 INFO     Training average positive_sample_loss at step 20000: 0.340022
+2020-08-16 21:49:01,600 INFO     Training average negative_sample_loss at step 20000: 0.434967
+2020-08-16 21:49:01,600 INFO     Training average loss at step 20000: 0.387495
+2020-08-16 21:51:19,907 INFO     Training average positive_sample_loss at step 25000: 0.302584
+2020-08-16 21:51:19,908 INFO     Training average negative_sample_loss at step 25000: 0.389989
+2020-08-16 21:51:19,908 INFO     Training average loss at step 25000: 0.346287
+2020-08-16 21:53:36,796 INFO     Training average positive_sample_loss at step 30000: 0.271699
+2020-08-16 21:53:36,797 INFO     Training average negative_sample_loss at step 30000: 0.353109
+2020-08-16 21:53:36,797 INFO     Training average loss at step 30000: 0.312404
+2020-08-16 21:55:55,478 INFO     Training average positive_sample_loss at step 35000: 0.245666
+2020-08-16 21:55:55,478 INFO     Training average negative_sample_loss at step 35000: 0.320554
+2020-08-16 21:55:55,478 INFO     Training average loss at step 35000: 0.283110
+2020-08-16 21:58:10,509 INFO     Training average positive_sample_loss at step 40000: 0.224530
+2020-08-16 21:58:10,510 INFO     Training average negative_sample_loss at step 40000: 0.295383
+2020-08-16 21:58:10,510 INFO     Training average loss at step 40000: 0.259956
+2020-08-16 22:00:27,834 INFO     Training average positive_sample_loss at step 45000: 0.208138
+2020-08-16 22:00:27,835 INFO     Training average negative_sample_loss at step 45000: 0.272888
+2020-08-16 22:00:27,835 INFO     Training average loss at step 45000: 0.240513
+2020-08-16 22:02:46,359 INFO     Training average positive_sample_loss at step 50000: 0.195292
+2020-08-16 22:02:46,360 INFO     Training average negative_sample_loss at step 50000: 0.256347
+2020-08-16 22:02:46,360 INFO     Training average loss at step 50000: 0.225820
+2020-08-16 22:05:04,011 INFO     Training average positive_sample_loss at step 55000: 0.184166
+2020-08-16 22:05:04,011 INFO     Training average negative_sample_loss at step 55000: 0.242442
+2020-08-16 22:05:04,011 INFO     Training average loss at step 55000: 0.213304
+2020-08-16 22:07:19,584 INFO     Training average positive_sample_loss at step 60000: 0.175300
+2020-08-16 22:07:19,585 INFO     Training average negative_sample_loss at step 60000: 0.231840
+2020-08-16 22:07:19,585 INFO     Training average loss at step 60000: 0.203570
+2020-08-16 22:09:37,007 INFO     Training average positive_sample_loss at step 65000: 0.166873
+2020-08-16 22:09:37,008 INFO     Training average negative_sample_loss at step 65000: 0.221400
+2020-08-16 22:09:37,008 INFO     Training average loss at step 65000: 0.194137
+2020-08-16 22:11:54,631 INFO     Training average positive_sample_loss at step 70000: 0.159763
+2020-08-16 22:11:54,632 INFO     Training average negative_sample_loss at step 70000: 0.212894
+2020-08-16 22:11:54,632 INFO     Training average loss at step 70000: 0.186329
+2020-08-16 22:14:20,270 INFO     Training average positive_sample_loss at step 75000: 0.153230
+2020-08-16 22:14:20,271 INFO     Training average negative_sample_loss at step 75000: 0.204439
+2020-08-16 22:14:20,271 INFO     Training average loss at step 75000: 0.178835
+2020-08-16 22:16:47,873 INFO     Training average positive_sample_loss at step 80000: 0.147503
+2020-08-16 22:16:47,874 INFO     Training average negative_sample_loss at step 80000: 0.196820
+2020-08-16 22:16:47,874 INFO     Training average loss at step 80000: 0.172161
+2020-08-16 22:19:12,545 INFO     Training average positive_sample_loss at step 85000: 0.142523
+2020-08-16 22:19:12,546 INFO     Training average negative_sample_loss at step 85000: 0.189535
+2020-08-16 22:19:12,546 INFO     Training average loss at step 85000: 0.166029
+2020-08-16 22:21:39,660 INFO     Training average positive_sample_loss at step 90000: 0.138166
+2020-08-16 22:21:39,660 INFO     Training average negative_sample_loss at step 90000: 0.183829
+2020-08-16 22:21:39,660 INFO     Training average loss at step 90000: 0.160998
+2020-08-16 22:24:04,248 INFO     Training average positive_sample_loss at step 95000: 0.134251
+2020-08-16 22:24:04,248 INFO     Training average negative_sample_loss at step 95000: 0.178644
+2020-08-16 22:24:04,248 INFO     Training average loss at step 95000: 0.156447
+2020-08-16 22:26:28,124 INFO     Change learning_rate to 0.010000 at step 100000
+2020-08-16 22:26:30,145 INFO     Training average positive_sample_loss at step 100000: 0.130538
+2020-08-16 22:26:30,145 INFO     Training average negative_sample_loss at step 100000: 0.173999
+2020-08-16 22:26:30,145 INFO     Training average loss at step 100000: 0.152268
+2020-08-16 22:28:56,192 INFO     Training average positive_sample_loss at step 105000: 0.125831
+2020-08-16 22:28:56,192 INFO     Training average negative_sample_loss at step 105000: 0.170034
+2020-08-16 22:28:56,192 INFO     Training average loss at step 105000: 0.147933
+2020-08-16 22:31:21,749 INFO     Training average positive_sample_loss at step 110000: 0.123468
+2020-08-16 22:31:21,750 INFO     Training average negative_sample_loss at step 110000: 0.166283
+2020-08-16 22:31:21,750 INFO     Training average loss at step 110000: 0.144876
+2020-08-16 22:33:49,393 INFO     Training average positive_sample_loss at step 115000: 0.122001
+2020-08-16 22:33:49,394 INFO     Training average negative_sample_loss at step 115000: 0.163948
+2020-08-16 22:33:49,394 INFO     Training average loss at step 115000: 0.142974
+2020-08-16 22:36:10,877 INFO     Training average positive_sample_loss at step 120000: 0.120693
+2020-08-16 22:36:10,878 INFO     Training average negative_sample_loss at step 120000: 0.162193
+2020-08-16 22:36:10,878 INFO     Training average loss at step 120000: 0.141444
+2020-08-16 22:38:28,152 INFO     Training average positive_sample_loss at step 125000: 0.119752
+2020-08-16 22:38:28,153 INFO     Training average negative_sample_loss at step 125000: 0.161233
+2020-08-16 22:38:28,153 INFO     Training average loss at step 125000: 0.140493
+2020-08-16 22:40:43,673 INFO     Training average positive_sample_loss at step 130000: 0.119189
+2020-08-16 22:40:43,673 INFO     Training average negative_sample_loss at step 130000: 0.160339
+2020-08-16 22:40:43,674 INFO     Training average loss at step 130000: 0.139764
+2020-08-16 22:43:02,810 INFO     Training average positive_sample_loss at step 135000: 0.118310
+2020-08-16 22:43:02,810 INFO     Training average negative_sample_loss at step 135000: 0.159353
+2020-08-16 22:43:02,810 INFO     Training average loss at step 135000: 0.138831
+2020-08-16 22:45:18,350 INFO     Training average positive_sample_loss at step 140000: 0.117777
+2020-08-16 22:45:18,351 INFO     Training average negative_sample_loss at step 140000: 0.158610
+2020-08-16 22:45:18,351 INFO     Training average loss at step 140000: 0.138194
+2020-08-16 22:47:36,236 INFO     Training average positive_sample_loss at step 145000: 0.117125
+2020-08-16 22:47:36,236 INFO     Training average negative_sample_loss at step 145000: 0.157738
+2020-08-16 22:47:36,236 INFO     Training average loss at step 145000: 0.137432
+2020-08-16 22:49:51,401 INFO     Training average positive_sample_loss at step 150000: 0.116468
+2020-08-16 22:49:51,401 INFO     Training average negative_sample_loss at step 150000: 0.156781
+2020-08-16 22:49:51,401 INFO     Training average loss at step 150000: 0.136625
+2020-08-16 22:52:08,822 INFO     Training average positive_sample_loss at step 155000: 0.115749
+2020-08-16 22:52:08,822 INFO     Training average negative_sample_loss at step 155000: 0.156107
+2020-08-16 22:52:08,822 INFO     Training average loss at step 155000: 0.135928
+2020-08-16 22:54:24,831 INFO     Training average positive_sample_loss at step 160000: 0.115404
+2020-08-16 22:54:24,831 INFO     Training average negative_sample_loss at step 160000: 0.155507
+2020-08-16 22:54:24,831 INFO     Training average loss at step 160000: 0.135456
+2020-08-16 22:56:42,024 INFO     Training average positive_sample_loss at step 165000: 0.115014
+2020-08-16 22:56:42,024 INFO     Training average negative_sample_loss at step 165000: 0.155172
+2020-08-16 22:56:42,024 INFO     Training average loss at step 165000: 0.135093
+2020-08-16 22:58:58,351 INFO     Training average positive_sample_loss at step 170000: 0.114561
+2020-08-16 22:58:58,351 INFO     Training average negative_sample_loss at step 170000: 0.154586
+2020-08-16 22:58:58,351 INFO     Training average loss at step 170000: 0.134574
+2020-08-16 23:01:15,704 INFO     Training average positive_sample_loss at step 175000: 0.114057
+2020-08-16 23:01:15,705 INFO     Training average negative_sample_loss at step 175000: 0.153929
+2020-08-16 23:01:15,705 INFO     Training average loss at step 175000: 0.133993
+2020-08-16 23:03:31,427 INFO     Training average positive_sample_loss at step 180000: 0.113712
+2020-08-16 23:03:31,427 INFO     Training average negative_sample_loss at step 180000: 0.153109
+2020-08-16 23:03:31,427 INFO     Training average loss at step 180000: 0.133410
+2020-08-16 23:05:49,106 INFO     Training average positive_sample_loss at step 185000: 0.113207
+2020-08-16 23:05:49,106 INFO     Training average negative_sample_loss at step 185000: 0.153025
+2020-08-16 23:05:49,107 INFO     Training average loss at step 185000: 0.133116
+2020-08-16 23:08:04,276 INFO     Training average positive_sample_loss at step 190000: 0.112925
+2020-08-16 23:08:04,276 INFO     Training average negative_sample_loss at step 190000: 0.152707
+2020-08-16 23:08:04,276 INFO     Training average loss at step 190000: 0.132816
+2020-08-16 23:10:20,842 INFO     Training average positive_sample_loss at step 195000: 0.112703
+2020-08-16 23:10:20,843 INFO     Training average negative_sample_loss at step 195000: 0.152391
+2020-08-16 23:10:20,843 INFO     Training average loss at step 195000: 0.132547
+2020-08-16 23:12:36,566 INFO     Evaluating on Valid Dataset...
+2020-08-16 23:12:37,923 INFO     Evaluating the model... (0/340)
+2020-08-16 23:13:15,867 INFO     Valid MRR at step 199999: 0.089121
+2020-08-16 23:13:15,867 INFO     Valid MR at step 199999: 2908.317271
+2020-08-16 23:13:15,867 INFO     Valid HITS@1 at step 199999: 0.030164
+2020-08-16 23:13:15,867 INFO     Valid HITS@3 at step 199999: 0.083686
+2020-08-16 23:13:15,867 INFO     Valid HITS@10 at step 199999: 0.211882
+Validation (199999): MRR - 0.08912092817622314;MR - 2908.317270553614;HITS@1 - 0.030163693213169026;HITS@3 - 0.08368585617068236;HITS@10 - 0.21188155232665074;
+2020-08-16 23:13:17,305 INFO     Evaluating the model... (0/39)
+2020-08-16 23:13:20,732 INFO     Test MRR at step 199999: 0.899643
+2020-08-16 23:13:20,733 INFO     Test MR at step 199999: 1.367647
+2020-08-16 23:13:20,733 INFO     Test HITS@1 at step 199999: 0.834967
+2020-08-16 23:13:20,733 INFO     Test HITS@3 at step 199999: 0.965686
+2020-08-16 23:13:20,733 INFO     Test HITS@10 at step 199999: 0.998366
+#steps = 199999, #negs = 10, dim = 5;MRR: 0.8996431195217102;MR: 1.3676470588235294;HITS@1: 0.8349673202614379;HITS@3: 0.9656862745098039;HITS@10: 0.9983660130718954
+2020-08-16 23:13:20,733 INFO     
 -----------------------------------------------
 
-2020-08-14 00:57:34,696 INFO     NO INJECTION
-2020-08-14 00:57:34,696 INFO     Model: TransQuatE
-2020-08-14 00:57:34,696 INFO     Data Path: data/SD2020
-2020-08-14 00:57:34,696 INFO     #entity: 68907
-2020-08-14 00:57:34,696 INFO     #relation: 13
-2020-08-14 00:57:34,841 INFO     #train: 142188
-2020-08-14 00:57:34,859 INFO     #valid: 17783
-2020-08-14 00:57:34,859 INFO     #test: 612
+2020-08-16 23:13:22,842 INFO     NO INJECTION
+2020-08-16 23:13:22,843 INFO     Model: TransQuatE
+2020-08-16 23:13:22,843 INFO     Data Path: data/SD2020
+2020-08-16 23:13:22,843 INFO     #entity: 68907
+2020-08-16 23:13:22,843 INFO     #relation: 13
+2020-08-16 23:13:22,984 INFO     #train: 142188
+2020-08-16 23:13:22,990 INFO     #valid: 5437
+2020-08-16 23:13:22,991 INFO     #test: 612
 rules not injected
 Temperature -  1.0
 
 Model - TransQuatE; opt - ada; batch size - 256; dataset - data/SD2020; lr - 0.1, gamma = 4.0; 
-Loss fnc - uncertain_loss; inv - False; impl - False; sym - False; eq - False
-2020-08-14 00:57:35,265 INFO     Model: TransQuatE
-2020-08-14 00:57:35,265 INFO     Data Path: data/SD2020
-2020-08-14 00:57:35,265 INFO     #entity: 68907
-2020-08-14 00:57:35,265 INFO     #relation: 13
-2020-08-14 00:57:35,265 INFO     optimizer: ada
-2020-08-14 00:57:35,265 INFO     learning rate: 0.100000
-2020-08-14 00:57:35,265 INFO     loss: uncertain_loss
-2020-08-14 00:57:35,265 INFO     Model Parameter Configuration:
-2020-08-14 00:57:35,265 INFO     Parameter gamma: torch.Size([1]), require_grad = False
-2020-08-14 00:57:35,265 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
-2020-08-14 00:57:35,266 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
-2020-08-14 00:57:35,266 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
-2020-08-14 00:57:35,266 INFO     Parameter entity_embedding: torch.Size([68907, 200]), require_grad = True
-2020-08-14 00:57:35,266 INFO     Parameter relation_embedding: torch.Size([13, 200]), require_grad = True
-2020-08-14 00:57:35,266 INFO     Parameter rotator_head: torch.Size([13, 200]), require_grad = True
-2020-08-14 00:57:35,266 INFO     Parameter rotator_tail: torch.Size([13, 200]), require_grad = True
-2020-08-14 00:57:35,266 INFO     Loss function uncertain_loss
-2020-08-14 00:57:37,638 INFO     Ramdomly Initializing TransQuatE Model...
-2020-08-14 00:57:37,639 INFO     Max steps - 200000
-2020-08-14 00:57:37,639 INFO     Negative sample 10 
-2020-08-14 00:57:39,226 INFO     Training average positive_sample_loss at step 0: 1.234545
-2020-08-14 00:57:39,227 INFO     Training average negative_sample_loss at step 0: 0.362625
-2020-08-14 00:57:39,227 INFO     Training average loss at step 0: 78466.125000
-2020-08-14 01:00:19,688 INFO     Training average positive_sample_loss at step 5000: 0.960847
-2020-08-14 01:00:19,689 INFO     Training average negative_sample_loss at step 5000: 0.192185
-2020-08-14 01:00:19,689 INFO     Training average loss at step 5000: 8723.111497
-2020-08-14 01:03:00,495 INFO     Training average positive_sample_loss at step 10000: 0.238823
-2020-08-14 01:03:00,495 INFO     Training average negative_sample_loss at step 10000: 0.112280
-2020-08-14 01:03:00,495 INFO     Training average loss at step 10000: 0.626508
-2020-08-14 01:05:45,506 INFO     Training average positive_sample_loss at step 15000: 0.214132
-2020-08-14 01:05:45,506 INFO     Training average negative_sample_loss at step 15000: 0.097709
-2020-08-14 01:05:45,506 INFO     Training average loss at step 15000: 0.559703
-2020-08-14 01:08:30,711 INFO     Training average positive_sample_loss at step 20000: 0.204181
-2020-08-14 01:08:30,711 INFO     Training average negative_sample_loss at step 20000: 0.091581
-2020-08-14 01:08:30,711 INFO     Training average loss at step 20000: 0.520363
-2020-08-14 01:11:18,440 INFO     Training average positive_sample_loss at step 25000: 0.196500
-2020-08-14 01:11:18,441 INFO     Training average negative_sample_loss at step 25000: 0.087804
-2020-08-14 01:11:18,441 INFO     Training average loss at step 25000: 0.489448
-2020-08-14 01:14:04,487 INFO     Training average positive_sample_loss at step 30000: 0.192419
-2020-08-14 01:14:04,488 INFO     Training average negative_sample_loss at step 30000: 0.085231
-2020-08-14 01:14:04,488 INFO     Training average loss at step 30000: 0.466721
-2020-08-14 01:16:52,993 INFO     Training average positive_sample_loss at step 35000: 0.187915
-2020-08-14 01:16:52,993 INFO     Training average negative_sample_loss at step 35000: 0.083377
-2020-08-14 01:16:52,993 INFO     Training average loss at step 35000: 0.446752
-2020-08-14 01:19:41,262 INFO     Training average positive_sample_loss at step 40000: 0.185734
-2020-08-14 01:19:41,263 INFO     Training average negative_sample_loss at step 40000: 0.081793
-2020-08-14 01:19:41,263 INFO     Training average loss at step 40000: 0.430982
-2020-08-14 01:22:30,420 INFO     Training average positive_sample_loss at step 45000: 0.182344
-2020-08-14 01:22:30,420 INFO     Training average negative_sample_loss at step 45000: 0.080730
-2020-08-14 01:22:30,421 INFO     Training average loss at step 45000: 0.416322
-2020-08-14 01:25:15,407 INFO     Training average positive_sample_loss at step 50000: 0.181056
-2020-08-14 01:25:15,407 INFO     Training average negative_sample_loss at step 50000: 0.079696
-2020-08-14 01:25:15,407 INFO     Training average loss at step 50000: 0.404410
-2020-08-14 01:28:01,175 INFO     Training average positive_sample_loss at step 55000: 0.178550
-2020-08-14 01:28:01,175 INFO     Training average negative_sample_loss at step 55000: 0.078972
-2020-08-14 01:28:01,175 INFO     Training average loss at step 55000: 0.392810
-2020-08-14 01:30:46,934 INFO     Training average positive_sample_loss at step 60000: 0.177676
-2020-08-14 01:30:46,934 INFO     Training average negative_sample_loss at step 60000: 0.078141
-2020-08-14 01:30:46,934 INFO     Training average loss at step 60000: 0.383871
-2020-08-14 01:33:32,576 INFO     Training average positive_sample_loss at step 65000: 0.175530
-2020-08-14 01:33:32,576 INFO     Training average negative_sample_loss at step 65000: 0.077541
-2020-08-14 01:33:32,576 INFO     Training average loss at step 65000: 0.374051
-2020-08-14 01:36:16,988 INFO     Training average positive_sample_loss at step 70000: 0.174867
-2020-08-14 01:36:16,989 INFO     Training average negative_sample_loss at step 70000: 0.077037
-2020-08-14 01:36:16,989 INFO     Training average loss at step 70000: 0.366475
-2020-08-14 01:39:02,842 INFO     Training average positive_sample_loss at step 75000: 0.173131
-2020-08-14 01:39:02,842 INFO     Training average negative_sample_loss at step 75000: 0.076393
-2020-08-14 01:39:02,842 INFO     Training average loss at step 75000: 0.358716
-2020-08-14 01:41:46,895 INFO     Training average positive_sample_loss at step 80000: 0.172592
-2020-08-14 01:41:46,895 INFO     Training average negative_sample_loss at step 80000: 0.075973
-2020-08-14 01:41:46,895 INFO     Training average loss at step 80000: 0.351792
-2020-08-14 01:44:33,711 INFO     Training average positive_sample_loss at step 85000: 0.171198
-2020-08-14 01:44:33,712 INFO     Training average negative_sample_loss at step 85000: 0.075576
-2020-08-14 01:44:33,712 INFO     Training average loss at step 85000: 0.345331
-2020-08-14 01:47:18,028 INFO     Training average positive_sample_loss at step 90000: 0.170774
-2020-08-14 01:47:18,028 INFO     Training average negative_sample_loss at step 90000: 0.075279
-2020-08-14 01:47:18,028 INFO     Training average loss at step 90000: 0.339593
-2020-08-14 01:50:03,546 INFO     Training average positive_sample_loss at step 95000: 0.169355
-2020-08-14 01:50:03,546 INFO     Training average negative_sample_loss at step 95000: 0.074692
-2020-08-14 01:50:03,546 INFO     Training average loss at step 95000: 0.333698
-2020-08-14 01:52:45,756 INFO     Change learning_rate to 0.010000 at step 100000
-2020-08-14 01:52:47,946 INFO     Training average positive_sample_loss at step 100000: 0.169075
-2020-08-14 01:52:47,946 INFO     Training average negative_sample_loss at step 100000: 0.074510
-2020-08-14 01:52:47,946 INFO     Training average loss at step 100000: 0.328698
-2020-08-14 01:55:33,465 INFO     Training average positive_sample_loss at step 105000: 0.195749
-2020-08-14 01:55:33,466 INFO     Training average negative_sample_loss at step 105000: 0.065578
-2020-08-14 01:55:33,466 INFO     Training average loss at step 105000: 0.163418
-2020-08-14 01:58:17,551 INFO     Training average positive_sample_loss at step 110000: 0.161945
-2020-08-14 01:58:17,552 INFO     Training average negative_sample_loss at step 110000: 0.070675
-2020-08-14 01:58:17,552 INFO     Training average loss at step 110000: 0.121022
-2020-08-14 02:01:03,891 INFO     Training average positive_sample_loss at step 115000: 0.157130
-2020-08-14 02:01:03,892 INFO     Training average negative_sample_loss at step 115000: 0.071344
-2020-08-14 02:01:03,892 INFO     Training average loss at step 115000: 0.117174
-2020-08-14 02:03:48,658 INFO     Training average positive_sample_loss at step 120000: 0.155453
-2020-08-14 02:03:48,659 INFO     Training average negative_sample_loss at step 120000: 0.071342
-2020-08-14 02:03:48,659 INFO     Training average loss at step 120000: 0.115549
-2020-08-14 02:06:34,936 INFO     Training average positive_sample_loss at step 125000: 0.154190
-2020-08-14 02:06:34,937 INFO     Training average negative_sample_loss at step 125000: 0.071246
-2020-08-14 02:06:34,937 INFO     Training average loss at step 125000: 0.114414
-2020-08-14 02:09:19,690 INFO     Training average positive_sample_loss at step 130000: 0.153458
-2020-08-14 02:09:19,690 INFO     Training average negative_sample_loss at step 130000: 0.071004
-2020-08-14 02:09:19,690 INFO     Training average loss at step 130000: 0.113639
-2020-08-14 02:12:06,429 INFO     Training average positive_sample_loss at step 135000: 0.152876
-2020-08-14 02:12:06,430 INFO     Training average negative_sample_loss at step 135000: 0.070900
-2020-08-14 02:12:06,430 INFO     Training average loss at step 135000: 0.113090
-2020-08-14 02:14:51,533 INFO     Training average positive_sample_loss at step 140000: 0.152623
-2020-08-14 02:14:51,534 INFO     Training average negative_sample_loss at step 140000: 0.070944
-2020-08-14 02:14:51,534 INFO     Training average loss at step 140000: 0.112837
-2020-08-14 02:17:37,734 INFO     Training average positive_sample_loss at step 145000: 0.152126
-2020-08-14 02:17:37,734 INFO     Training average negative_sample_loss at step 145000: 0.070730
-2020-08-14 02:17:37,734 INFO     Training average loss at step 145000: 0.112365
-2020-08-14 02:20:22,465 INFO     Training average positive_sample_loss at step 150000: 0.151990
-2020-08-14 02:20:22,466 INFO     Training average negative_sample_loss at step 150000: 0.070568
-2020-08-14 02:20:22,466 INFO     Training average loss at step 150000: 0.112125
-2020-08-14 02:23:08,301 INFO     Training average positive_sample_loss at step 155000: 0.151542
-2020-08-14 02:23:08,302 INFO     Training average negative_sample_loss at step 155000: 0.070216
-2020-08-14 02:23:08,302 INFO     Training average loss at step 155000: 0.111651
-2020-08-14 02:25:52,999 INFO     Training average positive_sample_loss at step 160000: 0.151430
-2020-08-14 02:25:52,999 INFO     Training average negative_sample_loss at step 160000: 0.070229
-2020-08-14 02:25:52,999 INFO     Training average loss at step 160000: 0.111541
-2020-08-14 02:28:39,621 INFO     Training average positive_sample_loss at step 165000: 0.151235
-2020-08-14 02:28:39,621 INFO     Training average negative_sample_loss at step 165000: 0.070302
-2020-08-14 02:28:39,622 INFO     Training average loss at step 165000: 0.111427
-2020-08-14 02:31:23,902 INFO     Training average positive_sample_loss at step 170000: 0.151104
-2020-08-14 02:31:23,902 INFO     Training average negative_sample_loss at step 170000: 0.070189
-2020-08-14 02:31:23,902 INFO     Training average loss at step 170000: 0.111263
-2020-08-14 02:34:10,136 INFO     Training average positive_sample_loss at step 175000: 0.150813
-2020-08-14 02:34:10,137 INFO     Training average negative_sample_loss at step 175000: 0.069865
-2020-08-14 02:34:10,137 INFO     Training average loss at step 175000: 0.110917
-2020-08-14 02:36:54,660 INFO     Training average positive_sample_loss at step 180000: 0.150804
-2020-08-14 02:36:54,660 INFO     Training average negative_sample_loss at step 180000: 0.070059
-2020-08-14 02:36:54,660 INFO     Training average loss at step 180000: 0.110976
-2020-08-14 02:39:41,236 INFO     Training average positive_sample_loss at step 185000: 0.150567
-2020-08-14 02:39:41,237 INFO     Training average negative_sample_loss at step 185000: 0.069820
-2020-08-14 02:39:41,237 INFO     Training average loss at step 185000: 0.110710
-2020-08-14 02:42:25,835 INFO     Training average positive_sample_loss at step 190000: 0.150466
-2020-08-14 02:42:25,835 INFO     Training average negative_sample_loss at step 190000: 0.069763
-2020-08-14 02:42:25,835 INFO     Training average loss at step 190000: 0.110605
-2020-08-14 02:45:11,503 INFO     Training average positive_sample_loss at step 195000: 0.150292
-2020-08-14 02:45:11,504 INFO     Training average negative_sample_loss at step 195000: 0.069721
-2020-08-14 02:45:11,504 INFO     Training average loss at step 195000: 0.110474
-2020-08-14 02:47:56,126 INFO     Evaluating on Valid Dataset...
-2020-08-14 02:47:57,755 INFO     Evaluating the model... (0/2224)
-2020-08-14 02:49:38,403 INFO     Evaluating the model... (1000/2224)
-2020-08-14 02:51:23,839 INFO     Evaluating the model... (2000/2224)
-2020-08-14 02:51:47,291 INFO     Valid MRR at step 199999: 0.143650
-2020-08-14 02:51:47,292 INFO     Valid MR at step 199999: 9750.270483
-2020-08-14 02:51:47,292 INFO     Valid HITS@1 at step 199999: 0.101389
-2020-08-14 02:51:47,292 INFO     Valid HITS@3 at step 199999: 0.151015
-2020-08-14 02:51:47,292 INFO     Valid HITS@10 at step 199999: 0.233172
-Validation (199999): MRR - 0.1436495176261229;MR - 9750.270483045606;HITS@1 - 0.1013889669909464;HITS@3 - 0.15101501433953776;HITS@10 - 0.2331721306866108;
-2020-08-14 02:51:48,940 INFO     Evaluating the model... (0/78)
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :28 lines
-2020-08-14 03:12:05,092 INFO     Test MRR at step 199999: 0.440535
-2020-08-14 03:12:05,093 INFO     Test MR at step 199999: 151.048203
-2020-08-14 03:12:05,093 INFO     Test HITS@1 at step 199999: 0.393791
-2020-08-14 03:12:05,093 INFO     Test HITS@3 at step 199999: 0.477124
-2020-08-14 03:12:05,093 INFO     Test HITS@10 at step 199999: 0.509804
-#steps = 199999, #negs = 10, dim = 50;MRR: 0.44053541080985076;MR: 151.04820261437908;HITS@1: 0.3937908496732026;HITS@3: 0.477124183006536;HITS@10: 0.5098039215686274
-2020-08-14 03:12:05,093 INFO     
+Loss fnc - rotate; inv - False; impl - False; sym - False; eq - False
+2020-08-16 23:13:23,353 INFO     Model: TransQuatE
+2020-08-16 23:13:23,353 INFO     Data Path: data/SD2020
+2020-08-16 23:13:23,353 INFO     #entity: 68907
+2020-08-16 23:13:23,353 INFO     #relation: 13
+2020-08-16 23:13:23,353 INFO     optimizer: ada
+2020-08-16 23:13:23,353 INFO     learning rate: 0.100000
+2020-08-16 23:13:23,353 INFO     loss: rotate
+2020-08-16 23:13:23,353 INFO     Model Parameter Configuration:
+2020-08-16 23:13:23,353 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2020-08-16 23:13:23,353 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2020-08-16 23:13:23,353 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
+2020-08-16 23:13:23,354 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
+2020-08-16 23:13:23,354 INFO     Parameter entity_embedding: torch.Size([68907, 200]), require_grad = True
+2020-08-16 23:13:23,354 INFO     Parameter relation_embedding: torch.Size([13, 200]), require_grad = True
+2020-08-16 23:13:23,354 INFO     Parameter rotator_head: torch.Size([13, 200]), require_grad = True
+2020-08-16 23:13:23,354 INFO     Parameter rotator_tail: torch.Size([13, 200]), require_grad = True
+2020-08-16 23:13:23,354 INFO     Loss function rotate
+2020-08-16 23:13:25,979 INFO     Ramdomly Initializing TransQuatE Model...
+2020-08-16 23:13:25,979 INFO     Max steps - 200000
+2020-08-16 23:13:25,979 INFO     Negative sample 10 
+2020-08-16 23:13:27,716 INFO     Training average positive_sample_loss at step 0: 1.231959
+2020-08-16 23:13:27,717 INFO     Training average negative_sample_loss at step 0: 0.361665
+2020-08-16 23:13:27,717 INFO     Training average loss at step 0: 0.796812
+2020-08-16 23:15:57,307 INFO     Training average positive_sample_loss at step 5000: 0.950587
+2020-08-16 23:15:57,307 INFO     Training average negative_sample_loss at step 5000: 0.188832
+2020-08-16 23:15:57,307 INFO     Training average loss at step 5000: 0.569709
+2020-08-16 23:18:25,684 INFO     Training average positive_sample_loss at step 10000: 0.233727
+2020-08-16 23:18:25,684 INFO     Training average negative_sample_loss at step 10000: 0.110437
+2020-08-16 23:18:25,684 INFO     Training average loss at step 10000: 0.172082
+2020-08-16 23:20:57,419 INFO     Training average positive_sample_loss at step 15000: 0.209519
+2020-08-16 23:20:57,419 INFO     Training average negative_sample_loss at step 15000: 0.096018
+2020-08-16 23:20:57,419 INFO     Training average loss at step 15000: 0.152769
+2020-08-16 23:23:31,048 INFO     Training average positive_sample_loss at step 20000: 0.199690
+2020-08-16 23:23:31,049 INFO     Training average negative_sample_loss at step 20000: 0.089869
+2020-08-16 23:23:31,049 INFO     Training average loss at step 20000: 0.144779
+2020-08-16 23:26:02,707 INFO     Training average positive_sample_loss at step 25000: 0.192024
+2020-08-16 23:26:02,708 INFO     Training average negative_sample_loss at step 25000: 0.086099
+2020-08-16 23:26:02,708 INFO     Training average loss at step 25000: 0.139062
+2020-08-16 23:28:34,163 INFO     Training average positive_sample_loss at step 30000: 0.188297
+2020-08-16 23:28:34,164 INFO     Training average negative_sample_loss at step 30000: 0.083704
+2020-08-16 23:28:34,164 INFO     Training average loss at step 30000: 0.136001
+2020-08-16 23:31:07,022 INFO     Training average positive_sample_loss at step 35000: 0.183916
+2020-08-16 23:31:07,022 INFO     Training average negative_sample_loss at step 35000: 0.081895
+2020-08-16 23:31:07,022 INFO     Training average loss at step 35000: 0.132905
+2020-08-16 23:33:40,358 INFO     Training average positive_sample_loss at step 40000: 0.181784
+2020-08-16 23:33:40,358 INFO     Training average negative_sample_loss at step 40000: 0.080383
+2020-08-16 23:33:40,358 INFO     Training average loss at step 40000: 0.131083
+2020-08-16 23:36:12,909 INFO     Training average positive_sample_loss at step 45000: 0.178603
+2020-08-16 23:36:12,909 INFO     Training average negative_sample_loss at step 45000: 0.079287
+2020-08-16 23:36:12,909 INFO     Training average loss at step 45000: 0.128945
+2020-08-16 23:38:45,127 INFO     Training average positive_sample_loss at step 50000: 0.177360
+2020-08-16 23:38:45,127 INFO     Training average negative_sample_loss at step 50000: 0.078333
+2020-08-16 23:38:45,127 INFO     Training average loss at step 50000: 0.127847
+2020-08-16 23:41:18,400 INFO     Training average positive_sample_loss at step 55000: 0.174789
+2020-08-16 23:41:18,401 INFO     Training average negative_sample_loss at step 55000: 0.077416
+2020-08-16 23:41:18,401 INFO     Training average loss at step 55000: 0.126102
+2020-08-16 23:43:48,283 INFO     Training average positive_sample_loss at step 60000: 0.173978
+2020-08-16 23:43:48,284 INFO     Training average negative_sample_loss at step 60000: 0.076821
+2020-08-16 23:43:48,284 INFO     Training average loss at step 60000: 0.125399
+2020-08-16 23:46:19,694 INFO     Training average positive_sample_loss at step 65000: 0.171935
+2020-08-16 23:46:19,694 INFO     Training average negative_sample_loss at step 65000: 0.076151
+2020-08-16 23:46:19,694 INFO     Training average loss at step 65000: 0.124043
+2020-08-16 23:48:49,804 INFO     Training average positive_sample_loss at step 70000: 0.171251
+2020-08-16 23:48:49,804 INFO     Training average negative_sample_loss at step 70000: 0.075608
+2020-08-16 23:48:49,804 INFO     Training average loss at step 70000: 0.123430
+2020-08-16 23:51:21,282 INFO     Training average positive_sample_loss at step 75000: 0.169591
+2020-08-16 23:51:21,282 INFO     Training average negative_sample_loss at step 75000: 0.075134
+2020-08-16 23:51:21,282 INFO     Training average loss at step 75000: 0.122362
+2020-08-16 23:53:54,424 INFO     Training average positive_sample_loss at step 80000: 0.169101
+2020-08-16 23:53:54,425 INFO     Training average negative_sample_loss at step 80000: 0.074653
+2020-08-16 23:53:54,425 INFO     Training average loss at step 80000: 0.121877
+2020-08-16 23:56:26,032 INFO     Training average positive_sample_loss at step 85000: 0.167532
+2020-08-16 23:56:26,032 INFO     Training average negative_sample_loss at step 85000: 0.074146
+2020-08-16 23:56:26,032 INFO     Training average loss at step 85000: 0.120839
+2020-08-16 23:58:55,399 INFO     Training average positive_sample_loss at step 90000: 0.167125
+2020-08-16 23:58:55,399 INFO     Training average negative_sample_loss at step 90000: 0.073753
+2020-08-16 23:58:55,399 INFO     Training average loss at step 90000: 0.120439
+2020-08-17 00:01:26,096 INFO     Training average positive_sample_loss at step 95000: 0.165810
+2020-08-17 00:01:26,096 INFO     Training average negative_sample_loss at step 95000: 0.073385
+2020-08-17 00:01:26,096 INFO     Training average loss at step 95000: 0.119597
+2020-08-17 00:03:53,359 INFO     Change learning_rate to 0.010000 at step 100000
+2020-08-17 00:03:55,251 INFO     Training average positive_sample_loss at step 100000: 0.165506
+2020-08-17 00:03:55,251 INFO     Training average negative_sample_loss at step 100000: 0.073146
+2020-08-17 00:03:55,251 INFO     Training average loss at step 100000: 0.119326
+2020-08-17 00:06:26,198 INFO     Training average positive_sample_loss at step 105000: 0.192358
+2020-08-17 00:06:26,199 INFO     Training average negative_sample_loss at step 105000: 0.064503
+2020-08-17 00:06:26,199 INFO     Training average loss at step 105000: 0.128430
+2020-08-17 00:08:56,260 INFO     Training average positive_sample_loss at step 110000: 0.159144
+2020-08-17 00:08:56,260 INFO     Training average negative_sample_loss at step 110000: 0.069366
+2020-08-17 00:08:56,260 INFO     Training average loss at step 110000: 0.114255
+2020-08-17 00:11:26,902 INFO     Training average positive_sample_loss at step 115000: 0.154254
+2020-08-17 00:11:26,903 INFO     Training average negative_sample_loss at step 115000: 0.070114
+2020-08-17 00:11:26,903 INFO     Training average loss at step 115000: 0.112184
+2020-08-17 00:13:57,164 INFO     Training average positive_sample_loss at step 120000: 0.152604
+2020-08-17 00:13:57,165 INFO     Training average negative_sample_loss at step 120000: 0.070209
+2020-08-17 00:13:57,165 INFO     Training average loss at step 120000: 0.111406
+2020-08-17 00:16:28,145 INFO     Training average positive_sample_loss at step 125000: 0.151340
+2020-08-17 00:16:28,145 INFO     Training average negative_sample_loss at step 125000: 0.070136
+2020-08-17 00:16:28,145 INFO     Training average loss at step 125000: 0.110738
+2020-08-17 00:18:57,578 INFO     Training average positive_sample_loss at step 130000: 0.150665
+2020-08-17 00:18:57,579 INFO     Training average negative_sample_loss at step 130000: 0.069788
+2020-08-17 00:18:57,579 INFO     Training average loss at step 130000: 0.110227
+2020-08-17 00:21:28,291 INFO     Training average positive_sample_loss at step 135000: 0.150074
+2020-08-17 00:21:28,291 INFO     Training average negative_sample_loss at step 135000: 0.069796
+2020-08-17 00:21:28,291 INFO     Training average loss at step 135000: 0.109935
+2020-08-17 00:23:58,014 INFO     Training average positive_sample_loss at step 140000: 0.149780
+2020-08-17 00:23:58,014 INFO     Training average negative_sample_loss at step 140000: 0.069596
+2020-08-17 00:23:58,014 INFO     Training average loss at step 140000: 0.109688
+2020-08-17 00:26:28,321 INFO     Training average positive_sample_loss at step 145000: 0.149252
+2020-08-17 00:26:28,322 INFO     Training average negative_sample_loss at step 145000: 0.069433
+2020-08-17 00:26:28,322 INFO     Training average loss at step 145000: 0.109342
+2020-08-17 00:28:58,012 INFO     Training average positive_sample_loss at step 150000: 0.149128
+2020-08-17 00:28:58,012 INFO     Training average negative_sample_loss at step 150000: 0.069409
+2020-08-17 00:28:58,012 INFO     Training average loss at step 150000: 0.109268
+2020-08-17 00:31:29,580 INFO     Training average positive_sample_loss at step 155000: 0.148672
+2020-08-17 00:31:29,580 INFO     Training average negative_sample_loss at step 155000: 0.069115
+2020-08-17 00:31:29,580 INFO     Training average loss at step 155000: 0.108894
+2020-08-17 00:33:59,482 INFO     Training average positive_sample_loss at step 160000: 0.148629
+2020-08-17 00:33:59,482 INFO     Training average negative_sample_loss at step 160000: 0.069237
+2020-08-17 00:33:59,482 INFO     Training average loss at step 160000: 0.108933
+2020-08-17 00:36:30,120 INFO     Training average positive_sample_loss at step 165000: 0.148374
+2020-08-17 00:36:30,120 INFO     Training average negative_sample_loss at step 165000: 0.069005
+2020-08-17 00:36:30,120 INFO     Training average loss at step 165000: 0.108689
+2020-08-17 00:38:59,048 INFO     Training average positive_sample_loss at step 170000: 0.148234
+2020-08-17 00:38:59,049 INFO     Training average negative_sample_loss at step 170000: 0.068918
+2020-08-17 00:38:59,049 INFO     Training average loss at step 170000: 0.108576
+2020-08-17 00:41:30,394 INFO     Training average positive_sample_loss at step 175000: 0.147952
+2020-08-17 00:41:30,394 INFO     Training average negative_sample_loss at step 175000: 0.068871
+2020-08-17 00:41:30,394 INFO     Training average loss at step 175000: 0.108411
+2020-08-17 00:43:59,705 INFO     Training average positive_sample_loss at step 180000: 0.147981
+2020-08-17 00:43:59,705 INFO     Training average negative_sample_loss at step 180000: 0.068860
+2020-08-17 00:43:59,705 INFO     Training average loss at step 180000: 0.108420
+2020-08-17 00:46:30,380 INFO     Training average positive_sample_loss at step 185000: 0.147694
+2020-08-17 00:46:30,380 INFO     Training average negative_sample_loss at step 185000: 0.068563
+2020-08-17 00:46:30,381 INFO     Training average loss at step 185000: 0.108128
+2020-08-17 00:49:00,304 INFO     Training average positive_sample_loss at step 190000: 0.147605
+2020-08-17 00:49:00,304 INFO     Training average negative_sample_loss at step 190000: 0.068594
+2020-08-17 00:49:00,304 INFO     Training average loss at step 190000: 0.108100
+2020-08-17 00:51:30,790 INFO     Training average positive_sample_loss at step 195000: 0.147454
+2020-08-17 00:51:30,791 INFO     Training average negative_sample_loss at step 195000: 0.068610
+2020-08-17 00:51:30,791 INFO     Training average loss at step 195000: 0.108032
+2020-08-17 00:54:00,758 INFO     Evaluating on Valid Dataset...
+2020-08-17 00:54:02,349 INFO     Evaluating the model... (0/340)
+2020-08-17 00:54:34,450 INFO     Valid MRR at step 199999: 0.158119
+2020-08-17 00:54:34,450 INFO     Valid MR at step 199999: 3842.798418
+2020-08-17 00:54:34,451 INFO     Valid HITS@1 at step 199999: 0.053890
+2020-08-17 00:54:34,451 INFO     Valid HITS@3 at step 199999: 0.154681
+2020-08-17 00:54:34,451 INFO     Valid HITS@10 at step 199999: 0.416590
+Validation (199999): MRR - 0.15811881337422204;MR - 3842.798418245356;HITS@1 - 0.0538900128747471;HITS@3 - 0.1546808901967997;HITS@10 - 0.416590031267243;
+2020-08-17 00:54:35,793 INFO     Evaluating the model... (0/39)
+2020-08-17 00:54:39,566 INFO     Test MRR at step 199999: 0.866313
+2020-08-17 00:54:39,566 INFO     Test MR at step 199999: 1.447712
+2020-08-17 00:54:39,566 INFO     Test HITS@1 at step 199999: 0.790850
+2020-08-17 00:54:39,566 INFO     Test HITS@3 at step 199999: 0.931373
+2020-08-17 00:54:39,566 INFO     Test HITS@10 at step 199999: 1.000000
+#steps = 199999, #negs = 10, dim = 50;MRR: 0.8663126361655769;MR: 1.4477124183006536;HITS@1: 0.7908496732026143;HITS@3: 0.9313725490196079;HITS@10: 1.0
+2020-08-17 00:54:39,566 INFO     
 -----------------------------------------------
 
-2020-08-14 15:01:18,840 INFO     NO INJECTION
-2020-08-14 15:01:18,840 INFO     Model: TransE
-2020-08-14 15:01:18,840 INFO     Data Path: data/SD2020
-2020-08-14 15:01:18,840 INFO     #entity: 68907
-2020-08-14 15:01:18,840 INFO     #relation: 13
-2020-08-14 15:01:18,980 INFO     #train: 142188
-2020-08-14 15:01:18,998 INFO     #valid: 17783
-2020-08-14 15:01:18,998 INFO     #test: 612
+2020-08-17 00:54:41,561 INFO     NO INJECTION
+2020-08-17 00:54:41,561 INFO     Model: TransE
+2020-08-17 00:54:41,562 INFO     Data Path: data/SD2020
+2020-08-17 00:54:41,562 INFO     #entity: 68907
+2020-08-17 00:54:41,562 INFO     #relation: 13
+2020-08-17 00:54:41,695 INFO     #train: 142188
+2020-08-17 00:54:41,700 INFO     #valid: 5437
+2020-08-17 00:54:41,701 INFO     #test: 612
 rules not injected
 Temperature -  1.0
 
 Model - TransE; opt - ada; batch size - 256; dataset - data/SD2020; lr - 0.1, gamma = 15.0; 
-Loss fnc - uncertain_loss; inv - False; impl - False; sym - False; eq - False
-2020-08-14 15:01:19,017 INFO     Model: TransE
-2020-08-14 15:01:19,017 INFO     Data Path: data/SD2020
-2020-08-14 15:01:19,017 INFO     #entity: 68907
-2020-08-14 15:01:19,017 INFO     #relation: 13
-2020-08-14 15:01:19,018 INFO     optimizer: ada
-2020-08-14 15:01:19,018 INFO     learning rate: 0.100000
-2020-08-14 15:01:19,018 INFO     loss: uncertain_loss
-2020-08-14 15:01:19,018 INFO     Model Parameter Configuration:
-2020-08-14 15:01:19,018 INFO     Parameter gamma: torch.Size([1]), require_grad = False
-2020-08-14 15:01:19,018 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
-2020-08-14 15:01:19,018 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
-2020-08-14 15:01:19,018 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
-2020-08-14 15:01:19,018 INFO     Parameter entity_embedding: torch.Size([68907, 5]), require_grad = True
-2020-08-14 15:01:19,018 INFO     Parameter relation_embedding: torch.Size([13, 5]), require_grad = True
-2020-08-14 15:01:19,018 INFO     Loss function uncertain_loss
-2020-08-14 15:01:22,656 INFO     Ramdomly Initializing TransE Model...
-2020-08-14 15:01:22,656 INFO     Max steps - 200000
-2020-08-14 15:01:22,656 INFO     Negative sample 10 
-2020-08-14 15:01:24,235 INFO     Training average positive_sample_loss at step 0: 1.128870
-2020-08-14 15:01:24,235 INFO     Training average negative_sample_loss at step 0: 6.606358
-2020-08-14 15:01:24,235 INFO     Training average loss at step 0: 81699.453125
-2020-08-14 15:04:06,189 INFO     Training average positive_sample_loss at step 5000: 2.465090
-2020-08-14 15:04:06,189 INFO     Training average negative_sample_loss at step 5000: 2.749132
-2020-08-14 15:04:06,189 INFO     Training average loss at step 5000: 8756.590047
-2020-08-14 15:06:37,824 INFO     Training average positive_sample_loss at step 10000: 1.814000
-2020-08-14 15:06:37,825 INFO     Training average negative_sample_loss at step 10000: 1.834457
-2020-08-14 15:06:37,825 INFO     Training average loss at step 10000: 2.276799
-2020-08-14 15:09:20,679 INFO     Training average positive_sample_loss at step 15000: 1.449029
-2020-08-14 15:09:20,680 INFO     Training average negative_sample_loss at step 15000: 1.511774
-2020-08-14 15:09:20,680 INFO     Training average loss at step 15000: 1.886505
-2020-08-14 15:12:02,337 INFO     Training average positive_sample_loss at step 20000: 1.224710
-2020-08-14 15:12:02,337 INFO     Training average negative_sample_loss at step 20000: 1.312345
-2020-08-14 15:12:02,337 INFO     Training average loss at step 20000: 1.643683
-2020-08-14 15:14:47,962 INFO     Training average positive_sample_loss at step 25000: 1.066669
-2020-08-14 15:14:47,963 INFO     Training average negative_sample_loss at step 25000: 1.170601
-2020-08-14 15:14:47,963 INFO     Training average loss at step 25000: 1.468796
-2020-08-14 15:17:21,902 INFO     Training average positive_sample_loss at step 30000: 0.951767
-2020-08-14 15:17:21,902 INFO     Training average negative_sample_loss at step 30000: 1.067386
-2020-08-14 15:17:21,902 INFO     Training average loss at step 30000: 1.340310
-2020-08-14 15:20:07,386 INFO     Training average positive_sample_loss at step 35000: 0.863852
-2020-08-14 15:20:07,387 INFO     Training average negative_sample_loss at step 35000: 0.986208
-2020-08-14 15:20:07,387 INFO     Training average loss at step 35000: 1.239038
-2020-08-14 15:22:51,303 INFO     Training average positive_sample_loss at step 40000: 0.796450
-2020-08-14 15:22:51,304 INFO     Training average negative_sample_loss at step 40000: 0.920478
-2020-08-14 15:22:51,304 INFO     Training average loss at step 40000: 1.158260
-2020-08-14 15:25:36,237 INFO     Training average positive_sample_loss at step 45000: 0.741646
-2020-08-14 15:25:36,237 INFO     Training average negative_sample_loss at step 45000: 0.868701
-2020-08-14 15:25:36,237 INFO     Training average loss at step 45000: 1.092491
-2020-08-14 15:28:09,715 INFO     Training average positive_sample_loss at step 50000: 0.698188
-2020-08-14 15:28:09,716 INFO     Training average negative_sample_loss at step 50000: 0.827814
-2020-08-14 15:28:09,716 INFO     Training average loss at step 50000: 1.039841
-2020-08-14 15:30:55,619 INFO     Training average positive_sample_loss at step 55000: 0.661466
-2020-08-14 15:30:55,620 INFO     Training average negative_sample_loss at step 55000: 0.792695
-2020-08-14 15:30:55,620 INFO     Training average loss at step 55000: 0.994011
-2020-08-14 15:33:39,596 INFO     Training average positive_sample_loss at step 60000: 0.632385
-2020-08-14 15:33:39,596 INFO     Training average negative_sample_loss at step 60000: 0.762828
-2020-08-14 15:33:39,596 INFO     Training average loss at step 60000: 0.955736
-2020-08-14 15:36:24,428 INFO     Training average positive_sample_loss at step 65000: 0.605549
-2020-08-14 15:36:24,429 INFO     Training average negative_sample_loss at step 65000: 0.735102
-2020-08-14 15:36:24,429 INFO     Training average loss at step 65000: 0.920499
-2020-08-14 15:38:56,868 INFO     Training average positive_sample_loss at step 70000: 0.585247
-2020-08-14 15:38:56,868 INFO     Training average negative_sample_loss at step 70000: 0.714440
-2020-08-14 15:38:56,868 INFO     Training average loss at step 70000: 0.892744
-2020-08-14 15:41:41,909 INFO     Training average positive_sample_loss at step 75000: 0.566392
-2020-08-14 15:41:41,910 INFO     Training average negative_sample_loss at step 75000: 0.694943
-2020-08-14 15:41:41,910 INFO     Training average loss at step 75000: 0.866835
-2020-08-14 15:44:25,474 INFO     Training average positive_sample_loss at step 80000: 0.550418
-2020-08-14 15:44:25,474 INFO     Training average negative_sample_loss at step 80000: 0.678956
-2020-08-14 15:44:25,474 INFO     Training average loss at step 80000: 0.844727
-2020-08-14 15:47:10,845 INFO     Training average positive_sample_loss at step 85000: 0.536029
-2020-08-14 15:47:10,846 INFO     Training average negative_sample_loss at step 85000: 0.662404
-2020-08-14 15:47:10,846 INFO     Training average loss at step 85000: 0.823612
-2020-08-14 15:49:42,314 INFO     Training average positive_sample_loss at step 90000: 0.523968
-2020-08-14 15:49:42,314 INFO     Training average negative_sample_loss at step 90000: 0.649314
-2020-08-14 15:49:42,315 INFO     Training average loss at step 90000: 0.805355
-2020-08-14 15:52:27,354 INFO     Training average positive_sample_loss at step 95000: 0.512684
-2020-08-14 15:52:27,354 INFO     Training average negative_sample_loss at step 95000: 0.637839
-2020-08-14 15:52:27,354 INFO     Training average loss at step 95000: 0.789139
-2020-08-14 15:55:10,728 INFO     Change learning_rate to 0.010000 at step 100000
-2020-08-14 15:55:11,336 INFO     Training average positive_sample_loss at step 100000: 0.503195
-2020-08-14 15:55:11,336 INFO     Training average negative_sample_loss at step 100000: 0.626533
-2020-08-14 15:55:11,336 INFO     Training average loss at step 100000: 0.774028
-2020-08-14 15:57:57,394 INFO     Training average positive_sample_loss at step 105000: 0.494375
-2020-08-14 15:57:57,394 INFO     Training average negative_sample_loss at step 105000: 0.614886
-2020-08-14 15:57:57,395 INFO     Training average loss at step 105000: 0.587856
-2020-08-14 16:00:41,363 INFO     Training average positive_sample_loss at step 110000: 0.486776
-2020-08-14 16:00:41,363 INFO     Training average negative_sample_loss at step 110000: 0.608732
-2020-08-14 16:00:41,363 INFO     Training average loss at step 110000: 0.552711
-2020-08-14 16:03:14,545 INFO     Training average positive_sample_loss at step 115000: 0.482891
-2020-08-14 16:03:14,546 INFO     Training average negative_sample_loss at step 115000: 0.602786
-2020-08-14 16:03:14,546 INFO     Training average loss at step 115000: 0.546036
-2020-08-14 16:05:57,996 INFO     Training average positive_sample_loss at step 120000: 0.480393
-2020-08-14 16:05:57,996 INFO     Training average negative_sample_loss at step 120000: 0.600590
-2020-08-14 16:05:57,996 INFO     Training average loss at step 120000: 0.542890
-2020-08-14 16:08:44,852 INFO     Training average positive_sample_loss at step 125000: 0.478067
-2020-08-14 16:08:44,853 INFO     Training average negative_sample_loss at step 125000: 0.597934
-2020-08-14 16:08:44,853 INFO     Training average loss at step 125000: 0.539945
-2020-08-14 16:11:29,281 INFO     Training average positive_sample_loss at step 130000: 0.476222
-2020-08-14 16:11:29,281 INFO     Training average negative_sample_loss at step 130000: 0.595180
-2020-08-14 16:11:29,281 INFO     Training average loss at step 130000: 0.537352
-2020-08-14 16:14:02,351 INFO     Training average positive_sample_loss at step 135000: 0.474466
-2020-08-14 16:14:02,352 INFO     Training average negative_sample_loss at step 135000: 0.593243
-2020-08-14 16:14:02,352 INFO     Training average loss at step 135000: 0.535300
-2020-08-14 16:16:46,160 INFO     Training average positive_sample_loss at step 140000: 0.473135
-2020-08-14 16:16:46,161 INFO     Training average negative_sample_loss at step 140000: 0.591664
-2020-08-14 16:16:46,161 INFO     Training average loss at step 140000: 0.533694
-2020-08-14 16:19:32,076 INFO     Training average positive_sample_loss at step 145000: 0.471685
-2020-08-14 16:19:32,076 INFO     Training average negative_sample_loss at step 145000: 0.588893
-2020-08-14 16:19:32,076 INFO     Training average loss at step 145000: 0.531467
-2020-08-14 16:22:14,773 INFO     Training average positive_sample_loss at step 150000: 0.470461
-2020-08-14 16:22:14,773 INFO     Training average negative_sample_loss at step 150000: 0.588536
-2020-08-14 16:22:14,773 INFO     Training average loss at step 150000: 0.530585
-2020-08-14 16:24:05,073 INFO     Training average positive_sample_loss at step 155000: 0.469050
-2020-08-14 16:24:05,074 INFO     Training average negative_sample_loss at step 155000: 0.585991
-2020-08-14 16:24:05,074 INFO     Training average loss at step 155000: 0.528532
-2020-08-14 16:26:23,527 INFO     Training average positive_sample_loss at step 160000: 0.467858
-2020-08-14 16:26:23,528 INFO     Training average negative_sample_loss at step 160000: 0.585748
-2020-08-14 16:26:23,528 INFO     Training average loss at step 160000: 0.527754
-2020-08-14 16:29:08,398 INFO     Training average positive_sample_loss at step 165000: 0.466736
-2020-08-14 16:29:08,399 INFO     Training average negative_sample_loss at step 165000: 0.583840
-2020-08-14 16:29:08,399 INFO     Training average loss at step 165000: 0.526186
-2020-08-14 16:31:52,958 INFO     Training average positive_sample_loss at step 170000: 0.465769
-2020-08-14 16:31:52,958 INFO     Training average negative_sample_loss at step 170000: 0.581836
-2020-08-14 16:31:52,958 INFO     Training average loss at step 170000: 0.524656
-2020-08-14 16:34:38,958 INFO     Training average positive_sample_loss at step 175000: 0.464580
-2020-08-14 16:34:38,959 INFO     Training average negative_sample_loss at step 175000: 0.581450
-2020-08-14 16:34:38,959 INFO     Training average loss at step 175000: 0.523830
-2020-08-14 16:37:12,669 INFO     Training average positive_sample_loss at step 180000: 0.463818
-2020-08-14 16:37:12,669 INFO     Training average negative_sample_loss at step 180000: 0.580323
-2020-08-14 16:37:12,669 INFO     Training average loss at step 180000: 0.522853
-2020-08-14 16:39:57,043 INFO     Training average positive_sample_loss at step 185000: 0.462791
-2020-08-14 16:39:57,044 INFO     Training average negative_sample_loss at step 185000: 0.579732
-2020-08-14 16:39:57,044 INFO     Training average loss at step 185000: 0.522015
-2020-08-14 16:42:40,370 INFO     Training average positive_sample_loss at step 190000: 0.462197
-2020-08-14 16:42:40,370 INFO     Training average negative_sample_loss at step 190000: 0.578178
-2020-08-14 16:42:40,370 INFO     Training average loss at step 190000: 0.520915
-2020-08-14 16:45:25,665 INFO     Training average positive_sample_loss at step 195000: 0.461239
-2020-08-14 16:45:25,665 INFO     Training average negative_sample_loss at step 195000: 0.577756
-2020-08-14 16:45:25,666 INFO     Training average loss at step 195000: 0.520202
-2020-08-14 16:48:02,116 INFO     Evaluating on Valid Dataset...
-2020-08-14 16:48:03,632 INFO     Evaluating the model... (0/2224)
-2020-08-14 16:49:45,158 INFO     Evaluating the model... (1000/2224)
-2020-08-14 16:51:29,554 INFO     Evaluating the model... (2000/2224)
-2020-08-14 16:51:52,744 INFO     Valid MRR at step 199999: 0.041473
-2020-08-14 16:51:52,744 INFO     Valid MR at step 199999: 12569.800709
-2020-08-14 16:51:52,744 INFO     Valid HITS@1 at step 199999: 0.027554
-2020-08-14 16:51:52,744 INFO     Valid HITS@3 at step 199999: 0.040854
-2020-08-14 16:51:52,745 INFO     Valid HITS@10 at step 199999: 0.069926
-Validation (199999): MRR - 0.04147349920357781;MR - 12569.800708541867;HITS@1 - 0.027554405893268852;HITS@3 - 0.04085362424787719;HITS@10 - 0.06992633413934657;
-2020-08-14 16:51:54,198 INFO     Evaluating the model... (0/78)
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :28 lines
-2020-08-14 17:18:03,667 INFO     Test MRR at step 199999: 0.270745
-2020-08-14 17:18:03,667 INFO     Test MR at step 199999: 690.893791
-2020-08-14 17:18:03,667 INFO     Test HITS@1 at step 199999: 0.214869
-2020-08-14 17:18:03,667 INFO     Test HITS@3 at step 199999: 0.284314
-2020-08-14 17:18:03,667 INFO     Test HITS@10 at step 199999: 0.397059
-#steps = 199999, #negs = 10, dim = 5;MRR: 0.2707451416570178;MR: 690.8937908496732;HITS@1: 0.21486928104575165;HITS@3: 0.28431372549019607;HITS@10: 0.39705882352941174
-2020-08-14 17:18:03,668 INFO     
+Loss fnc - rotate; inv - False; impl - False; sym - False; eq - False
+2020-08-17 00:54:41,721 INFO     Model: TransE
+2020-08-17 00:54:41,721 INFO     Data Path: data/SD2020
+2020-08-17 00:54:41,721 INFO     #entity: 68907
+2020-08-17 00:54:41,721 INFO     #relation: 13
+2020-08-17 00:54:41,721 INFO     optimizer: ada
+2020-08-17 00:54:41,721 INFO     learning rate: 0.100000
+2020-08-17 00:54:41,721 INFO     loss: rotate
+2020-08-17 00:54:41,721 INFO     Model Parameter Configuration:
+2020-08-17 00:54:41,722 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2020-08-17 00:54:41,722 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2020-08-17 00:54:41,722 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
+2020-08-17 00:54:41,722 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
+2020-08-17 00:54:41,722 INFO     Parameter entity_embedding: torch.Size([68907, 5]), require_grad = True
+2020-08-17 00:54:41,722 INFO     Parameter relation_embedding: torch.Size([13, 5]), require_grad = True
+2020-08-17 00:54:41,722 INFO     Loss function rotate
+2020-08-17 00:54:45,015 INFO     Ramdomly Initializing TransE Model...
+2020-08-17 00:54:45,015 INFO     Max steps - 200000
+2020-08-17 00:54:45,015 INFO     Negative sample 10 
+2020-08-17 00:54:46,560 INFO     Training average positive_sample_loss at step 0: 1.134077
+2020-08-17 00:54:46,561 INFO     Training average negative_sample_loss at step 0: 6.678195
+2020-08-17 00:54:46,561 INFO     Training average loss at step 0: 3.906136
+2020-08-17 00:56:16,810 INFO     Training average positive_sample_loss at step 5000: 2.343288
+2020-08-17 00:56:16,811 INFO     Training average negative_sample_loss at step 5000: 2.650373
+2020-08-17 00:56:16,811 INFO     Training average loss at step 5000: 2.496830
+2020-08-17 00:57:46,990 INFO     Training average positive_sample_loss at step 10000: 1.654402
+2020-08-17 00:57:46,991 INFO     Training average negative_sample_loss at step 10000: 1.727711
+2020-08-17 00:57:46,991 INFO     Training average loss at step 10000: 1.691058
+2020-08-17 00:59:23,933 INFO     Training average positive_sample_loss at step 15000: 1.278392
+2020-08-17 00:59:23,934 INFO     Training average negative_sample_loss at step 15000: 1.386129
+2020-08-17 00:59:23,934 INFO     Training average loss at step 15000: 1.332261
+2020-08-17 01:01:00,312 INFO     Training average positive_sample_loss at step 20000: 1.053919
+2020-08-17 01:01:00,312 INFO     Training average negative_sample_loss at step 20000: 1.178407
+2020-08-17 01:01:00,312 INFO     Training average loss at step 20000: 1.116164
+2020-08-17 01:02:37,044 INFO     Training average positive_sample_loss at step 25000: 0.903303
+2020-08-17 01:02:37,045 INFO     Training average negative_sample_loss at step 25000: 1.036301
+2020-08-17 01:02:37,045 INFO     Training average loss at step 25000: 0.969801
+2020-08-17 01:03:42,343 INFO     Training average positive_sample_loss at step 30000: 0.802018
+2020-08-17 01:03:42,343 INFO     Training average negative_sample_loss at step 30000: 0.939024
+2020-08-17 01:03:42,343 INFO     Training average loss at step 30000: 0.870521
+2020-08-17 01:05:15,722 INFO     Training average positive_sample_loss at step 35000: 0.728101
+2020-08-17 01:05:15,722 INFO     Training average negative_sample_loss at step 35000: 0.864802
+2020-08-17 01:05:15,722 INFO     Training average loss at step 35000: 0.796451
+2020-08-17 01:06:46,488 INFO     Training average positive_sample_loss at step 40000: 0.674099
+2020-08-17 01:06:46,488 INFO     Training average negative_sample_loss at step 40000: 0.812344
+2020-08-17 01:06:46,488 INFO     Training average loss at step 40000: 0.743222
+2020-08-17 01:08:22,931 INFO     Training average positive_sample_loss at step 45000: 0.632771
+2020-08-17 01:08:22,932 INFO     Training average negative_sample_loss at step 45000: 0.769298
+2020-08-17 01:08:22,932 INFO     Training average loss at step 45000: 0.701034
+2020-08-17 01:09:58,690 INFO     Training average positive_sample_loss at step 50000: 0.601108
+2020-08-17 01:09:58,691 INFO     Training average negative_sample_loss at step 50000: 0.737294
+2020-08-17 01:09:58,691 INFO     Training average loss at step 50000: 0.669201
+2020-08-17 01:11:35,416 INFO     Training average positive_sample_loss at step 55000: 0.574713
+2020-08-17 01:11:35,416 INFO     Training average negative_sample_loss at step 55000: 0.710219
+2020-08-17 01:11:35,416 INFO     Training average loss at step 55000: 0.642466
+2020-08-17 01:13:10,719 INFO     Training average positive_sample_loss at step 60000: 0.555603
+2020-08-17 01:13:10,719 INFO     Training average negative_sample_loss at step 60000: 0.689075
+2020-08-17 01:13:10,719 INFO     Training average loss at step 60000: 0.622339
+2020-08-17 01:14:23,946 INFO     Training average positive_sample_loss at step 65000: 0.537907
+2020-08-17 01:14:23,946 INFO     Training average negative_sample_loss at step 65000: 0.670221
+2020-08-17 01:14:23,946 INFO     Training average loss at step 65000: 0.604064
+2020-08-17 01:15:49,937 INFO     Training average positive_sample_loss at step 70000: 0.524554
+2020-08-17 01:15:49,937 INFO     Training average negative_sample_loss at step 70000: 0.655084
+2020-08-17 01:15:49,938 INFO     Training average loss at step 70000: 0.589819
+2020-08-17 01:17:23,095 INFO     Training average positive_sample_loss at step 75000: 0.512712
+2020-08-17 01:17:23,095 INFO     Training average negative_sample_loss at step 75000: 0.642294
+2020-08-17 01:17:23,095 INFO     Training average loss at step 75000: 0.577504
+2020-08-17 01:18:59,152 INFO     Training average positive_sample_loss at step 80000: 0.502879
+2020-08-17 01:18:59,152 INFO     Training average negative_sample_loss at step 80000: 0.631061
+2020-08-17 01:18:59,152 INFO     Training average loss at step 80000: 0.566970
+2020-08-17 01:20:35,623 INFO     Training average positive_sample_loss at step 85000: 0.493528
+2020-08-17 01:20:35,623 INFO     Training average negative_sample_loss at step 85000: 0.621297
+2020-08-17 01:20:35,623 INFO     Training average loss at step 85000: 0.557412
+2020-08-17 01:22:11,958 INFO     Training average positive_sample_loss at step 90000: 0.485818
+2020-08-17 01:22:11,959 INFO     Training average negative_sample_loss at step 90000: 0.612031
+2020-08-17 01:22:11,959 INFO     Training average loss at step 90000: 0.548925
+2020-08-17 01:23:48,647 INFO     Training average positive_sample_loss at step 95000: 0.478984
+2020-08-17 01:23:48,647 INFO     Training average negative_sample_loss at step 95000: 0.604208
+2020-08-17 01:23:48,648 INFO     Training average loss at step 95000: 0.541596
+2020-08-17 01:25:09,486 INFO     Change learning_rate to 0.010000 at step 100000
+2020-08-17 01:25:10,016 INFO     Training average positive_sample_loss at step 100000: 0.473028
+2020-08-17 01:25:10,016 INFO     Training average negative_sample_loss at step 100000: 0.597078
+2020-08-17 01:25:10,016 INFO     Training average loss at step 100000: 0.535053
+2020-08-17 01:26:32,399 INFO     Training average positive_sample_loss at step 105000: 0.468283
+2020-08-17 01:26:32,399 INFO     Training average negative_sample_loss at step 105000: 0.590810
+2020-08-17 01:26:32,399 INFO     Training average loss at step 105000: 0.529547
+2020-08-17 01:28:03,614 INFO     Training average positive_sample_loss at step 110000: 0.462121
+2020-08-17 01:28:03,614 INFO     Training average negative_sample_loss at step 110000: 0.586661
+2020-08-17 01:28:03,614 INFO     Training average loss at step 110000: 0.524391
+2020-08-17 01:29:37,601 INFO     Training average positive_sample_loss at step 115000: 0.459986
+2020-08-17 01:29:37,601 INFO     Training average negative_sample_loss at step 115000: 0.583842
+2020-08-17 01:29:37,602 INFO     Training average loss at step 115000: 0.521913
+2020-08-17 01:31:09,098 INFO     Training average positive_sample_loss at step 120000: 0.458151
+2020-08-17 01:31:09,099 INFO     Training average negative_sample_loss at step 120000: 0.581664
+2020-08-17 01:31:09,099 INFO     Training average loss at step 120000: 0.519907
+2020-08-17 01:32:45,389 INFO     Training average positive_sample_loss at step 125000: 0.456581
+2020-08-17 01:32:45,390 INFO     Training average negative_sample_loss at step 125000: 0.579474
+2020-08-17 01:32:45,390 INFO     Training average loss at step 125000: 0.518027
+2020-08-17 01:34:20,731 INFO     Training average positive_sample_loss at step 130000: 0.455513
+2020-08-17 01:34:20,731 INFO     Training average negative_sample_loss at step 130000: 0.578208
+2020-08-17 01:34:20,731 INFO     Training average loss at step 130000: 0.516860
+2020-08-17 01:35:54,708 INFO     Training average positive_sample_loss at step 135000: 0.454266
+2020-08-17 01:35:54,708 INFO     Training average negative_sample_loss at step 135000: 0.576469
+2020-08-17 01:35:54,708 INFO     Training average loss at step 135000: 0.515368
+2020-08-17 01:36:41,761 INFO     Training average positive_sample_loss at step 140000: 0.453374
+2020-08-17 01:36:41,761 INFO     Training average negative_sample_loss at step 140000: 0.575417
+2020-08-17 01:36:41,761 INFO     Training average loss at step 140000: 0.514395
+2020-08-17 01:37:19,436 INFO     Training average positive_sample_loss at step 145000: 0.452474
+2020-08-17 01:37:19,436 INFO     Training average negative_sample_loss at step 145000: 0.574726
+2020-08-17 01:37:19,436 INFO     Training average loss at step 145000: 0.513599
+2020-08-17 01:37:55,935 INFO     Training average positive_sample_loss at step 150000: 0.451887
+2020-08-17 01:37:55,935 INFO     Training average negative_sample_loss at step 150000: 0.573870
+2020-08-17 01:37:55,935 INFO     Training average loss at step 150000: 0.512878
+2020-08-17 01:38:33,912 INFO     Training average positive_sample_loss at step 155000: 0.451021
+2020-08-17 01:38:33,913 INFO     Training average negative_sample_loss at step 155000: 0.572156
+2020-08-17 01:38:33,913 INFO     Training average loss at step 155000: 0.511589
+2020-08-17 01:39:10,019 INFO     Training average positive_sample_loss at step 160000: 0.450208
+2020-08-17 01:39:10,019 INFO     Training average negative_sample_loss at step 160000: 0.571534
+2020-08-17 01:39:10,019 INFO     Training average loss at step 160000: 0.510871
+2020-08-17 01:39:47,344 INFO     Training average positive_sample_loss at step 165000: 0.449212
+2020-08-17 01:39:47,344 INFO     Training average negative_sample_loss at step 165000: 0.570245
+2020-08-17 01:39:47,344 INFO     Training average loss at step 165000: 0.509728
+2020-08-17 01:40:24,861 INFO     Training average positive_sample_loss at step 170000: 0.448685
+2020-08-17 01:40:24,861 INFO     Training average negative_sample_loss at step 170000: 0.569526
+2020-08-17 01:40:24,861 INFO     Training average loss at step 170000: 0.509105
+2020-08-17 01:41:03,631 INFO     Training average positive_sample_loss at step 175000: 0.448050
+2020-08-17 01:41:03,631 INFO     Training average negative_sample_loss at step 175000: 0.568788
+2020-08-17 01:41:03,631 INFO     Training average loss at step 175000: 0.508420
+2020-08-17 01:41:40,830 INFO     Training average positive_sample_loss at step 180000: 0.447291
+2020-08-17 01:41:40,830 INFO     Training average negative_sample_loss at step 180000: 0.568526
+2020-08-17 01:41:40,830 INFO     Training average loss at step 180000: 0.507909
+2020-08-17 01:42:18,960 INFO     Training average positive_sample_loss at step 185000: 0.446986
+2020-08-17 01:42:18,960 INFO     Training average negative_sample_loss at step 185000: 0.567729
+2020-08-17 01:42:18,960 INFO     Training average loss at step 185000: 0.507357
+2020-08-17 01:42:55,018 INFO     Training average positive_sample_loss at step 190000: 0.446373
+2020-08-17 01:42:55,018 INFO     Training average negative_sample_loss at step 190000: 0.567084
+2020-08-17 01:42:55,018 INFO     Training average loss at step 190000: 0.506729
+2020-08-17 01:43:33,036 INFO     Training average positive_sample_loss at step 195000: 0.445666
+2020-08-17 01:43:33,036 INFO     Training average negative_sample_loss at step 195000: 0.565394
+2020-08-17 01:43:33,036 INFO     Training average loss at step 195000: 0.505530
+2020-08-17 01:44:10,219 INFO     Evaluating on Valid Dataset...
+2020-08-17 01:44:11,567 INFO     Evaluating the model... (0/340)
+2020-08-17 01:44:41,736 INFO     Valid MRR at step 199999: 0.030957
+2020-08-17 01:44:41,736 INFO     Valid MR at step 199999: 3785.405922
+2020-08-17 01:44:41,736 INFO     Valid HITS@1 at step 199999: 0.006070
+2020-08-17 01:44:41,736 INFO     Valid HITS@3 at step 199999: 0.027037
+2020-08-17 01:44:41,737 INFO     Valid HITS@10 at step 199999: 0.071179
+Validation (199999): MRR - 0.030957243968710527;MR - 3785.4059223836675;HITS@1 - 0.0060695236343571825;HITS@3 - 0.027036968916681992;HITS@10 - 0.07117895898473423;
+2020-08-17 01:44:43,089 INFO     Evaluating the model... (0/39)
+2020-08-17 01:44:45,770 INFO     Test MRR at step 199999: 0.657738
+2020-08-17 01:44:45,770 INFO     Test MR at step 199999: 6.284314
+2020-08-17 01:44:45,770 INFO     Test HITS@1 at step 199999: 0.500000
+2020-08-17 01:44:45,770 INFO     Test HITS@3 at step 199999: 0.771242
+2020-08-17 01:44:45,770 INFO     Test HITS@10 at step 199999: 0.970588
+#steps = 199999, #negs = 10, dim = 5;MRR: 0.6577378249589697;MR: 6.284313725490196;HITS@1: 0.5;HITS@3: 0.7712418300653595;HITS@10: 0.9705882352941176
+2020-08-17 01:44:45,770 INFO     
 -----------------------------------------------
 
-2020-08-14 17:18:05,632 INFO     NO INJECTION
-2020-08-14 17:18:05,633 INFO     Model: TransE
-2020-08-14 17:18:05,633 INFO     Data Path: data/SD2020
-2020-08-14 17:18:05,633 INFO     #entity: 68907
-2020-08-14 17:18:05,633 INFO     #relation: 13
-2020-08-14 17:18:05,769 INFO     #train: 142188
-2020-08-14 17:18:05,786 INFO     #valid: 17783
-2020-08-14 17:18:05,787 INFO     #test: 612
+2020-08-17 01:44:47,631 INFO     NO INJECTION
+2020-08-17 01:44:47,631 INFO     Model: TransE
+2020-08-17 01:44:47,631 INFO     Data Path: data/SD2020
+2020-08-17 01:44:47,631 INFO     #entity: 68907
+2020-08-17 01:44:47,631 INFO     #relation: 13
+2020-08-17 01:44:47,761 INFO     #train: 142188
+2020-08-17 01:44:47,767 INFO     #valid: 5437
+2020-08-17 01:44:47,767 INFO     #test: 612
 rules not injected
 Temperature -  1.0
 
 Model - TransE; opt - ada; batch size - 256; dataset - data/SD2020; lr - 0.1, gamma = 4.0; 
-Loss fnc - uncertain_loss; inv - False; impl - False; sym - False; eq - False
-2020-08-14 17:18:05,828 INFO     Model: TransE
-2020-08-14 17:18:05,829 INFO     Data Path: data/SD2020
-2020-08-14 17:18:05,829 INFO     #entity: 68907
-2020-08-14 17:18:05,829 INFO     #relation: 13
-2020-08-14 17:18:05,829 INFO     optimizer: ada
-2020-08-14 17:18:05,829 INFO     learning rate: 0.100000
-2020-08-14 17:18:05,829 INFO     loss: uncertain_loss
-2020-08-14 17:18:05,829 INFO     Model Parameter Configuration:
-2020-08-14 17:18:05,829 INFO     Parameter gamma: torch.Size([1]), require_grad = False
-2020-08-14 17:18:05,829 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
-2020-08-14 17:18:05,830 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
-2020-08-14 17:18:05,830 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
-2020-08-14 17:18:05,830 INFO     Parameter entity_embedding: torch.Size([68907, 50]), require_grad = True
-2020-08-14 17:18:05,830 INFO     Parameter relation_embedding: torch.Size([13, 50]), require_grad = True
-2020-08-14 17:18:05,830 INFO     Loss function uncertain_loss
-2020-08-14 17:18:08,179 INFO     Ramdomly Initializing TransE Model...
-2020-08-14 17:18:08,179 INFO     Max steps - 200000
-2020-08-14 17:18:08,179 INFO     Negative sample 10 
-2020-08-14 17:18:09,747 INFO     Training average positive_sample_loss at step 0: 1.190852
-2020-08-14 17:18:09,748 INFO     Training average negative_sample_loss at step 0: 0.431953
-2020-08-14 17:18:09,748 INFO     Training average loss at step 0: 69805.296875
-2020-08-14 17:18:57,551 INFO     Training average positive_sample_loss at step 5000: 0.684516
-2020-08-14 17:18:57,551 INFO     Training average negative_sample_loss at step 5000: 0.251223
-2020-08-14 17:18:57,551 INFO     Training average loss at step 5000: 8714.907260
-2020-08-14 17:19:45,678 INFO     Training average positive_sample_loss at step 10000: 0.238326
-2020-08-14 17:19:45,678 INFO     Training average negative_sample_loss at step 10000: 0.133843
-2020-08-14 17:19:45,678 INFO     Training average loss at step 10000: 0.635105
-2020-08-14 17:20:35,639 INFO     Training average positive_sample_loss at step 15000: 0.210797
-2020-08-14 17:20:35,639 INFO     Training average negative_sample_loss at step 15000: 0.113630
-2020-08-14 17:20:35,639 INFO     Training average loss at step 15000: 0.564718
-2020-08-14 17:21:25,267 INFO     Training average positive_sample_loss at step 20000: 0.200271
-2020-08-14 17:21:25,267 INFO     Training average negative_sample_loss at step 20000: 0.104447
-2020-08-14 17:21:25,267 INFO     Training average loss at step 20000: 0.523047
-2020-08-14 17:22:16,035 INFO     Training average positive_sample_loss at step 25000: 0.192794
-2020-08-14 17:22:16,035 INFO     Training average negative_sample_loss at step 25000: 0.098833
-2020-08-14 17:22:16,035 INFO     Training average loss at step 25000: 0.491993
-2020-08-14 17:23:04,746 INFO     Training average positive_sample_loss at step 30000: 0.188619
-2020-08-14 17:23:04,747 INFO     Training average negative_sample_loss at step 30000: 0.094963
-2020-08-14 17:23:04,747 INFO     Training average loss at step 30000: 0.468519
-2020-08-14 17:23:55,015 INFO     Training average positive_sample_loss at step 35000: 0.184652
-2020-08-14 17:23:55,015 INFO     Training average negative_sample_loss at step 35000: 0.092062
-2020-08-14 17:23:55,015 INFO     Training average loss at step 35000: 0.448721
-2020-08-14 17:24:45,078 INFO     Training average positive_sample_loss at step 40000: 0.182699
-2020-08-14 17:24:45,078 INFO     Training average negative_sample_loss at step 40000: 0.089952
-2020-08-14 17:24:45,078 INFO     Training average loss at step 40000: 0.432566
-2020-08-14 17:25:36,163 INFO     Training average positive_sample_loss at step 45000: 0.179859
-2020-08-14 17:25:36,164 INFO     Training average negative_sample_loss at step 45000: 0.088051
-2020-08-14 17:25:36,164 INFO     Training average loss at step 45000: 0.417771
-2020-08-14 17:26:25,665 INFO     Training average positive_sample_loss at step 50000: 0.178609
-2020-08-14 17:26:25,665 INFO     Training average negative_sample_loss at step 50000: 0.086573
-2020-08-14 17:26:25,665 INFO     Training average loss at step 50000: 0.406059
-2020-08-14 17:27:17,005 INFO     Training average positive_sample_loss at step 55000: 0.176478
-2020-08-14 17:27:17,005 INFO     Training average negative_sample_loss at step 55000: 0.085255
-2020-08-14 17:27:17,005 INFO     Training average loss at step 55000: 0.394356
-2020-08-14 17:28:05,859 INFO     Training average positive_sample_loss at step 60000: 0.175613
-2020-08-14 17:28:05,860 INFO     Training average negative_sample_loss at step 60000: 0.084261
-2020-08-14 17:28:05,860 INFO     Training average loss at step 60000: 0.385145
-2020-08-14 17:28:56,129 INFO     Training average positive_sample_loss at step 65000: 0.174009
-2020-08-14 17:28:56,130 INFO     Training average negative_sample_loss at step 65000: 0.083409
-2020-08-14 17:28:56,130 INFO     Training average loss at step 65000: 0.375796
-2020-08-14 17:29:46,223 INFO     Training average positive_sample_loss at step 70000: 0.173279
-2020-08-14 17:29:46,223 INFO     Training average negative_sample_loss at step 70000: 0.082470
-2020-08-14 17:29:46,223 INFO     Training average loss at step 70000: 0.367761
-2020-08-14 17:30:37,545 INFO     Training average positive_sample_loss at step 75000: 0.171909
-2020-08-14 17:30:37,545 INFO     Training average negative_sample_loss at step 75000: 0.081817
-2020-08-14 17:30:37,545 INFO     Training average loss at step 75000: 0.360005
-2020-08-14 17:31:27,068 INFO     Training average positive_sample_loss at step 80000: 0.171458
-2020-08-14 17:31:27,068 INFO     Training average negative_sample_loss at step 80000: 0.081166
-2020-08-14 17:31:27,068 INFO     Training average loss at step 80000: 0.353668
-2020-08-14 17:32:17,745 INFO     Training average positive_sample_loss at step 85000: 0.170356
-2020-08-14 17:32:17,746 INFO     Training average negative_sample_loss at step 85000: 0.080565
-2020-08-14 17:32:17,746 INFO     Training average loss at step 85000: 0.346986
-2020-08-14 17:33:06,619 INFO     Training average positive_sample_loss at step 90000: 0.169836
-2020-08-14 17:33:06,620 INFO     Training average negative_sample_loss at step 90000: 0.079966
-2020-08-14 17:33:06,620 INFO     Training average loss at step 90000: 0.341041
-2020-08-14 17:33:57,508 INFO     Training average positive_sample_loss at step 95000: 0.168842
-2020-08-14 17:33:57,509 INFO     Training average negative_sample_loss at step 95000: 0.079504
-2020-08-14 17:33:57,509 INFO     Training average loss at step 95000: 0.335440
-2020-08-14 17:34:46,585 INFO     Change learning_rate to 0.010000 at step 100000
-2020-08-14 17:34:47,195 INFO     Training average positive_sample_loss at step 100000: 0.168536
-2020-08-14 17:34:47,195 INFO     Training average negative_sample_loss at step 100000: 0.079109
-2020-08-14 17:34:47,195 INFO     Training average loss at step 100000: 0.330362
-2020-08-14 17:35:38,436 INFO     Training average positive_sample_loss at step 105000: 0.184138
-2020-08-14 17:35:38,437 INFO     Training average negative_sample_loss at step 105000: 0.072558
-2020-08-14 17:35:38,437 INFO     Training average loss at step 105000: 0.161058
-2020-08-14 17:36:28,301 INFO     Training average positive_sample_loss at step 110000: 0.165742
-2020-08-14 17:36:28,301 INFO     Training average negative_sample_loss at step 110000: 0.075115
-2020-08-14 17:36:28,301 INFO     Training average loss at step 110000: 0.125126
-2020-08-14 17:37:18,899 INFO     Training average positive_sample_loss at step 115000: 0.162119
-2020-08-14 17:37:18,899 INFO     Training average negative_sample_loss at step 115000: 0.075687
-2020-08-14 17:37:18,899 INFO     Training average loss at step 115000: 0.121840
-2020-08-14 17:38:08,007 INFO     Training average positive_sample_loss at step 120000: 0.160705
-2020-08-14 17:38:08,008 INFO     Training average negative_sample_loss at step 120000: 0.075934
-2020-08-14 17:38:08,008 INFO     Training average loss at step 120000: 0.120469
-2020-08-14 17:38:58,200 INFO     Training average positive_sample_loss at step 125000: 0.159619
-2020-08-14 17:38:58,200 INFO     Training average negative_sample_loss at step 125000: 0.075907
-2020-08-14 17:38:58,200 INFO     Training average loss at step 125000: 0.119461
-2020-08-14 17:39:48,691 INFO     Training average positive_sample_loss at step 130000: 0.159225
-2020-08-14 17:39:48,692 INFO     Training average negative_sample_loss at step 130000: 0.075977
-2020-08-14 17:39:48,692 INFO     Training average loss at step 130000: 0.119010
-2020-08-14 17:40:39,497 INFO     Training average positive_sample_loss at step 135000: 0.158661
-2020-08-14 17:40:39,498 INFO     Training average negative_sample_loss at step 135000: 0.075722
-2020-08-14 17:40:39,498 INFO     Training average loss at step 135000: 0.118395
-2020-08-14 17:41:29,384 INFO     Training average positive_sample_loss at step 140000: 0.158435
-2020-08-14 17:41:29,384 INFO     Training average negative_sample_loss at step 140000: 0.075835
-2020-08-14 17:41:29,384 INFO     Training average loss at step 140000: 0.118190
-2020-08-14 17:42:20,350 INFO     Training average positive_sample_loss at step 145000: 0.158100
-2020-08-14 17:42:20,350 INFO     Training average negative_sample_loss at step 145000: 0.075536
-2020-08-14 17:42:20,350 INFO     Training average loss at step 145000: 0.117757
-2020-08-14 17:43:09,484 INFO     Training average positive_sample_loss at step 150000: 0.157927
-2020-08-14 17:43:09,485 INFO     Training average negative_sample_loss at step 150000: 0.075527
-2020-08-14 17:43:09,485 INFO     Training average loss at step 150000: 0.117576
-2020-08-14 17:43:59,624 INFO     Training average positive_sample_loss at step 155000: 0.157737
-2020-08-14 17:43:59,624 INFO     Training average negative_sample_loss at step 155000: 0.075329
-2020-08-14 17:43:59,625 INFO     Training average loss at step 155000: 0.117307
-2020-08-14 17:44:49,158 INFO     Training average positive_sample_loss at step 160000: 0.157514
-2020-08-14 17:44:49,158 INFO     Training average negative_sample_loss at step 160000: 0.075283
-2020-08-14 17:44:49,158 INFO     Training average loss at step 160000: 0.117112
-2020-08-14 17:45:40,093 INFO     Training average positive_sample_loss at step 165000: 0.157303
-2020-08-14 17:45:40,093 INFO     Training average negative_sample_loss at step 165000: 0.075256
-2020-08-14 17:45:40,093 INFO     Training average loss at step 165000: 0.116942
-2020-08-14 17:46:30,021 INFO     Training average positive_sample_loss at step 170000: 0.157321
-2020-08-14 17:46:30,022 INFO     Training average negative_sample_loss at step 170000: 0.075065
-2020-08-14 17:46:30,022 INFO     Training average loss at step 170000: 0.116812
-2020-08-14 17:47:20,888 INFO     Training average positive_sample_loss at step 175000: 0.157062
-2020-08-14 17:47:20,889 INFO     Training average negative_sample_loss at step 175000: 0.075096
-2020-08-14 17:47:20,889 INFO     Training average loss at step 175000: 0.116659
-2020-08-14 17:48:09,879 INFO     Training average positive_sample_loss at step 180000: 0.157128
-2020-08-14 17:48:09,879 INFO     Training average negative_sample_loss at step 180000: 0.075078
-2020-08-14 17:48:09,879 INFO     Training average loss at step 180000: 0.116651
-2020-08-14 17:48:59,977 INFO     Training average positive_sample_loss at step 185000: 0.156898
-2020-08-14 17:48:59,978 INFO     Training average negative_sample_loss at step 185000: 0.074937
-2020-08-14 17:48:59,978 INFO     Training average loss at step 185000: 0.116437
-2020-08-14 17:49:49,797 INFO     Training average positive_sample_loss at step 190000: 0.156865
-2020-08-14 17:49:49,797 INFO     Training average negative_sample_loss at step 190000: 0.074920
-2020-08-14 17:49:49,797 INFO     Training average loss at step 190000: 0.116387
-2020-08-14 17:50:40,529 INFO     Training average positive_sample_loss at step 195000: 0.156806
-2020-08-14 17:50:40,530 INFO     Training average negative_sample_loss at step 195000: 0.074766
-2020-08-14 17:50:40,530 INFO     Training average loss at step 195000: 0.116257
-2020-08-14 17:51:30,433 INFO     Evaluating on Valid Dataset...
-2020-08-14 17:51:32,037 INFO     Evaluating the model... (0/2224)
-2020-08-14 17:53:14,809 INFO     Evaluating the model... (1000/2224)
-2020-08-14 17:55:00,276 INFO     Evaluating the model... (2000/2224)
-2020-08-14 17:55:23,179 INFO     Valid MRR at step 199999: 0.144687
-2020-08-14 17:55:23,180 INFO     Valid MR at step 199999: 10345.283107
-2020-08-14 17:55:23,180 INFO     Valid HITS@1 at step 199999: 0.104426
-2020-08-14 17:55:23,180 INFO     Valid HITS@3 at step 199999: 0.154755
-2020-08-14 17:55:23,180 INFO     Valid HITS@10 at step 199999: 0.225187
-Validation (199999): MRR - 0.14468695079134308;MR - 10345.283107462183;HITS@1 - 0.10442557498734746;HITS@3 - 0.15475454085362425;HITS@10 - 0.22518697632570434;
-2020-08-14 17:55:24,408 INFO     Evaluating the model... (0/78)
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :0 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :112 lines
-Creating results of total :28 lines
-2020-08-14 18:17:15,547 INFO     Test MRR at step 199999: 0.439412
-2020-08-14 18:17:15,547 INFO     Test MR at step 199999: 151.517974
-2020-08-14 18:17:15,547 INFO     Test HITS@1 at step 199999: 0.392157
-2020-08-14 18:17:15,548 INFO     Test HITS@3 at step 199999: 0.472222
-2020-08-14 18:17:15,548 INFO     Test HITS@10 at step 199999: 0.507353
-#steps = 199999, #negs = 10, dim = 50;MRR: 0.43941181970588905;MR: 151.51797385620915;HITS@1: 0.39215686274509803;HITS@3: 0.4722222222222222;HITS@10: 0.5073529411764706
-2020-08-14 18:17:15,548 INFO     
+Loss fnc - rotate; inv - False; impl - False; sym - False; eq - False
+2020-08-17 01:44:47,799 INFO     Model: TransE
+2020-08-17 01:44:47,799 INFO     Data Path: data/SD2020
+2020-08-17 01:44:47,799 INFO     #entity: 68907
+2020-08-17 01:44:47,799 INFO     #relation: 13
+2020-08-17 01:44:47,799 INFO     optimizer: ada
+2020-08-17 01:44:47,799 INFO     learning rate: 0.100000
+2020-08-17 01:44:47,799 INFO     loss: rotate
+2020-08-17 01:44:47,799 INFO     Model Parameter Configuration:
+2020-08-17 01:44:47,799 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2020-08-17 01:44:47,799 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2020-08-17 01:44:47,799 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
+2020-08-17 01:44:47,800 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
+2020-08-17 01:44:47,800 INFO     Parameter entity_embedding: torch.Size([68907, 50]), require_grad = True
+2020-08-17 01:44:47,800 INFO     Parameter relation_embedding: torch.Size([13, 50]), require_grad = True
+2020-08-17 01:44:47,800 INFO     Loss function rotate
+2020-08-17 01:44:50,173 INFO     Ramdomly Initializing TransE Model...
+2020-08-17 01:44:50,173 INFO     Max steps - 200000
+2020-08-17 01:44:50,173 INFO     Negative sample 10 
+2020-08-17 01:44:51,715 INFO     Training average positive_sample_loss at step 0: 1.198928
+2020-08-17 01:44:51,716 INFO     Training average negative_sample_loss at step 0: 0.436240
+2020-08-17 01:44:51,716 INFO     Training average loss at step 0: 0.817584
+2020-08-17 01:45:28,777 INFO     Training average positive_sample_loss at step 5000: 0.676924
+2020-08-17 01:45:28,778 INFO     Training average negative_sample_loss at step 5000: 0.247790
+2020-08-17 01:45:28,778 INFO     Training average loss at step 5000: 0.462358
+2020-08-17 01:46:05,562 INFO     Training average positive_sample_loss at step 10000: 0.235305
+2020-08-17 01:46:05,563 INFO     Training average negative_sample_loss at step 10000: 0.132395
+2020-08-17 01:46:05,563 INFO     Training average loss at step 10000: 0.183850
+2020-08-17 01:46:45,154 INFO     Training average positive_sample_loss at step 15000: 0.207967
+2020-08-17 01:46:45,155 INFO     Training average negative_sample_loss at step 15000: 0.112155
+2020-08-17 01:46:45,155 INFO     Training average loss at step 15000: 0.160061
+2020-08-17 01:47:23,685 INFO     Training average positive_sample_loss at step 20000: 0.196979
+2020-08-17 01:47:23,685 INFO     Training average negative_sample_loss at step 20000: 0.103026
+2020-08-17 01:47:23,686 INFO     Training average loss at step 20000: 0.150002
+2020-08-17 01:48:03,444 INFO     Training average positive_sample_loss at step 25000: 0.189536
+2020-08-17 01:48:03,444 INFO     Training average negative_sample_loss at step 25000: 0.097552
+2020-08-17 01:48:03,444 INFO     Training average loss at step 25000: 0.143544
+2020-08-17 01:48:40,868 INFO     Training average positive_sample_loss at step 30000: 0.185394
+2020-08-17 01:48:40,869 INFO     Training average negative_sample_loss at step 30000: 0.093612
+2020-08-17 01:48:40,869 INFO     Training average loss at step 30000: 0.139503
+2020-08-17 01:49:20,900 INFO     Training average positive_sample_loss at step 35000: 0.181396
+2020-08-17 01:49:20,901 INFO     Training average negative_sample_loss at step 35000: 0.090821
+2020-08-17 01:49:20,901 INFO     Training average loss at step 35000: 0.136109
+2020-08-17 01:49:59,918 INFO     Training average positive_sample_loss at step 40000: 0.179459
+2020-08-17 01:49:59,918 INFO     Training average negative_sample_loss at step 40000: 0.088633
+2020-08-17 01:49:59,918 INFO     Training average loss at step 40000: 0.134046
+2020-08-17 01:50:39,774 INFO     Training average positive_sample_loss at step 45000: 0.176491
+2020-08-17 01:50:39,775 INFO     Training average negative_sample_loss at step 45000: 0.086682
+2020-08-17 01:50:39,775 INFO     Training average loss at step 45000: 0.131586
+2020-08-17 01:51:18,694 INFO     Training average positive_sample_loss at step 50000: 0.175329
+2020-08-17 01:51:18,695 INFO     Training average negative_sample_loss at step 50000: 0.085338
+2020-08-17 01:51:18,695 INFO     Training average loss at step 50000: 0.130334
+2020-08-17 01:51:58,609 INFO     Training average positive_sample_loss at step 55000: 0.173236
+2020-08-17 01:51:58,610 INFO     Training average negative_sample_loss at step 55000: 0.084055
+2020-08-17 01:51:58,610 INFO     Training average loss at step 55000: 0.128645
+2020-08-17 01:52:35,940 INFO     Training average positive_sample_loss at step 60000: 0.172413
+2020-08-17 01:52:35,940 INFO     Training average negative_sample_loss at step 60000: 0.082933
+2020-08-17 01:52:35,940 INFO     Training average loss at step 60000: 0.127673
+2020-08-17 01:53:15,847 INFO     Training average positive_sample_loss at step 65000: 0.170619
+2020-08-17 01:53:15,847 INFO     Training average negative_sample_loss at step 65000: 0.081987
+2020-08-17 01:53:15,847 INFO     Training average loss at step 65000: 0.126303
+2020-08-17 01:53:54,652 INFO     Training average positive_sample_loss at step 70000: 0.170175
+2020-08-17 01:53:54,652 INFO     Training average negative_sample_loss at step 70000: 0.081290
+2020-08-17 01:53:54,653 INFO     Training average loss at step 70000: 0.125733
+2020-08-17 01:54:34,900 INFO     Training average positive_sample_loss at step 75000: 0.168779
+2020-08-17 01:54:34,900 INFO     Training average negative_sample_loss at step 75000: 0.080543
+2020-08-17 01:54:34,900 INFO     Training average loss at step 75000: 0.124661
+2020-08-17 01:55:14,195 INFO     Training average positive_sample_loss at step 80000: 0.168223
+2020-08-17 01:55:14,195 INFO     Training average negative_sample_loss at step 80000: 0.079714
+2020-08-17 01:55:14,195 INFO     Training average loss at step 80000: 0.123968
+2020-08-17 01:55:54,717 INFO     Training average positive_sample_loss at step 85000: 0.167207
+2020-08-17 01:55:54,718 INFO     Training average negative_sample_loss at step 85000: 0.079398
+2020-08-17 01:55:54,718 INFO     Training average loss at step 85000: 0.123302
+2020-08-17 01:56:33,183 INFO     Training average positive_sample_loss at step 90000: 0.166746
+2020-08-17 01:56:33,183 INFO     Training average negative_sample_loss at step 90000: 0.078741
+2020-08-17 01:56:33,183 INFO     Training average loss at step 90000: 0.122744
+2020-08-17 01:57:12,635 INFO     Training average positive_sample_loss at step 95000: 0.165823
+2020-08-17 01:57:12,635 INFO     Training average negative_sample_loss at step 95000: 0.078420
+2020-08-17 01:57:12,636 INFO     Training average loss at step 95000: 0.122121
+2020-08-17 01:57:51,502 INFO     Change learning_rate to 0.010000 at step 100000
+2020-08-17 01:57:52,101 INFO     Training average positive_sample_loss at step 100000: 0.165562
+2020-08-17 01:57:52,101 INFO     Training average negative_sample_loss at step 100000: 0.077792
+2020-08-17 01:57:52,101 INFO     Training average loss at step 100000: 0.121677
+2020-08-17 01:58:32,066 INFO     Training average positive_sample_loss at step 105000: 0.181315
+2020-08-17 01:58:32,066 INFO     Training average negative_sample_loss at step 105000: 0.071483
+2020-08-17 01:58:32,066 INFO     Training average loss at step 105000: 0.126399
+2020-08-17 01:59:11,037 INFO     Training average positive_sample_loss at step 110000: 0.163225
+2020-08-17 01:59:11,038 INFO     Training average negative_sample_loss at step 110000: 0.074200
+2020-08-17 01:59:11,038 INFO     Training average loss at step 110000: 0.118712
+2020-08-17 01:59:50,930 INFO     Training average positive_sample_loss at step 115000: 0.159641
+2020-08-17 01:59:50,931 INFO     Training average negative_sample_loss at step 115000: 0.074656
+2020-08-17 01:59:50,931 INFO     Training average loss at step 115000: 0.117148
+2020-08-17 02:00:28,899 INFO     Training average positive_sample_loss at step 120000: 0.158228
+2020-08-17 02:00:28,899 INFO     Training average negative_sample_loss at step 120000: 0.074984
+2020-08-17 02:00:28,899 INFO     Training average loss at step 120000: 0.116606
+2020-08-17 02:01:08,614 INFO     Training average positive_sample_loss at step 125000: 0.157143
+2020-08-17 02:01:08,615 INFO     Training average negative_sample_loss at step 125000: 0.075002
+2020-08-17 02:01:08,615 INFO     Training average loss at step 125000: 0.116073
+2020-08-17 02:01:47,518 INFO     Training average positive_sample_loss at step 130000: 0.156744
+2020-08-17 02:01:47,519 INFO     Training average negative_sample_loss at step 130000: 0.074904
+2020-08-17 02:01:47,519 INFO     Training average loss at step 130000: 0.115824
+2020-08-17 02:02:27,559 INFO     Training average positive_sample_loss at step 135000: 0.156193
+2020-08-17 02:02:27,560 INFO     Training average negative_sample_loss at step 135000: 0.074722
+2020-08-17 02:02:27,560 INFO     Training average loss at step 135000: 0.115457
+2020-08-17 02:03:06,504 INFO     Training average positive_sample_loss at step 140000: 0.155935
+2020-08-17 02:03:06,505 INFO     Training average negative_sample_loss at step 140000: 0.074742
+2020-08-17 02:03:06,505 INFO     Training average loss at step 140000: 0.115339
+2020-08-17 02:03:46,366 INFO     Training average positive_sample_loss at step 145000: 0.155586
+2020-08-17 02:03:46,366 INFO     Training average negative_sample_loss at step 145000: 0.074588
+2020-08-17 02:03:46,366 INFO     Training average loss at step 145000: 0.115087
+2020-08-17 02:04:24,298 INFO     Training average positive_sample_loss at step 150000: 0.155398
+2020-08-17 02:04:24,299 INFO     Training average negative_sample_loss at step 150000: 0.074452
+2020-08-17 02:04:24,299 INFO     Training average loss at step 150000: 0.114925
+2020-08-17 02:05:04,022 INFO     Training average positive_sample_loss at step 155000: 0.155269
+2020-08-17 02:05:04,022 INFO     Training average negative_sample_loss at step 155000: 0.074441
+2020-08-17 02:05:04,022 INFO     Training average loss at step 155000: 0.114855
+2020-08-17 02:05:43,228 INFO     Training average positive_sample_loss at step 160000: 0.155070
+2020-08-17 02:05:43,229 INFO     Training average negative_sample_loss at step 160000: 0.074222
+2020-08-17 02:05:43,229 INFO     Training average loss at step 160000: 0.114646
+2020-08-17 02:06:23,462 INFO     Training average positive_sample_loss at step 165000: 0.154904
+2020-08-17 02:06:23,462 INFO     Training average negative_sample_loss at step 165000: 0.074281
+2020-08-17 02:06:23,463 INFO     Training average loss at step 165000: 0.114593
+2020-08-17 02:07:02,159 INFO     Training average positive_sample_loss at step 170000: 0.154849
+2020-08-17 02:07:02,160 INFO     Training average negative_sample_loss at step 170000: 0.074295
+2020-08-17 02:07:02,160 INFO     Training average loss at step 170000: 0.114572
+2020-08-17 02:07:42,023 INFO     Training average positive_sample_loss at step 175000: 0.154662
+2020-08-17 02:07:42,023 INFO     Training average negative_sample_loss at step 175000: 0.074029
+2020-08-17 02:07:42,024 INFO     Training average loss at step 175000: 0.114346
+2020-08-17 02:08:19,988 INFO     Training average positive_sample_loss at step 180000: 0.154566
+2020-08-17 02:08:19,988 INFO     Training average negative_sample_loss at step 180000: 0.073681
+2020-08-17 02:08:19,988 INFO     Training average loss at step 180000: 0.114124
+2020-08-17 02:09:00,102 INFO     Training average positive_sample_loss at step 185000: 0.154448
+2020-08-17 02:09:00,103 INFO     Training average negative_sample_loss at step 185000: 0.073946
+2020-08-17 02:09:00,103 INFO     Training average loss at step 185000: 0.114197
+2020-08-17 02:09:39,049 INFO     Training average positive_sample_loss at step 190000: 0.154346
+2020-08-17 02:09:39,049 INFO     Training average negative_sample_loss at step 190000: 0.073793
+2020-08-17 02:09:39,049 INFO     Training average loss at step 190000: 0.114070
+2020-08-17 02:10:19,345 INFO     Training average positive_sample_loss at step 195000: 0.154281
+2020-08-17 02:10:19,346 INFO     Training average negative_sample_loss at step 195000: 0.073706
+2020-08-17 02:10:19,346 INFO     Training average loss at step 195000: 0.113993
+2020-08-17 02:10:58,217 INFO     Evaluating on Valid Dataset...
+2020-08-17 02:10:59,694 INFO     Evaluating the model... (0/340)
+2020-08-17 02:11:29,557 INFO     Valid MRR at step 199999: 0.135992
+2020-08-17 02:11:29,557 INFO     Valid MR at step 199999: 3903.135185
+2020-08-17 02:11:29,557 INFO     Valid HITS@1 at step 199999: 0.043774
+2020-08-17 02:11:29,557 INFO     Valid HITS@3 at step 199999: 0.126540
+2020-08-17 02:11:29,557 INFO     Valid HITS@10 at step 199999: 0.355895
+Validation (199999): MRR - 0.13599164505914405;MR - 3903.1351848445834;HITS@1 - 0.043774140150818465;HITS@3 - 0.1265403715284164;HITS@10 - 0.35589479492367115;
+2020-08-17 02:11:31,003 INFO     Evaluating the model... (0/39)
+2020-08-17 02:11:33,845 INFO     Test MRR at step 199999: 0.859586
+2020-08-17 02:11:33,845 INFO     Test MR at step 199999: 1.429739
+2020-08-17 02:11:33,845 INFO     Test HITS@1 at step 199999: 0.769608
+2020-08-17 02:11:33,846 INFO     Test HITS@3 at step 199999: 0.944444
+2020-08-17 02:11:33,846 INFO     Test HITS@10 at step 199999: 1.000000
+#steps = 199999, #negs = 10, dim = 50;MRR: 0.8595860566448799;MR: 1.4297385620915033;HITS@1: 0.7696078431372549;HITS@3: 0.9444444444444444;HITS@10: 1.0
+2020-08-17 02:11:33,846 INFO     
+-----------------------------------------------
+
+2020-08-17 02:11:35,839 INFO     NO INJECTION
+2020-08-17 02:11:35,839 INFO     Model: RotatE
+2020-08-17 02:11:35,839 INFO     Data Path: data/SD2020
+2020-08-17 02:11:35,839 INFO     #entity: 68907
+2020-08-17 02:11:35,839 INFO     #relation: 13
+2020-08-17 02:11:35,976 INFO     #train: 142188
+2020-08-17 02:11:35,982 INFO     #valid: 5437
+2020-08-17 02:11:35,982 INFO     #test: 612
+rules not injected
+Temperature -  1.0
+
+Model - RotatE; opt - ada; batch size - 256; dataset - data/SD2020; lr - 0.1, gamma = 4.0; 
+Loss fnc - rotate; inv - False; impl - False; sym - False; eq - False
+2020-08-17 02:11:36,047 INFO     Model: RotatE
+2020-08-17 02:11:36,047 INFO     Data Path: data/SD2020
+2020-08-17 02:11:36,047 INFO     #entity: 68907
+2020-08-17 02:11:36,047 INFO     #relation: 13
+2020-08-17 02:11:36,047 INFO     optimizer: ada
+2020-08-17 02:11:36,048 INFO     learning rate: 0.100000
+2020-08-17 02:11:36,048 INFO     loss: rotate
+2020-08-17 02:11:36,048 INFO     Model Parameter Configuration:
+2020-08-17 02:11:36,048 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2020-08-17 02:11:36,048 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2020-08-17 02:11:36,048 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
+2020-08-17 02:11:36,048 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
+2020-08-17 02:11:36,048 INFO     Parameter entity_embedding: torch.Size([68907, 100]), require_grad = True
+2020-08-17 02:11:36,048 INFO     Parameter relation_embedding: torch.Size([13, 50]), require_grad = True
+2020-08-17 02:11:36,048 INFO     Loss function rotate
+2020-08-17 02:11:38,404 INFO     Ramdomly Initializing RotatE Model...
+2020-08-17 02:11:38,405 INFO     Max steps - 200000
+2020-08-17 02:11:38,405 INFO     Negative sample 10 
+2020-08-17 02:11:39,932 INFO     Training average positive_sample_loss at step 0: 2.306420
+2020-08-17 02:11:39,932 INFO     Training average negative_sample_loss at step 0: 0.121619
+2020-08-17 02:11:39,933 INFO     Training average loss at step 0: 1.214019
+2020-08-17 02:12:35,586 INFO     Training average positive_sample_loss at step 5000: 0.913128
+2020-08-17 02:12:35,586 INFO     Training average negative_sample_loss at step 5000: 0.206475
+2020-08-17 02:12:35,587 INFO     Training average loss at step 5000: 0.559801
+2020-08-17 02:13:29,990 INFO     Training average positive_sample_loss at step 10000: 0.241793
+2020-08-17 02:13:29,990 INFO     Training average negative_sample_loss at step 10000: 0.112608
+2020-08-17 02:13:29,990 INFO     Training average loss at step 10000: 0.177200
+2020-08-17 02:14:27,762 INFO     Training average positive_sample_loss at step 15000: 0.203380
+2020-08-17 02:14:27,763 INFO     Training average negative_sample_loss at step 15000: 0.096219
+2020-08-17 02:14:27,763 INFO     Training average loss at step 15000: 0.149799
+2020-08-17 02:15:24,932 INFO     Training average positive_sample_loss at step 20000: 0.191741
+2020-08-17 02:15:24,932 INFO     Training average negative_sample_loss at step 20000: 0.090501
+2020-08-17 02:15:24,932 INFO     Training average loss at step 20000: 0.141121
+2020-08-17 02:16:22,875 INFO     Training average positive_sample_loss at step 25000: 0.184785
+2020-08-17 02:16:22,876 INFO     Training average negative_sample_loss at step 25000: 0.086960
+2020-08-17 02:16:22,876 INFO     Training average loss at step 25000: 0.135873
+2020-08-17 02:17:19,522 INFO     Training average positive_sample_loss at step 30000: 0.181633
+2020-08-17 02:17:19,522 INFO     Training average negative_sample_loss at step 30000: 0.084542
+2020-08-17 02:17:19,522 INFO     Training average loss at step 30000: 0.133088
+2020-08-17 02:18:17,416 INFO     Training average positive_sample_loss at step 35000: 0.178194
+2020-08-17 02:18:17,416 INFO     Training average negative_sample_loss at step 35000: 0.082753
+2020-08-17 02:18:17,416 INFO     Training average loss at step 35000: 0.130473
+2020-08-17 02:19:15,050 INFO     Training average positive_sample_loss at step 40000: 0.176635
+2020-08-17 02:19:15,051 INFO     Training average negative_sample_loss at step 40000: 0.081318
+2020-08-17 02:19:15,051 INFO     Training average loss at step 40000: 0.128976
+2020-08-17 02:20:13,434 INFO     Training average positive_sample_loss at step 45000: 0.174180
+2020-08-17 02:20:13,435 INFO     Training average negative_sample_loss at step 45000: 0.080167
+2020-08-17 02:20:13,435 INFO     Training average loss at step 45000: 0.127173
+2020-08-17 02:21:11,380 INFO     Training average positive_sample_loss at step 50000: 0.173239
+2020-08-17 02:21:11,380 INFO     Training average negative_sample_loss at step 50000: 0.079166
+2020-08-17 02:21:11,380 INFO     Training average loss at step 50000: 0.126203
+2020-08-17 02:22:09,809 INFO     Training average positive_sample_loss at step 55000: 0.171316
+2020-08-17 02:22:09,810 INFO     Training average negative_sample_loss at step 55000: 0.078365
+2020-08-17 02:22:09,810 INFO     Training average loss at step 55000: 0.124841
+2020-08-17 02:23:06,443 INFO     Training average positive_sample_loss at step 60000: 0.170745
+2020-08-17 02:23:06,443 INFO     Training average negative_sample_loss at step 60000: 0.077698
+2020-08-17 02:23:06,443 INFO     Training average loss at step 60000: 0.124222
+2020-08-17 02:24:04,442 INFO     Training average positive_sample_loss at step 65000: 0.169167
+2020-08-17 02:24:04,442 INFO     Training average negative_sample_loss at step 65000: 0.077056
+2020-08-17 02:24:04,442 INFO     Training average loss at step 65000: 0.123111
+2020-08-17 02:25:02,098 INFO     Training average positive_sample_loss at step 70000: 0.168595
+2020-08-17 02:25:02,099 INFO     Training average negative_sample_loss at step 70000: 0.076478
+2020-08-17 02:25:02,099 INFO     Training average loss at step 70000: 0.122537
+2020-08-17 02:26:01,428 INFO     Training average positive_sample_loss at step 75000: 0.167288
+2020-08-17 02:26:01,428 INFO     Training average negative_sample_loss at step 75000: 0.075996
+2020-08-17 02:26:01,428 INFO     Training average loss at step 75000: 0.121642
+2020-08-17 02:26:58,814 INFO     Training average positive_sample_loss at step 80000: 0.166886
+2020-08-17 02:26:58,814 INFO     Training average negative_sample_loss at step 80000: 0.075500
+2020-08-17 02:26:58,814 INFO     Training average loss at step 80000: 0.121193
+2020-08-17 02:27:57,233 INFO     Training average positive_sample_loss at step 85000: 0.165720
+2020-08-17 02:27:57,234 INFO     Training average negative_sample_loss at step 85000: 0.075168
+2020-08-17 02:27:57,234 INFO     Training average loss at step 85000: 0.120444
+2020-08-17 02:28:53,589 INFO     Training average positive_sample_loss at step 90000: 0.165559
+2020-08-17 02:28:53,589 INFO     Training average negative_sample_loss at step 90000: 0.074838
+2020-08-17 02:28:53,589 INFO     Training average loss at step 90000: 0.120199
+2020-08-17 02:29:51,792 INFO     Training average positive_sample_loss at step 95000: 0.164452
+2020-08-17 02:29:51,793 INFO     Training average negative_sample_loss at step 95000: 0.074454
+2020-08-17 02:29:51,793 INFO     Training average loss at step 95000: 0.119453
+2020-08-17 02:30:48,920 INFO     Change learning_rate to 0.010000 at step 100000
+2020-08-17 02:30:49,766 INFO     Training average positive_sample_loss at step 100000: 0.164330
+2020-08-17 02:30:49,766 INFO     Training average negative_sample_loss at step 100000: 0.074077
+2020-08-17 02:30:49,766 INFO     Training average loss at step 100000: 0.119203
+2020-08-17 02:31:48,303 INFO     Training average positive_sample_loss at step 105000: 0.193105
+2020-08-17 02:31:48,304 INFO     Training average negative_sample_loss at step 105000: 0.064172
+2020-08-17 02:31:48,304 INFO     Training average loss at step 105000: 0.128639
+2020-08-17 02:32:46,499 INFO     Training average positive_sample_loss at step 110000: 0.162492
+2020-08-17 02:32:46,499 INFO     Training average negative_sample_loss at step 110000: 0.069326
+2020-08-17 02:32:46,499 INFO     Training average loss at step 110000: 0.115909
+2020-08-17 02:33:45,529 INFO     Training average positive_sample_loss at step 115000: 0.157268
+2020-08-17 02:33:45,529 INFO     Training average negative_sample_loss at step 115000: 0.070755
+2020-08-17 02:33:45,529 INFO     Training average loss at step 115000: 0.114011
+2020-08-17 02:34:42,266 INFO     Training average positive_sample_loss at step 120000: 0.155215
+2020-08-17 02:34:42,267 INFO     Training average negative_sample_loss at step 120000: 0.071098
+2020-08-17 02:34:42,267 INFO     Training average loss at step 120000: 0.113156
+2020-08-17 02:35:40,684 INFO     Training average positive_sample_loss at step 125000: 0.153930
+2020-08-17 02:35:40,685 INFO     Training average negative_sample_loss at step 125000: 0.071341
+2020-08-17 02:35:40,685 INFO     Training average loss at step 125000: 0.112636
+2020-08-17 02:36:38,951 INFO     Training average positive_sample_loss at step 130000: 0.153424
+2020-08-17 02:36:38,951 INFO     Training average negative_sample_loss at step 130000: 0.071206
+2020-08-17 02:36:38,951 INFO     Training average loss at step 130000: 0.112315
+2020-08-17 02:37:37,836 INFO     Training average positive_sample_loss at step 135000: 0.152651
+2020-08-17 02:37:37,836 INFO     Training average negative_sample_loss at step 135000: 0.071091
+2020-08-17 02:37:37,837 INFO     Training average loss at step 135000: 0.111871
+2020-08-17 02:38:35,324 INFO     Training average positive_sample_loss at step 140000: 0.152452
+2020-08-17 02:38:35,324 INFO     Training average negative_sample_loss at step 140000: 0.071009
+2020-08-17 02:38:35,325 INFO     Training average loss at step 140000: 0.111730
+2020-08-17 02:39:34,368 INFO     Training average positive_sample_loss at step 145000: 0.151952
+2020-08-17 02:39:34,368 INFO     Training average negative_sample_loss at step 145000: 0.071028
+2020-08-17 02:39:34,368 INFO     Training average loss at step 145000: 0.111490
+2020-08-17 02:40:31,615 INFO     Training average positive_sample_loss at step 150000: 0.151886
+2020-08-17 02:40:31,615 INFO     Training average negative_sample_loss at step 150000: 0.070946
+2020-08-17 02:40:31,615 INFO     Training average loss at step 150000: 0.111416
+2020-08-17 02:41:30,196 INFO     Training average positive_sample_loss at step 155000: 0.151530
+2020-08-17 02:41:30,196 INFO     Training average negative_sample_loss at step 155000: 0.070682
+2020-08-17 02:41:30,196 INFO     Training average loss at step 155000: 0.111106
+2020-08-17 02:42:27,546 INFO     Training average positive_sample_loss at step 160000: 0.151380
+2020-08-17 02:42:27,546 INFO     Training average negative_sample_loss at step 160000: 0.070711
+2020-08-17 02:42:27,546 INFO     Training average loss at step 160000: 0.111046
+2020-08-17 02:43:26,639 INFO     Training average positive_sample_loss at step 165000: 0.151125
+2020-08-17 02:43:26,639 INFO     Training average negative_sample_loss at step 165000: 0.070487
+2020-08-17 02:43:26,640 INFO     Training average loss at step 165000: 0.110806
+2020-08-17 02:44:24,343 INFO     Training average positive_sample_loss at step 170000: 0.151075
+2020-08-17 02:44:24,343 INFO     Training average negative_sample_loss at step 170000: 0.070374
+2020-08-17 02:44:24,343 INFO     Training average loss at step 170000: 0.110724
+2020-08-17 02:45:22,629 INFO     Training average positive_sample_loss at step 175000: 0.150880
+2020-08-17 02:45:22,629 INFO     Training average negative_sample_loss at step 175000: 0.070416
+2020-08-17 02:45:22,629 INFO     Training average loss at step 175000: 0.110648
+2020-08-17 02:46:19,136 INFO     Training average positive_sample_loss at step 180000: 0.150709
+2020-08-17 02:46:19,136 INFO     Training average negative_sample_loss at step 180000: 0.070384
+2020-08-17 02:46:19,136 INFO     Training average loss at step 180000: 0.110547
+2020-08-17 02:47:17,547 INFO     Training average positive_sample_loss at step 185000: 0.150606
+2020-08-17 02:47:17,547 INFO     Training average negative_sample_loss at step 185000: 0.070360
+2020-08-17 02:47:17,547 INFO     Training average loss at step 185000: 0.110483
+2020-08-17 02:48:15,730 INFO     Training average positive_sample_loss at step 190000: 0.150595
+2020-08-17 02:48:15,731 INFO     Training average negative_sample_loss at step 190000: 0.070193
+2020-08-17 02:48:15,731 INFO     Training average loss at step 190000: 0.110394
+2020-08-17 02:49:14,605 INFO     Training average positive_sample_loss at step 195000: 0.150391
+2020-08-17 02:49:14,605 INFO     Training average negative_sample_loss at step 195000: 0.070230
+2020-08-17 02:49:14,605 INFO     Training average loss at step 195000: 0.110311
+2020-08-17 02:50:12,366 INFO     Evaluating on Valid Dataset...
+2020-08-17 02:50:13,797 INFO     Evaluating the model... (0/340)
+2020-08-17 02:50:43,953 INFO     Valid MRR at step 199999: 0.155284
+2020-08-17 02:50:43,954 INFO     Valid MR at step 199999: 3890.701674
+2020-08-17 02:50:43,954 INFO     Valid HITS@1 at step 199999: 0.057017
+2020-08-17 02:50:43,954 INFO     Valid HITS@3 at step 199999: 0.144933
+2020-08-17 02:50:43,954 INFO     Valid HITS@10 at step 199999: 0.411992
+Validation (199999): MRR - 0.15528389054394784;MR - 3890.7016737171234;HITS@1 - 0.057016737171234136;HITS@3 - 0.14493286739010483;HITS@10 - 0.41199190730182084;
+2020-08-17 02:50:45,382 INFO     Evaluating the model... (0/39)
+2020-08-17 02:50:48,384 INFO     Test MRR at step 199999: 0.891694
+2020-08-17 02:50:48,384 INFO     Test MR at step 199999: 1.323529
+2020-08-17 02:50:48,384 INFO     Test HITS@1 at step 199999: 0.823529
+2020-08-17 02:50:48,385 INFO     Test HITS@3 at step 199999: 0.970588
+2020-08-17 02:50:48,385 INFO     Test HITS@10 at step 199999: 1.000000
+#steps = 199999, #negs = 10, dim = 50;MRR: 0.8916938997821348;MR: 1.3235294117647058;HITS@1: 0.8235294117647058;HITS@3: 0.9705882352941176;HITS@10: 1.0
+2020-08-17 02:50:48,385 INFO     
+-----------------------------------------------
+
+2020-08-17 02:50:50,341 INFO     NO INJECTION
+2020-08-17 02:50:50,341 INFO     Model: RotatE
+2020-08-17 02:50:50,341 INFO     Data Path: data/SD2020
+2020-08-17 02:50:50,341 INFO     #entity: 68907
+2020-08-17 02:50:50,341 INFO     #relation: 13
+2020-08-17 02:50:50,473 INFO     #train: 142188
+2020-08-17 02:50:50,478 INFO     #valid: 5437
+2020-08-17 02:50:50,479 INFO     #test: 612
+rules not injected
+Temperature -  1.0
+
+Model - RotatE; opt - ada; batch size - 256; dataset - data/SD2020; lr - 0.1, gamma = 4.0; 
+Loss fnc - rotate; inv - False; impl - False; sym - False; eq - False
+2020-08-17 02:50:50,500 INFO     Model: RotatE
+2020-08-17 02:50:50,500 INFO     Data Path: data/SD2020
+2020-08-17 02:50:50,500 INFO     #entity: 68907
+2020-08-17 02:50:50,500 INFO     #relation: 13
+2020-08-17 02:50:50,500 INFO     optimizer: ada
+2020-08-17 02:50:50,500 INFO     learning rate: 0.100000
+2020-08-17 02:50:50,500 INFO     loss: rotate
+2020-08-17 02:50:50,500 INFO     Model Parameter Configuration:
+2020-08-17 02:50:50,501 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2020-08-17 02:50:50,501 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2020-08-17 02:50:50,501 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
+2020-08-17 02:50:50,501 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
+2020-08-17 02:50:50,501 INFO     Parameter entity_embedding: torch.Size([68907, 10]), require_grad = True
+2020-08-17 02:50:50,501 INFO     Parameter relation_embedding: torch.Size([13, 5]), require_grad = True
+2020-08-17 02:50:50,501 INFO     Loss function rotate
+2020-08-17 02:50:52,874 INFO     Ramdomly Initializing RotatE Model...
+2020-08-17 02:50:52,874 INFO     Max steps - 200000
+2020-08-17 02:50:52,874 INFO     Negative sample 10 
+2020-08-17 02:50:54,409 INFO     Training average positive_sample_loss at step 0: 2.537565
+2020-08-17 02:50:54,409 INFO     Training average negative_sample_loss at step 0: 0.429765
+2020-08-17 02:50:54,409 INFO     Training average loss at step 0: 1.483665
+2020-08-17 02:51:43,335 INFO     Training average positive_sample_loss at step 5000: 1.066399
+2020-08-17 02:51:43,335 INFO     Training average negative_sample_loss at step 5000: 0.556947
+2020-08-17 02:51:43,335 INFO     Training average loss at step 5000: 0.811673
+2020-08-17 02:52:31,537 INFO     Training average positive_sample_loss at step 10000: 0.588106
+2020-08-17 02:52:31,537 INFO     Training average negative_sample_loss at step 10000: 0.558387
+2020-08-17 02:52:31,537 INFO     Training average loss at step 10000: 0.573247
+2020-08-17 02:53:23,800 INFO     Training average positive_sample_loss at step 15000: 0.499582
+2020-08-17 02:53:23,801 INFO     Training average negative_sample_loss at step 15000: 0.512772
+2020-08-17 02:53:23,801 INFO     Training average loss at step 15000: 0.506177
+2020-08-17 02:54:14,507 INFO     Training average positive_sample_loss at step 20000: 0.461081
+2020-08-17 02:54:14,508 INFO     Training average negative_sample_loss at step 20000: 0.473123
+2020-08-17 02:54:14,508 INFO     Training average loss at step 20000: 0.467103
+2020-08-17 02:55:05,887 INFO     Training average positive_sample_loss at step 25000: 0.435282
+2020-08-17 02:55:05,887 INFO     Training average negative_sample_loss at step 25000: 0.440795
+2020-08-17 02:55:05,887 INFO     Training average loss at step 25000: 0.438038
+2020-08-17 02:55:55,811 INFO     Training average positive_sample_loss at step 30000: 0.418147
+2020-08-17 02:55:55,811 INFO     Training average negative_sample_loss at step 30000: 0.414727
+2020-08-17 02:55:55,811 INFO     Training average loss at step 30000: 0.416437
+2020-08-17 02:56:47,347 INFO     Training average positive_sample_loss at step 35000: 0.404131
+2020-08-17 02:56:47,347 INFO     Training average negative_sample_loss at step 35000: 0.393024
+2020-08-17 02:56:47,348 INFO     Training average loss at step 35000: 0.398577
+2020-08-17 02:57:38,313 INFO     Training average positive_sample_loss at step 40000: 0.393675
+2020-08-17 02:57:38,313 INFO     Training average negative_sample_loss at step 40000: 0.374523
+2020-08-17 02:57:38,313 INFO     Training average loss at step 40000: 0.384099
+2020-08-17 02:58:30,382 INFO     Training average positive_sample_loss at step 45000: 0.384180
+2020-08-17 02:58:30,383 INFO     Training average negative_sample_loss at step 45000: 0.358442
+2020-08-17 02:58:30,383 INFO     Training average loss at step 45000: 0.371312
+2020-08-17 02:59:21,324 INFO     Training average positive_sample_loss at step 50000: 0.376790
+2020-08-17 02:59:21,325 INFO     Training average negative_sample_loss at step 50000: 0.344931
+2020-08-17 02:59:21,325 INFO     Training average loss at step 50000: 0.360861
+2020-08-17 03:00:13,161 INFO     Training average positive_sample_loss at step 55000: 0.369634
+2020-08-17 03:00:13,161 INFO     Training average negative_sample_loss at step 55000: 0.333712
+2020-08-17 03:00:13,162 INFO     Training average loss at step 55000: 0.351673
+2020-08-17 03:01:03,303 INFO     Training average positive_sample_loss at step 60000: 0.364088
+2020-08-17 03:01:03,303 INFO     Training average negative_sample_loss at step 60000: 0.322739
+2020-08-17 03:01:03,303 INFO     Training average loss at step 60000: 0.343414
+2020-08-17 03:01:54,755 INFO     Training average positive_sample_loss at step 65000: 0.358438
+2020-08-17 03:01:54,756 INFO     Training average negative_sample_loss at step 65000: 0.313792
+2020-08-17 03:01:54,756 INFO     Training average loss at step 65000: 0.336115
+2020-08-17 03:02:46,159 INFO     Training average positive_sample_loss at step 70000: 0.354021
+2020-08-17 03:02:46,160 INFO     Training average negative_sample_loss at step 70000: 0.305318
+2020-08-17 03:02:46,160 INFO     Training average loss at step 70000: 0.329670
+2020-08-17 03:03:38,195 INFO     Training average positive_sample_loss at step 75000: 0.349175
+2020-08-17 03:03:38,196 INFO     Training average negative_sample_loss at step 75000: 0.297524
+2020-08-17 03:03:38,196 INFO     Training average loss at step 75000: 0.323350
+2020-08-17 03:04:28,735 INFO     Training average positive_sample_loss at step 80000: 0.345431
+2020-08-17 03:04:28,736 INFO     Training average negative_sample_loss at step 80000: 0.290204
+2020-08-17 03:04:28,736 INFO     Training average loss at step 80000: 0.317817
+2020-08-17 03:05:20,471 INFO     Training average positive_sample_loss at step 85000: 0.341388
+2020-08-17 03:05:20,471 INFO     Training average negative_sample_loss at step 85000: 0.284300
+2020-08-17 03:05:20,471 INFO     Training average loss at step 85000: 0.312843
+2020-08-17 03:06:10,861 INFO     Training average positive_sample_loss at step 90000: 0.337989
+2020-08-17 03:06:10,862 INFO     Training average negative_sample_loss at step 90000: 0.278474
+2020-08-17 03:06:10,862 INFO     Training average loss at step 90000: 0.308231
+2020-08-17 03:07:03,097 INFO     Training average positive_sample_loss at step 95000: 0.334553
+2020-08-17 03:07:03,098 INFO     Training average negative_sample_loss at step 95000: 0.273012
+2020-08-17 03:07:03,098 INFO     Training average loss at step 95000: 0.303782
+2020-08-17 03:07:52,908 INFO     Change learning_rate to 0.010000 at step 100000
+2020-08-17 03:07:53,733 INFO     Training average positive_sample_loss at step 100000: 0.331601
+2020-08-17 03:07:53,733 INFO     Training average negative_sample_loss at step 100000: 0.267851
+2020-08-17 03:07:53,733 INFO     Training average loss at step 100000: 0.299726
+2020-08-17 03:08:46,209 INFO     Training average positive_sample_loss at step 105000: 0.339401
+2020-08-17 03:08:46,209 INFO     Training average negative_sample_loss at step 105000: 0.254937
+2020-08-17 03:08:46,209 INFO     Training average loss at step 105000: 0.297169
+2020-08-17 03:09:37,340 INFO     Training average positive_sample_loss at step 110000: 0.333122
+2020-08-17 03:09:37,341 INFO     Training average negative_sample_loss at step 110000: 0.252602
+2020-08-17 03:09:37,341 INFO     Training average loss at step 110000: 0.292862
+2020-08-17 03:10:29,514 INFO     Training average positive_sample_loss at step 115000: 0.330364
+2020-08-17 03:10:29,515 INFO     Training average negative_sample_loss at step 115000: 0.251291
+2020-08-17 03:10:29,515 INFO     Training average loss at step 115000: 0.290827
+2020-08-17 03:11:20,030 INFO     Training average positive_sample_loss at step 120000: 0.328625
+2020-08-17 03:11:20,031 INFO     Training average negative_sample_loss at step 120000: 0.249715
+2020-08-17 03:11:20,031 INFO     Training average loss at step 120000: 0.289170
+2020-08-17 03:12:11,787 INFO     Training average positive_sample_loss at step 125000: 0.327038
+2020-08-17 03:12:11,788 INFO     Training average negative_sample_loss at step 125000: 0.248914
+2020-08-17 03:12:11,788 INFO     Training average loss at step 125000: 0.287976
+2020-08-17 03:13:02,790 INFO     Training average positive_sample_loss at step 130000: 0.325926
+2020-08-17 03:13:02,790 INFO     Training average negative_sample_loss at step 130000: 0.248183
+2020-08-17 03:13:02,790 INFO     Training average loss at step 130000: 0.287055
+2020-08-17 03:13:55,559 INFO     Training average positive_sample_loss at step 135000: 0.324760
+2020-08-17 03:13:55,560 INFO     Training average negative_sample_loss at step 135000: 0.247503
+2020-08-17 03:13:55,560 INFO     Training average loss at step 135000: 0.286132
+2020-08-17 03:14:46,570 INFO     Training average positive_sample_loss at step 140000: 0.323864
+2020-08-17 03:14:46,571 INFO     Training average negative_sample_loss at step 140000: 0.246540
+2020-08-17 03:14:46,571 INFO     Training average loss at step 140000: 0.285202
+2020-08-17 03:15:38,894 INFO     Training average positive_sample_loss at step 145000: 0.322843
+2020-08-17 03:15:38,895 INFO     Training average negative_sample_loss at step 145000: 0.245862
+2020-08-17 03:15:38,895 INFO     Training average loss at step 145000: 0.284353
+2020-08-17 03:16:29,103 INFO     Training average positive_sample_loss at step 150000: 0.322351
+2020-08-17 03:16:29,104 INFO     Training average negative_sample_loss at step 150000: 0.245773
+2020-08-17 03:16:29,104 INFO     Training average loss at step 150000: 0.284062
+2020-08-17 03:17:21,029 INFO     Training average positive_sample_loss at step 155000: 0.321363
+2020-08-17 03:17:21,029 INFO     Training average negative_sample_loss at step 155000: 0.244452
+2020-08-17 03:17:21,030 INFO     Training average loss at step 155000: 0.282908
+2020-08-17 03:18:12,628 INFO     Training average positive_sample_loss at step 160000: 0.320805
+2020-08-17 03:18:12,628 INFO     Training average negative_sample_loss at step 160000: 0.244533
+2020-08-17 03:18:12,628 INFO     Training average loss at step 160000: 0.282669
+2020-08-17 03:19:05,226 INFO     Training average positive_sample_loss at step 165000: 0.320177
+2020-08-17 03:19:05,226 INFO     Training average negative_sample_loss at step 165000: 0.243634
+2020-08-17 03:19:05,226 INFO     Training average loss at step 165000: 0.281905
+2020-08-17 03:19:56,382 INFO     Training average positive_sample_loss at step 170000: 0.319534
+2020-08-17 03:19:56,382 INFO     Training average negative_sample_loss at step 170000: 0.243357
+2020-08-17 03:19:56,383 INFO     Training average loss at step 170000: 0.281445
+2020-08-17 03:20:48,792 INFO     Training average positive_sample_loss at step 175000: 0.318931
+2020-08-17 03:20:48,792 INFO     Training average negative_sample_loss at step 175000: 0.242573
+2020-08-17 03:20:48,792 INFO     Training average loss at step 175000: 0.280752
+2020-08-17 03:21:39,730 INFO     Training average positive_sample_loss at step 180000: 0.318478
+2020-08-17 03:21:39,730 INFO     Training average negative_sample_loss at step 180000: 0.242265
+2020-08-17 03:21:39,730 INFO     Training average loss at step 180000: 0.280371
+2020-08-17 03:22:31,346 INFO     Training average positive_sample_loss at step 185000: 0.317892
+2020-08-17 03:22:31,346 INFO     Training average negative_sample_loss at step 185000: 0.241746
+2020-08-17 03:22:31,346 INFO     Training average loss at step 185000: 0.279818
+2020-08-17 03:23:23,707 INFO     Training average positive_sample_loss at step 190000: 0.317317
+2020-08-17 03:23:23,707 INFO     Training average negative_sample_loss at step 190000: 0.241324
+2020-08-17 03:23:23,707 INFO     Training average loss at step 190000: 0.279321
+2020-08-17 03:24:16,367 INFO     Training average positive_sample_loss at step 195000: 0.317030
+2020-08-17 03:24:16,368 INFO     Training average negative_sample_loss at step 195000: 0.241086
+2020-08-17 03:24:16,368 INFO     Training average loss at step 195000: 0.279058
+2020-08-17 03:25:07,632 INFO     Evaluating on Valid Dataset...
+2020-08-17 03:25:09,055 INFO     Evaluating the model... (0/340)
+2020-08-17 03:25:39,145 INFO     Valid MRR at step 199999: 0.002330
+2020-08-17 03:25:39,145 INFO     Valid MR at step 199999: 7577.985654
+2020-08-17 03:25:39,146 INFO     Valid HITS@1 at step 199999: 0.000368
+2020-08-17 03:25:39,146 INFO     Valid HITS@3 at step 199999: 0.000552
+2020-08-17 03:25:39,146 INFO     Valid HITS@10 at step 199999: 0.000736
+Validation (199999): MRR - 0.002329750380008783;MR - 7577.985653853228;HITS@1 - 0.0003678499172337686;HITS@3 - 0.000551774875850653;HITS@10 - 0.0007356998344675372;
+2020-08-17 03:25:40,551 INFO     Evaluating the model... (0/39)
+2020-08-17 03:25:43,455 INFO     Test MRR at step 199999: 0.002721
+2020-08-17 03:25:43,455 INFO     Test MR at step 199999: 1544.065359
+2020-08-17 03:25:43,455 INFO     Test HITS@1 at step 199999: 0.000000
+2020-08-17 03:25:43,455 INFO     Test HITS@3 at step 199999: 0.000000
+2020-08-17 03:25:43,455 INFO     Test HITS@10 at step 199999: 0.001634
+#steps = 199999, #negs = 10, dim = 5;MRR: 0.0027213448630816063;MR: 1544.0653594771243;HITS@1: 0.0;HITS@3: 0.0;HITS@10: 0.0016339869281045752
+2020-08-17 03:25:43,455 INFO     
+-----------------------------------------------
+
+2020-08-17 03:25:45,399 INFO     NO INJECTION
+2020-08-17 03:25:45,399 INFO     Model: RotatE
+2020-08-17 03:25:45,399 INFO     Data Path: data/SD2020
+2020-08-17 03:25:45,399 INFO     #entity: 68907
+2020-08-17 03:25:45,399 INFO     #relation: 13
+2020-08-17 03:25:45,530 INFO     #train: 142188
+2020-08-17 03:25:45,536 INFO     #valid: 5437
+2020-08-17 03:25:45,536 INFO     #test: 612
+rules not injected
+Temperature -  1.0
+
+Model - RotatE; opt - ada; batch size - 256; dataset - data/SD2020; lr - 0.1, gamma = 4.0; 
+Loss fnc - rotate; inv - False; impl - False; sym - False; eq - False
+2020-08-17 03:25:45,564 INFO     Model: RotatE
+2020-08-17 03:25:45,564 INFO     Data Path: data/SD2020
+2020-08-17 03:25:45,564 INFO     #entity: 68907
+2020-08-17 03:25:45,564 INFO     #relation: 13
+2020-08-17 03:25:45,564 INFO     optimizer: ada
+2020-08-17 03:25:45,564 INFO     learning rate: 0.100000
+2020-08-17 03:25:45,564 INFO     loss: rotate
+2020-08-17 03:25:45,564 INFO     Model Parameter Configuration:
+2020-08-17 03:25:45,565 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2020-08-17 03:25:45,565 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2020-08-17 03:25:45,565 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
+2020-08-17 03:25:45,565 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
+2020-08-17 03:25:45,565 INFO     Parameter entity_embedding: torch.Size([68907, 20]), require_grad = True
+2020-08-17 03:25:45,565 INFO     Parameter relation_embedding: torch.Size([13, 10]), require_grad = True
+2020-08-17 03:25:45,565 INFO     Loss function rotate
+2020-08-17 03:25:47,927 INFO     Ramdomly Initializing RotatE Model...
+2020-08-17 03:25:47,927 INFO     Max steps - 200000
+2020-08-17 03:25:47,927 INFO     Negative sample 10 
+2020-08-17 03:25:49,493 INFO     Training average positive_sample_loss at step 0: 2.421909
+2020-08-17 03:25:49,493 INFO     Training average negative_sample_loss at step 0: 0.230118
+2020-08-17 03:25:49,493 INFO     Training average loss at step 0: 1.326014
+2020-08-17 03:26:38,407 INFO     Training average positive_sample_loss at step 5000: 0.921409
+2020-08-17 03:26:38,407 INFO     Training average negative_sample_loss at step 5000: 0.394693
+2020-08-17 03:26:38,407 INFO     Training average loss at step 5000: 0.658051
+2020-08-17 03:27:26,973 INFO     Training average positive_sample_loss at step 10000: 0.417265
+2020-08-17 03:27:26,974 INFO     Training average negative_sample_loss at step 10000: 0.316238
+2020-08-17 03:27:26,974 INFO     Training average loss at step 10000: 0.366752
+2020-08-17 03:28:20,686 INFO     Training average positive_sample_loss at step 15000: 0.356653
+2020-08-17 03:28:20,687 INFO     Training average negative_sample_loss at step 15000: 0.259484
+2020-08-17 03:28:20,687 INFO     Training average loss at step 15000: 0.308069
+2020-08-17 03:29:14,332 INFO     Training average positive_sample_loss at step 20000: 0.329814
+2020-08-17 03:29:14,333 INFO     Training average negative_sample_loss at step 20000: 0.226474
+2020-08-17 03:29:14,333 INFO     Training average loss at step 20000: 0.278144
+2020-08-17 03:30:07,197 INFO     Training average positive_sample_loss at step 25000: 0.310467
+2020-08-17 03:30:07,198 INFO     Training average negative_sample_loss at step 25000: 0.205277
+2020-08-17 03:30:07,198 INFO     Training average loss at step 25000: 0.257873
+2020-08-17 03:30:58,709 INFO     Training average positive_sample_loss at step 30000: 0.297007
+2020-08-17 03:30:58,709 INFO     Training average negative_sample_loss at step 30000: 0.189341
+2020-08-17 03:30:58,710 INFO     Training average loss at step 30000: 0.243174
+2020-08-17 03:31:51,095 INFO     Training average positive_sample_loss at step 35000: 0.284862
+2020-08-17 03:31:51,096 INFO     Training average negative_sample_loss at step 35000: 0.177488
+2020-08-17 03:31:51,096 INFO     Training average loss at step 35000: 0.231175
+2020-08-17 03:32:43,276 INFO     Training average positive_sample_loss at step 40000: 0.275268
+2020-08-17 03:32:43,276 INFO     Training average negative_sample_loss at step 40000: 0.167602
+2020-08-17 03:32:43,276 INFO     Training average loss at step 40000: 0.221435
+2020-08-17 03:33:37,442 INFO     Training average positive_sample_loss at step 45000: 0.265910
+2020-08-17 03:33:37,442 INFO     Training average negative_sample_loss at step 45000: 0.160102
+2020-08-17 03:33:37,442 INFO     Training average loss at step 45000: 0.213006
+2020-08-17 03:34:30,534 INFO     Training average positive_sample_loss at step 50000: 0.258414
+2020-08-17 03:34:30,534 INFO     Training average negative_sample_loss at step 50000: 0.153351
+2020-08-17 03:34:30,534 INFO     Training average loss at step 50000: 0.205883
+2020-08-17 03:35:24,166 INFO     Training average positive_sample_loss at step 55000: 0.250886
+2020-08-17 03:35:24,166 INFO     Training average negative_sample_loss at step 55000: 0.148033
+2020-08-17 03:35:24,166 INFO     Training average loss at step 55000: 0.199460
+2020-08-17 03:36:16,935 INFO     Training average positive_sample_loss at step 60000: 0.244778
+2020-08-17 03:36:16,935 INFO     Training average negative_sample_loss at step 60000: 0.143355
+2020-08-17 03:36:16,935 INFO     Training average loss at step 60000: 0.194066
+2020-08-17 03:37:10,410 INFO     Training average positive_sample_loss at step 65000: 0.238800
+2020-08-17 03:37:10,410 INFO     Training average negative_sample_loss at step 65000: 0.139349
+2020-08-17 03:37:10,410 INFO     Training average loss at step 65000: 0.189074
+2020-08-17 03:38:03,636 INFO     Training average positive_sample_loss at step 70000: 0.233821
+2020-08-17 03:38:03,636 INFO     Training average negative_sample_loss at step 70000: 0.136142
+2020-08-17 03:38:03,636 INFO     Training average loss at step 70000: 0.184981
+2020-08-17 03:38:57,131 INFO     Training average positive_sample_loss at step 75000: 0.228981
+2020-08-17 03:38:57,131 INFO     Training average negative_sample_loss at step 75000: 0.133322
+2020-08-17 03:38:57,131 INFO     Training average loss at step 75000: 0.181151
+2020-08-17 03:39:50,768 INFO     Training average positive_sample_loss at step 80000: 0.225053
+2020-08-17 03:39:50,769 INFO     Training average negative_sample_loss at step 80000: 0.130475
+2020-08-17 03:39:50,769 INFO     Training average loss at step 80000: 0.177764
+2020-08-17 03:40:44,863 INFO     Training average positive_sample_loss at step 85000: 0.221043
+2020-08-17 03:40:44,863 INFO     Training average negative_sample_loss at step 85000: 0.128130
+2020-08-17 03:40:44,863 INFO     Training average loss at step 85000: 0.174586
+2020-08-17 03:41:36,962 INFO     Training average positive_sample_loss at step 90000: 0.217970
+2020-08-17 03:41:36,963 INFO     Training average negative_sample_loss at step 90000: 0.126209
+2020-08-17 03:41:36,963 INFO     Training average loss at step 90000: 0.172090
+2020-08-17 03:42:30,348 INFO     Training average positive_sample_loss at step 95000: 0.214707
+2020-08-17 03:42:30,349 INFO     Training average negative_sample_loss at step 95000: 0.124386
+2020-08-17 03:42:30,349 INFO     Training average loss at step 95000: 0.169547
+2020-08-17 03:43:21,924 INFO     Change learning_rate to 0.010000 at step 100000
+2020-08-17 03:43:22,680 INFO     Training average positive_sample_loss at step 100000: 0.212175
+2020-08-17 03:43:22,681 INFO     Training average negative_sample_loss at step 100000: 0.122574
+2020-08-17 03:43:22,681 INFO     Training average loss at step 100000: 0.167375
+2020-08-17 03:44:15,773 INFO     Training average positive_sample_loss at step 105000: 0.220299
+2020-08-17 03:44:15,773 INFO     Training average negative_sample_loss at step 105000: 0.114759
+2020-08-17 03:44:15,773 INFO     Training average loss at step 105000: 0.167529
+2020-08-17 03:45:07,613 INFO     Training average positive_sample_loss at step 110000: 0.212161
+2020-08-17 03:45:07,613 INFO     Training average negative_sample_loss at step 110000: 0.114372
+2020-08-17 03:45:07,613 INFO     Training average loss at step 110000: 0.163267
+2020-08-17 03:46:00,584 INFO     Training average positive_sample_loss at step 115000: 0.208978
+2020-08-17 03:46:00,585 INFO     Training average negative_sample_loss at step 115000: 0.114352
+2020-08-17 03:46:00,585 INFO     Training average loss at step 115000: 0.161665
+2020-08-17 03:46:51,732 INFO     Training average positive_sample_loss at step 120000: 0.207232
+2020-08-17 03:46:51,733 INFO     Training average negative_sample_loss at step 120000: 0.114439
+2020-08-17 03:46:51,733 INFO     Training average loss at step 120000: 0.160836
+2020-08-17 03:47:44,490 INFO     Training average positive_sample_loss at step 125000: 0.205730
+2020-08-17 03:47:44,490 INFO     Training average negative_sample_loss at step 125000: 0.114255
+2020-08-17 03:47:44,490 INFO     Training average loss at step 125000: 0.159993
+2020-08-17 03:48:36,717 INFO     Training average positive_sample_loss at step 130000: 0.204547
+2020-08-17 03:48:36,717 INFO     Training average negative_sample_loss at step 130000: 0.113997
+2020-08-17 03:48:36,717 INFO     Training average loss at step 130000: 0.159272
+2020-08-17 03:49:30,141 INFO     Training average positive_sample_loss at step 135000: 0.203596
+2020-08-17 03:49:30,141 INFO     Training average negative_sample_loss at step 135000: 0.114048
+2020-08-17 03:49:30,141 INFO     Training average loss at step 135000: 0.158822
+2020-08-17 03:50:22,013 INFO     Training average positive_sample_loss at step 140000: 0.202768
+2020-08-17 03:50:22,013 INFO     Training average negative_sample_loss at step 140000: 0.113896
+2020-08-17 03:50:22,013 INFO     Training average loss at step 140000: 0.158332
+2020-08-17 03:51:14,920 INFO     Training average positive_sample_loss at step 145000: 0.201937
+2020-08-17 03:51:14,921 INFO     Training average negative_sample_loss at step 145000: 0.113979
+2020-08-17 03:51:14,921 INFO     Training average loss at step 145000: 0.157958
+2020-08-17 03:52:06,144 INFO     Training average positive_sample_loss at step 150000: 0.201431
+2020-08-17 03:52:06,144 INFO     Training average negative_sample_loss at step 150000: 0.113651
+2020-08-17 03:52:06,144 INFO     Training average loss at step 150000: 0.157541
+2020-08-17 03:52:59,326 INFO     Training average positive_sample_loss at step 155000: 0.200711
+2020-08-17 03:52:59,326 INFO     Training average negative_sample_loss at step 155000: 0.113500
+2020-08-17 03:52:59,326 INFO     Training average loss at step 155000: 0.157105
+2020-08-17 03:53:51,852 INFO     Training average positive_sample_loss at step 160000: 0.200218
+2020-08-17 03:53:51,853 INFO     Training average negative_sample_loss at step 160000: 0.113470
+2020-08-17 03:53:51,853 INFO     Training average loss at step 160000: 0.156844
+2020-08-17 03:54:44,435 INFO     Training average positive_sample_loss at step 165000: 0.199662
+2020-08-17 03:54:44,435 INFO     Training average negative_sample_loss at step 165000: 0.113175
+2020-08-17 03:54:44,435 INFO     Training average loss at step 165000: 0.156419
+2020-08-17 03:55:36,091 INFO     Training average positive_sample_loss at step 170000: 0.199366
+2020-08-17 03:55:36,091 INFO     Training average negative_sample_loss at step 170000: 0.113401
+2020-08-17 03:55:36,091 INFO     Training average loss at step 170000: 0.156384
+2020-08-17 03:56:29,552 INFO     Training average positive_sample_loss at step 175000: 0.198837
+2020-08-17 03:56:29,552 INFO     Training average negative_sample_loss at step 175000: 0.113116
+2020-08-17 03:56:29,552 INFO     Training average loss at step 175000: 0.155976
+2020-08-17 03:57:20,876 INFO     Training average positive_sample_loss at step 180000: 0.198473
+2020-08-17 03:57:20,876 INFO     Training average negative_sample_loss at step 180000: 0.113051
+2020-08-17 03:57:20,876 INFO     Training average loss at step 180000: 0.155762
+2020-08-17 03:58:15,039 INFO     Training average positive_sample_loss at step 185000: 0.198105
+2020-08-17 03:58:15,040 INFO     Training average negative_sample_loss at step 185000: 0.112944
+2020-08-17 03:58:15,040 INFO     Training average loss at step 185000: 0.155525
+2020-08-17 03:59:07,886 INFO     Training average positive_sample_loss at step 190000: 0.197785
+2020-08-17 03:59:07,886 INFO     Training average negative_sample_loss at step 190000: 0.112813
+2020-08-17 03:59:07,886 INFO     Training average loss at step 190000: 0.155299
+2020-08-17 04:00:01,124 INFO     Training average positive_sample_loss at step 195000: 0.197299
+2020-08-17 04:00:01,124 INFO     Training average negative_sample_loss at step 195000: 0.112396
+2020-08-17 04:00:01,124 INFO     Training average loss at step 195000: 0.154847
+2020-08-17 04:00:53,988 INFO     Evaluating on Valid Dataset...
+2020-08-17 04:00:55,432 INFO     Evaluating the model... (0/340)
+2020-08-17 04:01:26,148 INFO     Valid MRR at step 199999: 0.035983
+2020-08-17 04:01:26,149 INFO     Valid MR at step 199999: 4748.789406
+2020-08-17 04:01:26,149 INFO     Valid HITS@1 at step 199999: 0.008277
+2020-08-17 04:01:26,149 INFO     Valid HITS@3 at step 199999: 0.020048
+2020-08-17 04:01:26,149 INFO     Valid HITS@10 at step 199999: 0.059776
+Validation (199999): MRR - 0.03598337244525772;MR - 4748.789405922384;HITS@1 - 0.008276623137759793;HITS@3 - 0.02004782048924039;HITS@10 - 0.0597756115504874;
+2020-08-17 04:01:27,588 INFO     Evaluating the model... (0/39)
+2020-08-17 04:01:30,799 INFO     Test MRR at step 199999: 0.472632
+2020-08-17 04:01:30,800 INFO     Test MR at step 199999: 37.553922
+2020-08-17 04:01:30,800 INFO     Test HITS@1 at step 199999: 0.310458
+2020-08-17 04:01:30,800 INFO     Test HITS@3 at step 199999: 0.573529
+2020-08-17 04:01:30,800 INFO     Test HITS@10 at step 199999: 0.794118
+#steps = 199999, #negs = 10, dim = 10;MRR: 0.4726320441756056;MR: 37.55392156862745;HITS@1: 0.3104575163398693;HITS@3: 0.5735294117647058;HITS@10: 0.7941176470588235
+2020-08-17 04:01:30,800 INFO     
+-----------------------------------------------
+
+2020-08-17 04:01:32,772 INFO     NO INJECTION
+2020-08-17 04:01:32,772 INFO     Model: TransQuatEReg
+2020-08-17 04:01:32,772 INFO     Data Path: data/SD2020
+2020-08-17 04:01:32,772 INFO     #entity: 68907
+2020-08-17 04:01:32,772 INFO     #relation: 13
+2020-08-17 04:01:32,905 INFO     #train: 142188
+2020-08-17 04:01:32,910 INFO     #valid: 5437
+2020-08-17 04:01:32,911 INFO     #test: 612
+rules not injected
+Temperature -  1.0
+
+Model - TransQuatEReg; opt - ada; batch size - 512; dataset - data/SD2020; lr - 0.1, gamma = 4.0; 
+Loss fnc - rotate; inv - False; impl - False; sym - False; eq - False
+2020-08-17 04:01:33,351 INFO     Model: TransQuatEReg
+2020-08-17 04:01:33,351 INFO     Data Path: data/SD2020
+2020-08-17 04:01:33,351 INFO     #entity: 68907
+2020-08-17 04:01:33,351 INFO     #relation: 13
+2020-08-17 04:01:33,351 INFO     optimizer: ada
+2020-08-17 04:01:33,351 INFO     learning rate: 0.100000
+2020-08-17 04:01:33,352 INFO     loss: rotate
+2020-08-17 04:01:33,352 INFO     Model Parameter Configuration:
+2020-08-17 04:01:33,352 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2020-08-17 04:01:33,352 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2020-08-17 04:01:33,352 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
+2020-08-17 04:01:33,352 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
+2020-08-17 04:01:33,352 INFO     Parameter entity_embedding: torch.Size([68907, 200]), require_grad = True
+2020-08-17 04:01:33,352 INFO     Parameter relation_embedding: torch.Size([13, 200]), require_grad = True
+2020-08-17 04:01:33,352 INFO     Parameter rotator_head: torch.Size([13, 200]), require_grad = True
+2020-08-17 04:01:33,352 INFO     Parameter mapping_reqularizer: torch.Size([68907, 200]), require_grad = True
+2020-08-17 04:01:33,352 INFO     Loss function rotate
+2020-08-17 04:01:35,739 INFO     Ramdomly Initializing TransQuatEReg Model...
+2020-08-17 04:01:35,739 INFO     Max steps - 200000
+2020-08-17 04:01:35,739 INFO     Negative sample 10 
+2020-08-17 04:01:37,315 INFO     Training average positive_sample_loss at step 0: 1.229281
+2020-08-17 04:01:37,315 INFO     Training average negative_sample_loss at step 0: 0.361628
+2020-08-17 04:01:37,315 INFO     Training average loss at step 0: 0.795454
+2020-08-17 04:04:20,824 INFO     Training average positive_sample_loss at step 5000: 0.644635
+2020-08-17 04:04:20,825 INFO     Training average negative_sample_loss at step 5000: 0.143265
+2020-08-17 04:04:20,825 INFO     Training average loss at step 5000: 0.393950
+2020-08-17 04:07:07,860 INFO     Training average positive_sample_loss at step 10000: 0.179799
+2020-08-17 04:07:07,860 INFO     Training average negative_sample_loss at step 10000: 0.081615
+2020-08-17 04:07:07,860 INFO     Training average loss at step 10000: 0.130707
+2020-08-17 04:09:59,165 INFO     Training average positive_sample_loss at step 15000: 0.161219
+2020-08-17 04:09:59,165 INFO     Training average negative_sample_loss at step 15000: 0.073070
+2020-08-17 04:09:59,165 INFO     Training average loss at step 15000: 0.117145
+2020-08-17 04:12:51,352 INFO     Training average positive_sample_loss at step 20000: 0.152108
+2020-08-17 04:12:51,353 INFO     Training average negative_sample_loss at step 20000: 0.068806
+2020-08-17 04:12:51,353 INFO     Training average loss at step 20000: 0.110457
+2020-08-17 04:15:43,736 INFO     Training average positive_sample_loss at step 25000: 0.146285
+2020-08-17 04:15:43,737 INFO     Training average negative_sample_loss at step 25000: 0.066079
+2020-08-17 04:15:43,737 INFO     Training average loss at step 25000: 0.106182
+2020-08-17 04:18:34,446 INFO     Training average positive_sample_loss at step 30000: 0.142126
+2020-08-17 04:18:34,446 INFO     Training average negative_sample_loss at step 30000: 0.064112
+2020-08-17 04:18:34,447 INFO     Training average loss at step 30000: 0.103119
+2020-08-17 04:21:25,560 INFO     Training average positive_sample_loss at step 35000: 0.138867
+2020-08-17 04:21:25,561 INFO     Training average negative_sample_loss at step 35000: 0.062553
+2020-08-17 04:21:25,561 INFO     Training average loss at step 35000: 0.100710
+2020-08-17 04:24:16,662 INFO     Training average positive_sample_loss at step 40000: 0.136379
+2020-08-17 04:24:16,662 INFO     Training average negative_sample_loss at step 40000: 0.061425
+2020-08-17 04:24:16,662 INFO     Training average loss at step 40000: 0.098902
+2020-08-17 04:27:09,802 INFO     Training average positive_sample_loss at step 45000: 0.134282
+2020-08-17 04:27:09,803 INFO     Training average negative_sample_loss at step 45000: 0.060409
+2020-08-17 04:27:09,803 INFO     Training average loss at step 45000: 0.097345
+2020-08-17 04:30:02,446 INFO     Training average positive_sample_loss at step 50000: 0.132557
+2020-08-17 04:30:02,446 INFO     Training average negative_sample_loss at step 50000: 0.059610
+2020-08-17 04:30:02,446 INFO     Training average loss at step 50000: 0.096083
+2020-08-17 04:32:54,344 INFO     Training average positive_sample_loss at step 55000: 0.131045
+2020-08-17 04:32:54,344 INFO     Training average negative_sample_loss at step 55000: 0.058906
+2020-08-17 04:32:54,344 INFO     Training average loss at step 55000: 0.094975
+2020-08-17 04:35:46,384 INFO     Training average positive_sample_loss at step 60000: 0.129664
+2020-08-17 04:35:46,385 INFO     Training average negative_sample_loss at step 60000: 0.058272
+2020-08-17 04:35:46,385 INFO     Training average loss at step 60000: 0.093968
+2020-08-17 04:38:39,000 INFO     Training average positive_sample_loss at step 65000: 0.128517
+2020-08-17 04:38:39,001 INFO     Training average negative_sample_loss at step 65000: 0.057684
+2020-08-17 04:38:39,001 INFO     Training average loss at step 65000: 0.093101
+2020-08-17 04:41:30,622 INFO     Training average positive_sample_loss at step 70000: 0.127418
+2020-08-17 04:41:30,622 INFO     Training average negative_sample_loss at step 70000: 0.057188
+2020-08-17 04:41:30,622 INFO     Training average loss at step 70000: 0.092303
+2020-08-17 04:44:23,095 INFO     Training average positive_sample_loss at step 75000: 0.126480
+2020-08-17 04:44:23,096 INFO     Training average negative_sample_loss at step 75000: 0.056835
+2020-08-17 04:44:23,096 INFO     Training average loss at step 75000: 0.091657
+2020-08-17 04:47:16,195 INFO     Training average positive_sample_loss at step 80000: 0.125610
+2020-08-17 04:47:16,195 INFO     Training average negative_sample_loss at step 80000: 0.056371
+2020-08-17 04:47:16,196 INFO     Training average loss at step 80000: 0.090990
+2020-08-17 04:50:08,554 INFO     Training average positive_sample_loss at step 85000: 0.124776
+2020-08-17 04:50:08,555 INFO     Training average negative_sample_loss at step 85000: 0.055991
+2020-08-17 04:50:08,555 INFO     Training average loss at step 85000: 0.090383
+2020-08-17 04:53:03,644 INFO     Training average positive_sample_loss at step 90000: 0.124052
+2020-08-17 04:53:03,645 INFO     Training average negative_sample_loss at step 90000: 0.055661
+2020-08-17 04:53:03,645 INFO     Training average loss at step 90000: 0.089856
+2020-08-17 04:55:56,953 INFO     Training average positive_sample_loss at step 95000: 0.123321
+2020-08-17 04:55:56,954 INFO     Training average negative_sample_loss at step 95000: 0.055303
+2020-08-17 04:55:56,954 INFO     Training average loss at step 95000: 0.089312
+2020-08-17 04:58:46,824 INFO     Change learning_rate to 0.010000 at step 100000
+2020-08-17 04:58:48,999 INFO     Training average positive_sample_loss at step 100000: 0.122661
+2020-08-17 04:58:48,999 INFO     Training average negative_sample_loss at step 100000: 0.055057
+2020-08-17 04:58:48,999 INFO     Training average loss at step 100000: 0.088859
+2020-08-17 05:01:41,498 INFO     Training average positive_sample_loss at step 105000: 0.137768
+2020-08-17 05:01:41,498 INFO     Training average negative_sample_loss at step 105000: 0.049225
+2020-08-17 05:01:41,499 INFO     Training average loss at step 105000: 0.093497
+2020-08-17 05:04:33,743 INFO     Training average positive_sample_loss at step 110000: 0.116564
+2020-08-17 05:04:33,743 INFO     Training average negative_sample_loss at step 110000: 0.052707
+2020-08-17 05:04:33,743 INFO     Training average loss at step 110000: 0.084636
+2020-08-17 05:07:25,972 INFO     Training average positive_sample_loss at step 115000: 0.114179
+2020-08-17 05:07:25,972 INFO     Training average negative_sample_loss at step 115000: 0.052882
+2020-08-17 05:07:25,972 INFO     Training average loss at step 115000: 0.083531
+2020-08-17 05:10:18,090 INFO     Training average positive_sample_loss at step 120000: 0.113142
+2020-08-17 05:10:18,090 INFO     Training average negative_sample_loss at step 120000: 0.052661
+2020-08-17 05:10:18,090 INFO     Training average loss at step 120000: 0.082902
+2020-08-17 05:13:09,894 INFO     Training average positive_sample_loss at step 125000: 0.112417
+2020-08-17 05:13:09,895 INFO     Training average negative_sample_loss at step 125000: 0.052476
+2020-08-17 05:13:09,895 INFO     Training average loss at step 125000: 0.082447
+2020-08-17 05:16:02,263 INFO     Training average positive_sample_loss at step 130000: 0.111969
+2020-08-17 05:16:02,263 INFO     Training average negative_sample_loss at step 130000: 0.052291
+2020-08-17 05:16:02,263 INFO     Training average loss at step 130000: 0.082130
+2020-08-17 05:18:55,070 INFO     Training average positive_sample_loss at step 135000: 0.111626
+2020-08-17 05:18:55,071 INFO     Training average negative_sample_loss at step 135000: 0.052168
+2020-08-17 05:18:55,071 INFO     Training average loss at step 135000: 0.081897
+2020-08-17 05:21:46,868 INFO     Training average positive_sample_loss at step 140000: 0.111322
+2020-08-17 05:21:46,868 INFO     Training average negative_sample_loss at step 140000: 0.052125
+2020-08-17 05:21:46,868 INFO     Training average loss at step 140000: 0.081723
+2020-08-17 05:24:37,661 INFO     Training average positive_sample_loss at step 145000: 0.111036
+2020-08-17 05:24:37,662 INFO     Training average negative_sample_loss at step 145000: 0.051942
+2020-08-17 05:24:37,662 INFO     Training average loss at step 145000: 0.081489
+2020-08-17 05:27:30,001 INFO     Training average positive_sample_loss at step 150000: 0.110804
+2020-08-17 05:27:30,001 INFO     Training average negative_sample_loss at step 150000: 0.051832
+2020-08-17 05:27:30,001 INFO     Training average loss at step 150000: 0.081318
+2020-08-17 05:30:22,066 INFO     Training average positive_sample_loss at step 155000: 0.110581
+2020-08-17 05:30:22,067 INFO     Training average negative_sample_loss at step 155000: 0.051698
+2020-08-17 05:30:22,067 INFO     Training average loss at step 155000: 0.081140
+2020-08-17 05:33:15,027 INFO     Training average positive_sample_loss at step 160000: 0.110392
+2020-08-17 05:33:15,028 INFO     Training average negative_sample_loss at step 160000: 0.051620
+2020-08-17 05:33:15,028 INFO     Training average loss at step 160000: 0.081006
+2020-08-17 05:36:06,401 INFO     Training average positive_sample_loss at step 165000: 0.110181
+2020-08-17 05:36:06,401 INFO     Training average negative_sample_loss at step 165000: 0.051591
+2020-08-17 05:36:06,401 INFO     Training average loss at step 165000: 0.080886
+2020-08-17 05:38:57,811 INFO     Training average positive_sample_loss at step 170000: 0.110089
+2020-08-17 05:38:57,812 INFO     Training average negative_sample_loss at step 170000: 0.051499
+2020-08-17 05:38:57,812 INFO     Training average loss at step 170000: 0.080794
+2020-08-17 05:41:49,507 INFO     Training average positive_sample_loss at step 175000: 0.109896
+2020-08-17 05:41:49,508 INFO     Training average negative_sample_loss at step 175000: 0.051429
+2020-08-17 05:41:49,508 INFO     Training average loss at step 175000: 0.080663
+2020-08-17 05:44:41,107 INFO     Training average positive_sample_loss at step 180000: 0.109778
+2020-08-17 05:44:41,107 INFO     Training average negative_sample_loss at step 180000: 0.051302
+2020-08-17 05:44:41,108 INFO     Training average loss at step 180000: 0.080540
+2020-08-17 05:47:32,849 INFO     Training average positive_sample_loss at step 185000: 0.109662
+2020-08-17 05:47:32,850 INFO     Training average negative_sample_loss at step 185000: 0.051371
+2020-08-17 05:47:32,850 INFO     Training average loss at step 185000: 0.080516
+2020-08-17 05:50:25,902 INFO     Training average positive_sample_loss at step 190000: 0.109555
+2020-08-17 05:50:25,902 INFO     Training average negative_sample_loss at step 190000: 0.051191
+2020-08-17 05:50:25,902 INFO     Training average loss at step 190000: 0.080373
+2020-08-17 05:53:17,346 INFO     Training average positive_sample_loss at step 195000: 0.109396
+2020-08-17 05:53:17,347 INFO     Training average negative_sample_loss at step 195000: 0.051180
+2020-08-17 05:53:17,347 INFO     Training average loss at step 195000: 0.080288
+2020-08-17 05:56:10,201 INFO     Evaluating on Valid Dataset...
+2020-08-17 05:56:11,790 INFO     Evaluating the model... (0/340)
+2020-08-17 05:56:42,895 INFO     Valid MRR at step 199999: 0.241753
+2020-08-17 05:56:42,896 INFO     Valid MR at step 199999: 3864.803384
+2020-08-17 05:56:42,896 INFO     Valid HITS@1 at step 199999: 0.113850
+2020-08-17 05:56:42,896 INFO     Valid HITS@3 at step 199999: 0.281773
+2020-08-17 05:56:42,896 INFO     Valid HITS@10 at step 199999: 0.534118
+Validation (199999): MRR - 0.2417530323037097;MR - 3864.8033842192385;HITS@1 - 0.11384954938385139;HITS@3 - 0.2817730366010668;HITS@10 - 0.5341180798234321;
+2020-08-17 05:56:44,496 INFO     Evaluating the model... (0/39)
+2020-08-17 05:56:47,984 INFO     Test MRR at step 199999: 0.918764
+2020-08-17 05:56:47,984 INFO     Test MR at step 199999: 1.220588
+2020-08-17 05:56:47,984 INFO     Test HITS@1 at step 199999: 0.859477
+2020-08-17 05:56:47,984 INFO     Test HITS@3 at step 199999: 0.983660
+2020-08-17 05:56:47,984 INFO     Test HITS@10 at step 199999: 1.000000
+#steps = 199999, #negs = 10, dim = 50;MRR: 0.918763616557734;MR: 1.2205882352941178;HITS@1: 0.8594771241830066;HITS@3: 0.9836601307189542;HITS@10: 1.0
+2020-08-17 05:56:47,984 INFO     
+-----------------------------------------------
+
+2020-08-17 05:56:50,107 INFO     NO INJECTION
+2020-08-17 05:56:50,107 INFO     Model: QuatE
+2020-08-17 05:56:50,107 INFO     Data Path: data/SD2020
+2020-08-17 05:56:50,108 INFO     #entity: 68907
+2020-08-17 05:56:50,108 INFO     #relation: 13
+2020-08-17 05:56:50,238 INFO     #train: 142188
+2020-08-17 05:56:50,243 INFO     #valid: 5437
+2020-08-17 05:56:50,244 INFO     #test: 612
+rules not injected
+Temperature -  1.0
+
+Model - QuatE; opt - ada; batch size - 256; dataset - data/SD2020; lr - 0.1, gamma = 4.0; 
+Loss fnc - rotate; inv - False; impl - False; sym - False; eq - False
+2020-08-17 05:56:50,319 INFO     Model: QuatE
+2020-08-17 05:56:50,319 INFO     Data Path: data/SD2020
+2020-08-17 05:56:50,319 INFO     #entity: 68907
+2020-08-17 05:56:50,319 INFO     #relation: 13
+2020-08-17 05:56:50,319 INFO     optimizer: ada
+2020-08-17 05:56:50,319 INFO     learning rate: 0.100000
+2020-08-17 05:56:50,320 INFO     loss: rotate
+2020-08-17 05:56:50,320 INFO     Model Parameter Configuration:
+2020-08-17 05:56:50,320 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2020-08-17 05:56:50,320 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2020-08-17 05:56:50,320 INFO     Parameter xi: torch.Size([142188, 1]), require_grad = True
+2020-08-17 05:56:50,320 INFO     Parameter xi_neg: torch.Size([142188, 1]), require_grad = True
+2020-08-17 05:56:50,320 INFO     Parameter entity_embedding: torch.Size([68907, 40]), require_grad = True
+2020-08-17 05:56:50,320 INFO     Parameter relation_embedding: torch.Size([13, 40]), require_grad = True
+2020-08-17 05:56:50,320 INFO     Loss function rotate
+2020-08-17 05:56:52,692 INFO     Ramdomly Initializing QuatE Model...
+2020-08-17 05:56:52,692 INFO     Max steps - 200000
+2020-08-17 05:56:52,692 INFO     Negative sample 10 
+2020-08-17 05:56:54,238 INFO     Training average positive_sample_loss at step 0: 0.018150
+2020-08-17 05:56:54,238 INFO     Training average negative_sample_loss at step 0: 4.018150
+2020-08-17 05:56:54,238 INFO     Training average loss at step 0: 2.018150
+2020-08-17 05:58:15,011 INFO     Training average positive_sample_loss at step 5000: 0.299679
+2020-08-17 05:58:15,011 INFO     Training average negative_sample_loss at step 5000: 1.031327
+2020-08-17 05:58:15,012 INFO     Training average loss at step 5000: 0.665503
+2020-08-17 05:59:34,895 INFO     Training average positive_sample_loss at step 10000: 0.173881
+2020-08-17 05:59:34,895 INFO     Training average negative_sample_loss at step 10000: 0.253341
+2020-08-17 05:59:34,895 INFO     Training average loss at step 10000: 0.213611
+2020-08-17 06:00:59,281 INFO     Training average positive_sample_loss at step 15000: 0.111376
+2020-08-17 06:00:59,282 INFO     Training average negative_sample_loss at step 15000: 0.167503
+2020-08-17 06:00:59,282 INFO     Training average loss at step 15000: 0.139440
+2020-08-17 06:02:21,534 INFO     Training average positive_sample_loss at step 20000: 0.085759
+2020-08-17 06:02:21,534 INFO     Training average negative_sample_loss at step 20000: 0.131669
+2020-08-17 06:02:21,534 INFO     Training average loss at step 20000: 0.108714
+2020-08-17 06:03:46,345 INFO     Training average positive_sample_loss at step 25000: 0.070742
+2020-08-17 06:03:46,345 INFO     Training average negative_sample_loss at step 25000: 0.110385
+2020-08-17 06:03:46,346 INFO     Training average loss at step 25000: 0.090564
+2020-08-17 06:05:08,832 INFO     Training average positive_sample_loss at step 30000: 0.061362
+2020-08-17 06:05:08,833 INFO     Training average negative_sample_loss at step 30000: 0.097116
+2020-08-17 06:05:08,833 INFO     Training average loss at step 30000: 0.079239
+2020-08-17 06:06:32,602 INFO     Training average positive_sample_loss at step 35000: 0.054426
+2020-08-17 06:06:32,602 INFO     Training average negative_sample_loss at step 35000: 0.087352
+2020-08-17 06:06:32,602 INFO     Training average loss at step 35000: 0.070889
+2020-08-17 06:07:55,959 INFO     Training average positive_sample_loss at step 40000: 0.049449
+2020-08-17 06:07:55,960 INFO     Training average negative_sample_loss at step 40000: 0.079996
+2020-08-17 06:07:55,960 INFO     Training average loss at step 40000: 0.064723
+2020-08-17 06:09:20,443 INFO     Training average positive_sample_loss at step 45000: 0.045211
+2020-08-17 06:09:20,444 INFO     Training average negative_sample_loss at step 45000: 0.074141
+2020-08-17 06:09:20,444 INFO     Training average loss at step 45000: 0.059676
+2020-08-17 06:10:42,831 INFO     Training average positive_sample_loss at step 50000: 0.042277
+2020-08-17 06:10:42,832 INFO     Training average negative_sample_loss at step 50000: 0.069874
+2020-08-17 06:10:42,832 INFO     Training average loss at step 50000: 0.056076
+2020-08-17 06:12:07,106 INFO     Training average positive_sample_loss at step 55000: 0.039558
+2020-08-17 06:12:07,107 INFO     Training average negative_sample_loss at step 55000: 0.066168
+2020-08-17 06:12:07,107 INFO     Training average loss at step 55000: 0.052863
+2020-08-17 06:13:29,632 INFO     Training average positive_sample_loss at step 60000: 0.037274
+2020-08-17 06:13:29,633 INFO     Training average negative_sample_loss at step 60000: 0.062468
+2020-08-17 06:13:29,633 INFO     Training average loss at step 60000: 0.049871
+2020-08-17 06:14:54,204 INFO     Training average positive_sample_loss at step 65000: 0.035121
+2020-08-17 06:14:54,204 INFO     Training average negative_sample_loss at step 65000: 0.059078
+2020-08-17 06:14:54,205 INFO     Training average loss at step 65000: 0.047099
+2020-08-17 06:16:18,078 INFO     Training average positive_sample_loss at step 70000: 0.033676
+2020-08-17 06:16:18,078 INFO     Training average negative_sample_loss at step 70000: 0.057191
+2020-08-17 06:16:18,078 INFO     Training average loss at step 70000: 0.045434
+2020-08-17 06:17:42,740 INFO     Training average positive_sample_loss at step 75000: 0.032020
+2020-08-17 06:17:42,740 INFO     Training average negative_sample_loss at step 75000: 0.054992
+2020-08-17 06:17:42,741 INFO     Training average loss at step 75000: 0.043506
+2020-08-17 06:19:05,673 INFO     Training average positive_sample_loss at step 80000: 0.030878
+2020-08-17 06:19:05,674 INFO     Training average negative_sample_loss at step 80000: 0.052964
+2020-08-17 06:19:05,674 INFO     Training average loss at step 80000: 0.041921
+2020-08-17 06:20:29,472 INFO     Training average positive_sample_loss at step 85000: 0.029607
+2020-08-17 06:20:29,473 INFO     Training average negative_sample_loss at step 85000: 0.051186
+2020-08-17 06:20:29,473 INFO     Training average loss at step 85000: 0.040397
+2020-08-17 06:21:52,686 INFO     Training average positive_sample_loss at step 90000: 0.028673
+2020-08-17 06:21:52,687 INFO     Training average negative_sample_loss at step 90000: 0.049933
+2020-08-17 06:21:52,687 INFO     Training average loss at step 90000: 0.039303
+2020-08-17 06:23:16,924 INFO     Training average positive_sample_loss at step 95000: 0.027588
+2020-08-17 06:23:16,924 INFO     Training average negative_sample_loss at step 95000: 0.048133
+2020-08-17 06:23:16,924 INFO     Training average loss at step 95000: 0.037861
+2020-08-17 06:24:40,072 INFO     Change learning_rate to 0.010000 at step 100000
+2020-08-17 06:24:41,338 INFO     Training average positive_sample_loss at step 100000: 0.026772
+2020-08-17 06:24:41,338 INFO     Training average negative_sample_loss at step 100000: 0.046907
+2020-08-17 06:24:41,338 INFO     Training average loss at step 100000: 0.036839
+2020-08-17 06:26:08,491 INFO     Training average positive_sample_loss at step 105000: 0.024221
+2020-08-17 06:26:08,491 INFO     Training average negative_sample_loss at step 105000: 0.048504
+2020-08-17 06:26:08,492 INFO     Training average loss at step 105000: 0.036362
+2020-08-17 06:27:33,586 INFO     Training average positive_sample_loss at step 110000: 0.023306
+2020-08-17 06:27:33,587 INFO     Training average negative_sample_loss at step 110000: 0.045805
+2020-08-17 06:27:33,587 INFO     Training average loss at step 110000: 0.034555
+2020-08-17 06:29:00,608 INFO     Training average positive_sample_loss at step 115000: 0.022890
+2020-08-17 06:29:00,608 INFO     Training average negative_sample_loss at step 115000: 0.044476
+2020-08-17 06:29:00,608 INFO     Training average loss at step 115000: 0.033683
+2020-08-17 06:30:25,800 INFO     Training average positive_sample_loss at step 120000: 0.022717
+2020-08-17 06:30:25,801 INFO     Training average negative_sample_loss at step 120000: 0.043721
+2020-08-17 06:30:25,801 INFO     Training average loss at step 120000: 0.033219
+2020-08-17 06:31:52,420 INFO     Training average positive_sample_loss at step 125000: 0.022460
+2020-08-17 06:31:52,420 INFO     Training average negative_sample_loss at step 125000: 0.042978
+2020-08-17 06:31:52,420 INFO     Training average loss at step 125000: 0.032719
+2020-08-17 06:33:17,626 INFO     Training average positive_sample_loss at step 130000: 0.022368
+2020-08-17 06:33:17,626 INFO     Training average negative_sample_loss at step 130000: 0.042771
+2020-08-17 06:33:17,626 INFO     Training average loss at step 130000: 0.032570
+2020-08-17 06:34:44,284 INFO     Training average positive_sample_loss at step 135000: 0.022245
+2020-08-17 06:34:44,285 INFO     Training average negative_sample_loss at step 135000: 0.042066
+2020-08-17 06:34:44,285 INFO     Training average loss at step 135000: 0.032155
+2020-08-17 06:36:10,631 INFO     Training average positive_sample_loss at step 140000: 0.022166
+2020-08-17 06:36:10,631 INFO     Training average negative_sample_loss at step 140000: 0.042158
+2020-08-17 06:36:10,632 INFO     Training average loss at step 140000: 0.032162
+2020-08-17 06:37:37,587 INFO     Training average positive_sample_loss at step 145000: 0.022004
+2020-08-17 06:37:37,587 INFO     Training average negative_sample_loss at step 145000: 0.041708
+2020-08-17 06:37:37,587 INFO     Training average loss at step 145000: 0.031856
+2020-08-17 06:39:02,863 INFO     Training average positive_sample_loss at step 150000: 0.021909
+2020-08-17 06:39:02,863 INFO     Training average negative_sample_loss at step 150000: 0.041223
+2020-08-17 06:39:02,864 INFO     Training average loss at step 150000: 0.031566
+2020-08-17 06:40:30,650 INFO     Training average positive_sample_loss at step 155000: 0.021823
+2020-08-17 06:40:30,651 INFO     Training average negative_sample_loss at step 155000: 0.041377
+2020-08-17 06:40:30,651 INFO     Training average loss at step 155000: 0.031600
+2020-08-17 06:41:56,760 INFO     Training average positive_sample_loss at step 160000: 0.021764
+2020-08-17 06:41:56,761 INFO     Training average negative_sample_loss at step 160000: 0.040615
+2020-08-17 06:41:56,761 INFO     Training average loss at step 160000: 0.031190
+2020-08-17 06:43:24,089 INFO     Training average positive_sample_loss at step 165000: 0.021588
+2020-08-17 06:43:24,089 INFO     Training average negative_sample_loss at step 165000: 0.040531
+2020-08-17 06:43:24,089 INFO     Training average loss at step 165000: 0.031060
+2020-08-17 06:44:49,185 INFO     Training average positive_sample_loss at step 170000: 0.021559
+2020-08-17 06:44:49,186 INFO     Training average negative_sample_loss at step 170000: 0.040531
+2020-08-17 06:44:49,186 INFO     Training average loss at step 170000: 0.031045
+2020-08-17 06:46:16,337 INFO     Training average positive_sample_loss at step 175000: 0.021544
+2020-08-17 06:46:16,337 INFO     Training average negative_sample_loss at step 175000: 0.040255
+2020-08-17 06:46:16,337 INFO     Training average loss at step 175000: 0.030899
+2020-08-17 06:47:42,732 INFO     Training average positive_sample_loss at step 180000: 0.021341
+2020-08-17 06:47:42,733 INFO     Training average negative_sample_loss at step 180000: 0.039930
+2020-08-17 06:47:42,733 INFO     Training average loss at step 180000: 0.030635
+2020-08-17 06:49:09,705 INFO     Training average positive_sample_loss at step 185000: 0.021251
+2020-08-17 06:49:09,705 INFO     Training average negative_sample_loss at step 185000: 0.039764
+2020-08-17 06:49:09,706 INFO     Training average loss at step 185000: 0.030507
+2020-08-17 06:50:36,062 INFO     Training average positive_sample_loss at step 190000: 0.021189
+2020-08-17 06:50:36,062 INFO     Training average negative_sample_loss at step 190000: 0.039672
+2020-08-17 06:50:36,063 INFO     Training average loss at step 190000: 0.030430
+2020-08-17 06:52:03,374 INFO     Training average positive_sample_loss at step 195000: 0.021190
+2020-08-17 06:52:03,375 INFO     Training average negative_sample_loss at step 195000: 0.039758
+2020-08-17 06:52:03,375 INFO     Training average loss at step 195000: 0.030474
+2020-08-17 06:53:29,291 INFO     Evaluating on Valid Dataset...
+2020-08-17 06:53:30,610 INFO     Evaluating the model... (0/340)
+2020-08-17 06:54:00,324 INFO     Valid MRR at step 199999: 0.021592
+2020-08-17 06:54:00,325 INFO     Valid MR at step 199999: 5589.099319
+2020-08-17 06:54:00,325 INFO     Valid HITS@1 at step 199999: 0.006621
+2020-08-17 06:54:00,325 INFO     Valid HITS@3 at step 199999: 0.020416
+2020-08-17 06:54:00,325 INFO     Valid HITS@10 at step 199999: 0.044142
+Validation (199999): MRR - 0.021591726305477385;MR - 5589.099319477653;HITS@1 - 0.0066212985102078355;HITS@3 - 0.02041567040647416;HITS@10 - 0.044141990068052236;
+2020-08-17 06:54:01,747 INFO     Evaluating the model... (0/39)
+2020-08-17 06:54:04,733 INFO     Test MRR at step 199999: 0.029877
+2020-08-17 06:54:04,733 INFO     Test MR at step 199999: 433.816993
+2020-08-17 06:54:04,733 INFO     Test HITS@1 at step 199999: 0.006536
+2020-08-17 06:54:04,733 INFO     Test HITS@3 at step 199999: 0.027778
+2020-08-17 06:54:04,733 INFO     Test HITS@10 at step 199999: 0.073529
+#steps = 199999, #negs = 10, dim = 10;MRR: 0.029877025524613455;MR: 433.8169934640523;HITS@1: 0.006535947712418301;HITS@3: 0.027777777777777776;HITS@10: 0.07352941176470588
+2020-08-17 06:54:04,733 INFO     
 -----------------------------------------------
 
