@@ -1,0 +1,144 @@
+2020-08-24 21:07:43,924 INFO     NO INJECTION
+2020-08-24 21:07:43,924 INFO     Model: ComplEx
+2020-08-24 21:07:43,924 INFO     Data Path: data/SD2020
+2020-08-24 21:07:43,924 INFO     #entity: 68907
+2020-08-24 21:07:43,924 INFO     #relation: 13
+2020-08-24 21:07:44,068 INFO     #train: 142188
+2020-08-24 21:07:44,074 INFO     #valid: 5437
+2020-08-24 21:07:44,075 INFO     #test: 612
+is cuda available?  True
+GeForce RTX 2080
+Temperature -  1.0
+
+Model - ComplEx; opt - ada; batch size - 256; dataset - data/SD2020; lr - 0.1, gamma = 20.0; 
+Loss fnc - rotate; inv - False; impl - False; sym - False; eq - False
+torch version: 1.2.0
+2020-08-24 21:07:44,491 INFO     Model: ComplEx
+2020-08-24 21:07:44,492 INFO     Data Path: data/SD2020
+2020-08-24 21:07:44,492 INFO     #entity: 68907
+2020-08-24 21:07:44,492 INFO     #relation: 13
+2020-08-24 21:07:44,492 INFO     optimizer: ada
+2020-08-24 21:07:44,492 INFO     learning rate: 0.100000
+2020-08-24 21:07:44,492 INFO     loss: rotate
+2020-08-24 21:07:44,492 INFO     Model Parameter Configuration:
+2020-08-24 21:07:44,492 INFO     Parameter gamma: torch.Size([1]), require_grad = False
+2020-08-24 21:07:44,492 INFO     Parameter embedding_range: torch.Size([1]), require_grad = False
+2020-08-24 21:07:44,492 INFO     Parameter entity_embedding: torch.Size([68907, 1000]), require_grad = True
+2020-08-24 21:07:44,492 INFO     Parameter relation_embedding: torch.Size([13, 1000]), require_grad = True
+2020-08-24 21:07:44,492 INFO     Loss function rotate
+2020-08-24 21:07:46,929 INFO     Randomly Initializing ComplEx Model...
+2020-08-24 21:07:46,929 INFO     Max steps - 50000
+2020-08-24 21:07:46,929 INFO     Negative sample 10 
+2020-08-24 21:07:48,598 INFO     Training average positive_sample_loss at step 0: 0.693134
+2020-08-24 21:07:48,598 INFO     Training average negative_sample_loss at step 0: 0.693142
+2020-08-24 21:07:48,598 INFO     Training average loss at step 0: 0.693138
+2020-08-24 21:08:54,471 INFO     Training average positive_sample_loss at step 2000: 0.206035
+2020-08-24 21:08:54,471 INFO     Training average negative_sample_loss at step 2000: 0.458707
+2020-08-24 21:08:54,471 INFO     Training average loss at step 2000: 0.332371
+2020-08-24 21:10:01,229 INFO     Training average positive_sample_loss at step 4000: 0.007931
+2020-08-24 21:10:01,230 INFO     Training average negative_sample_loss at step 4000: 0.022995
+2020-08-24 21:10:01,230 INFO     Training average loss at step 4000: 0.015463
+2020-08-24 21:11:08,067 INFO     Training average positive_sample_loss at step 6000: 0.002628
+2020-08-24 21:11:08,067 INFO     Training average negative_sample_loss at step 6000: 0.006551
+2020-08-24 21:11:08,068 INFO     Training average loss at step 6000: 0.004589
+2020-08-24 21:12:14,586 INFO     Training average positive_sample_loss at step 8000: 0.001447
+2020-08-24 21:12:14,586 INFO     Training average negative_sample_loss at step 8000: 0.003509
+2020-08-24 21:12:14,586 INFO     Training average loss at step 8000: 0.002478
+2020-08-24 21:13:21,885 INFO     Training average positive_sample_loss at step 10000: 0.001012
+2020-08-24 21:13:21,885 INFO     Training average negative_sample_loss at step 10000: 0.002370
+2020-08-24 21:13:21,885 INFO     Training average loss at step 10000: 0.001691
+2020-08-24 21:14:28,859 INFO     Training average positive_sample_loss at step 12000: 0.000747
+2020-08-24 21:14:28,859 INFO     Training average negative_sample_loss at step 12000: 0.001688
+2020-08-24 21:14:28,859 INFO     Training average loss at step 12000: 0.001217
+2020-08-24 21:15:35,688 INFO     Training average positive_sample_loss at step 14000: 0.000584
+2020-08-24 21:15:35,689 INFO     Training average negative_sample_loss at step 14000: 0.001355
+2020-08-24 21:15:35,689 INFO     Training average loss at step 14000: 0.000970
+2020-08-24 21:16:42,492 INFO     Training average positive_sample_loss at step 16000: 0.000508
+2020-08-24 21:16:42,492 INFO     Training average negative_sample_loss at step 16000: 0.001112
+2020-08-24 21:16:42,493 INFO     Training average loss at step 16000: 0.000810
+2020-08-24 21:17:49,160 INFO     Training average positive_sample_loss at step 18000: 0.000406
+2020-08-24 21:17:49,161 INFO     Training average negative_sample_loss at step 18000: 0.000956
+2020-08-24 21:17:49,161 INFO     Training average loss at step 18000: 0.000681
+2020-08-24 21:18:56,298 INFO     Training average positive_sample_loss at step 20000: 0.000383
+2020-08-24 21:18:56,299 INFO     Training average negative_sample_loss at step 20000: 0.000822
+2020-08-24 21:18:56,299 INFO     Training average loss at step 20000: 0.000602
+2020-08-24 21:18:56,304 INFO     Evaluating on Valid Dataset...
+2020-08-24 21:18:56,964 INFO     Evaluating the model... (0/1360)
+2020-08-24 21:19:23,852 INFO     Evaluating the model... (1000/1360)
+2020-08-24 21:19:33,552 INFO     Valid MRR at step 20000: 0.017009
+2020-08-24 21:19:33,554 INFO     Valid MR at step 20000: 10338.563730
+2020-08-24 21:19:33,556 INFO     Valid HITS@1 at step 20000: 0.013243
+2020-08-24 21:19:33,556 INFO     Valid HITS@3 at step 20000: 0.016369
+2020-08-24 21:19:33,557 INFO     Valid HITS@10 at step 20000: 0.017473
+Validation (20000): MRR - 0.0170087088923714;MR - 10338.56372999816;HITS@1 - 0.013242597020415671;HITS@3 - 0.016369321316902705;HITS@10 - 0.01747287106860401;
+2020-08-24 21:20:39,982 INFO     Training average positive_sample_loss at step 22000: 0.000323
+2020-08-24 21:20:39,983 INFO     Training average negative_sample_loss at step 22000: 0.000723
+2020-08-24 21:20:39,983 INFO     Training average loss at step 22000: 0.000523
+2020-08-24 21:21:46,627 INFO     Training average positive_sample_loss at step 24000: 0.000329
+2020-08-24 21:21:46,628 INFO     Training average negative_sample_loss at step 24000: 0.000674
+2020-08-24 21:21:46,628 INFO     Training average loss at step 24000: 0.000501
+2020-08-24 21:22:19,953 INFO     Change learning_rate to 0.010000 at step 25000
+2020-08-24 21:22:53,666 INFO     Training average positive_sample_loss at step 26000: 0.000189
+2020-08-24 21:22:53,667 INFO     Training average negative_sample_loss at step 26000: 0.000573
+2020-08-24 21:22:53,667 INFO     Training average loss at step 26000: 0.000381
+2020-08-24 21:24:00,509 INFO     Training average positive_sample_loss at step 28000: 0.000059
+2020-08-24 21:24:00,510 INFO     Training average negative_sample_loss at step 28000: 0.000314
+2020-08-24 21:24:00,510 INFO     Training average loss at step 28000: 0.000186
+2020-08-24 21:25:07,521 INFO     Training average positive_sample_loss at step 30000: 0.000053
+2020-08-24 21:25:07,522 INFO     Training average negative_sample_loss at step 30000: 0.000224
+2020-08-24 21:25:07,522 INFO     Training average loss at step 30000: 0.000139
+2020-08-24 21:26:14,411 INFO     Training average positive_sample_loss at step 32000: 0.000049
+2020-08-24 21:26:14,411 INFO     Training average negative_sample_loss at step 32000: 0.000209
+2020-08-24 21:26:14,411 INFO     Training average loss at step 32000: 0.000129
+2020-08-24 21:27:21,483 INFO     Training average positive_sample_loss at step 34000: 0.000045
+2020-08-24 21:27:21,484 INFO     Training average negative_sample_loss at step 34000: 0.000142
+2020-08-24 21:27:21,484 INFO     Training average loss at step 34000: 0.000094
+2020-08-24 21:28:28,328 INFO     Training average positive_sample_loss at step 36000: 0.000041
+2020-08-24 21:28:28,328 INFO     Training average negative_sample_loss at step 36000: 0.000150
+2020-08-24 21:28:28,328 INFO     Training average loss at step 36000: 0.000096
+2020-08-24 21:29:35,194 INFO     Training average positive_sample_loss at step 38000: 0.000039
+2020-08-24 21:29:35,194 INFO     Training average negative_sample_loss at step 38000: 0.000143
+2020-08-24 21:29:35,194 INFO     Training average loss at step 38000: 0.000091
+2020-08-24 21:30:42,211 INFO     Training average positive_sample_loss at step 40000: 0.000038
+2020-08-24 21:30:42,212 INFO     Training average negative_sample_loss at step 40000: 0.000120
+2020-08-24 21:30:42,212 INFO     Training average loss at step 40000: 0.000079
+2020-08-24 21:30:42,217 INFO     Evaluating on Valid Dataset...
+2020-08-24 21:30:42,815 INFO     Evaluating the model... (0/1360)
+2020-08-24 21:31:09,928 INFO     Evaluating the model... (1000/1360)
+2020-08-24 21:31:19,498 INFO     Valid MRR at step 40000: 0.010358
+2020-08-24 21:31:19,520 INFO     Valid MR at step 40000: 8765.981975
+2020-08-24 21:31:19,522 INFO     Valid HITS@1 at step 40000: 0.007357
+2020-08-24 21:31:19,523 INFO     Valid HITS@3 at step 40000: 0.009196
+2020-08-24 21:31:19,523 INFO     Valid HITS@10 at step 40000: 0.010300
+Validation (40000): MRR - 0.010358271420032292;MR - 8765.981975354056;HITS@1 - 0.0073569983446753725;HITS@3 - 0.009196247930844215;HITS@10 - 0.010299797682545521;
+2020-08-24 21:32:26,095 INFO     Training average positive_sample_loss at step 42000: 0.000035
+2020-08-24 21:32:26,095 INFO     Training average negative_sample_loss at step 42000: 0.000113
+2020-08-24 21:32:26,095 INFO     Training average loss at step 42000: 0.000074
+2020-08-24 21:33:33,044 INFO     Training average positive_sample_loss at step 44000: 0.000034
+2020-08-24 21:33:33,044 INFO     Training average negative_sample_loss at step 44000: 0.000098
+2020-08-24 21:33:33,044 INFO     Training average loss at step 44000: 0.000066
+2020-08-24 21:34:39,904 INFO     Training average positive_sample_loss at step 46000: 0.000033
+2020-08-24 21:34:39,905 INFO     Training average negative_sample_loss at step 46000: 0.000129
+2020-08-24 21:34:39,905 INFO     Training average loss at step 46000: 0.000081
+2020-08-24 21:35:46,644 INFO     Training average positive_sample_loss at step 48000: 0.000032
+2020-08-24 21:35:46,644 INFO     Training average negative_sample_loss at step 48000: 0.000100
+2020-08-24 21:35:46,644 INFO     Training average loss at step 48000: 0.000066
+2020-08-24 21:36:53,701 INFO     Evaluating on Valid Dataset...
+2020-08-24 21:36:54,450 INFO     Evaluating the model... (0/1360)
+2020-08-24 21:37:21,062 INFO     Evaluating the model... (1000/1360)
+2020-08-24 21:37:30,681 INFO     Valid MRR at step 49999: 0.009857
+2020-08-24 21:37:30,681 INFO     Valid MR at step 49999: 8498.272209
+2020-08-24 21:37:30,681 INFO     Valid HITS@1 at step 49999: 0.007173
+2020-08-24 21:37:30,681 INFO     Valid HITS@3 at step 49999: 0.008277
+2020-08-24 21:37:30,681 INFO     Valid HITS@10 at step 49999: 0.008828
+2020-08-24 21:37:31,395 INFO     Evaluating the model... (0/153)
+2020-08-24 21:37:35,742 INFO     Test MRR at step 49999: 0.018605
+2020-08-24 21:37:35,742 INFO     Test MR at step 49999: 6989.364379
+2020-08-24 21:37:35,742 INFO     Test HITS@1 at step 49999: 0.017974
+2020-08-24 21:37:35,742 INFO     Test HITS@3 at step 49999: 0.017974
+2020-08-24 21:37:35,742 INFO     Test HITS@10 at step 49999: 0.017974
+#steps = 49999, #negs = 10, dim = 500;
+MRR: 0.018605050575783027;MR: 6989.364379084967;HITS@1: 0.017973856209150325;HITS@3: 0.017973856209150325;HITS@10: 0.017973856209150325
+2020-08-24 21:37:35,742 INFO     
+-----------------------------------------------
+

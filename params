@@ -1,0 +1,5 @@
+#!/bin/bash
+bash run.sh grid TransQuatEReg SD2020 0 0 256 500 20 1 0.1 4 -de
+bash run.sh grid TransE SD2020 0 0 256 500 20 1 0.1 4 -de
+bash run.sh grid RotatE SD2020 0 0 256 500 20 1 0.1 4 -de
+bash run.sh grid ComplEx SD2020 0 0 256 500 20 1 0.1 4 -de
