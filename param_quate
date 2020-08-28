@@ -1,0 +1,5 @@
+#!/bin/bash
+bash run.sh grid QuatE SD2020 0 0 256 50 2 1 0.1 4 -de
+bash run.sh grid QuatE SD2020 0 0 256 50 4 1 0.1 4 -de
+bash run.sh grid QuatE SD2020 0 0 256 500 2 1 0.05 4 -de
+bash run.sh grid QuatE SD2020 0 0 256 500 4 1 0.05 4 -de
